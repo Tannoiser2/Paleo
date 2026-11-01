@@ -2,7 +2,7 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://byd5c0ie4q7vb"
+uid="uid://qjk7che1ur66"
 path="res://.godot/imported/talismano.webp-4c927e799bf5ea95ad3a8c7f728e2a96.ctex"
 metadata={
 "vram_texture": false
@@ -17,7 +17,7 @@ dest_files=["res://.godot/imported/talismano.webp-4c927e799bf5ea95ad3a8c7f728e2a
 
 compress/mode=1
 compress/high_quality=false
-compress/lossy_quality=0.82
+compress/lossy_quality=0.92
 compress/uastc_level=0
 compress/rdo_quality_loss=0.0
 compress/hdr_compression=1

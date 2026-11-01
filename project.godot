@@ -36,6 +36,6 @@ renderer/rendering_method.mobile="gl_compatibility"
 
 texture={
 "compress/mode": 1,
-"compress/lossy_quality": 0.82,
+"compress/lossy_quality": 0.92,
 "mipmaps/generate": true
 }

@@ -2,7 +2,7 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://nhy6sxy41tqk"
+uid="uid://dq4gtwmw6j7we"
 path="res://.godot/imported/pietra.png-0c32d6c78b4f981f792e13becc18252f.ctex"
 metadata={
 "vram_texture": false
@@ -17,7 +17,7 @@ dest_files=["res://.godot/imported/pietra.png-0c32d6c78b4f981f792e13becc18252f.c
 
 compress/mode=1
 compress/high_quality=false
-compress/lossy_quality=0.82
+compress/lossy_quality=0.92
 compress/uastc_level=0
 compress/rdo_quality_loss=0.0
 compress/hdr_compression=1

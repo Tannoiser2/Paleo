@@ -2,7 +2,7 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://csrwgrsejb1lh"
+uid="uid://djy2nsddo17eu"
 path="res://.godot/imported/lancia.webp-2b720d2e0318ea6008764578f73a4c32.ctex"
 metadata={
 "vram_texture": false
@@ -17,7 +17,7 @@ dest_files=["res://.godot/imported/lancia.webp-2b720d2e0318ea6008764578f73a4c32.
 
 compress/mode=1
 compress/high_quality=false
-compress/lossy_quality=0.82
+compress/lossy_quality=0.92
 compress/uastc_level=0
 compress/rdo_quality_loss=0.0
 compress/hdr_compression=1

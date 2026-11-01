@@ -2,7 +2,7 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ce7lrr1emj1ln"
+uid="uid://cqull8xm0pb8i"
 path="res://.godot/imported/torcia.webp-22d06644a5ff0492bb63e93f9e555527.ctex"
 metadata={
 "vram_texture": false
@@ -17,7 +17,7 @@ dest_files=["res://.godot/imported/torcia.webp-22d06644a5ff0492bb63e93f9e555527.
 
 compress/mode=1
 compress/high_quality=false
-compress/lossy_quality=0.82
+compress/lossy_quality=0.92
 compress/uastc_level=0
 compress/rdo_quality_loss=0.0
 compress/hdr_compression=1

@@ -2,7 +2,7 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dchywch4ybbrt"
+uid="uid://cq655n7d6ogld"
 path="res://.godot/imported/pergamena.webp-fa443f0f464f40e1d90bf9d57dbca85f.ctex"
 metadata={
 "vram_texture": false
@@ -17,7 +17,7 @@ dest_files=["res://.godot/imported/pergamena.webp-fa443f0f464f40e1d90bf9d57dbca8
 
 compress/mode=1
 compress/high_quality=false
-compress/lossy_quality=0.82
+compress/lossy_quality=0.92
 compress/uastc_level=0
 compress/rdo_quality_loss=0.0
 compress/hdr_compression=1

@@ -52,7 +52,8 @@ func _ready() -> void:
 	focus_mode = Control.FOCUS_CLICK
 	sv = SubViewport.new()
 	sv.own_world_3d = true
-	sv.msaa_3d = Viewport.MSAA_2X
+	sv.msaa_3d = Viewport.MSAA_4X
+	sv.anisotropic_filtering_level = Viewport.ANISOTROPY_8X
 	add_child(sv)
 	var env := WorldEnvironment.new()
 	var e := Environment.new()
@@ -61,8 +62,8 @@ func _ready() -> void:
 	e.ambient_light_source = Environment.AMBIENT_SOURCE_COLOR
 	e.ambient_light_color = Color(0.6, 0.5, 0.42)
 	e.ambient_light_energy = 0.6
-	e.tonemap_mode = Environment.TONE_MAPPER_FILMIC
-	e.fog_enabled = true
+	e.tonemap_mode = Environment.TONE_MAPPER_LINEAR
+	e.fog_enabled = false
 	e.fog_light_color = Color(0.08, 0.05, 0.03)
 	e.fog_density = 0.004
 	env.environment = e
@@ -97,6 +98,8 @@ func _ready() -> void:
 	ml.albedo_texture = UI.tex("res://assets/ui/roccia.webp")
 	ml.uv1_scale = Vector3(6, 6, 6)
 	ml.roughness = 0.95
+	ml.albedo_color = Color(0.75, 0.68, 0.62)
+	ml.texture_filter = BaseMaterial3D.TEXTURE_FILTER_LINEAR_WITH_MIPMAPS_ANISOTROPIC
 	lastra.material_override = ml
 	sv.add_child(lastra)
 	# tabelloni
@@ -265,11 +268,14 @@ func _mat_tex(t: Texture2D) -> StandardMaterial3D:
 	if t == null:
 		return _colore(Color(0.5, 0.4, 0.3))
 	if not _mat.has(t):
+		# carte, tabelloni e segnalini senza luci: si vedono con i colori della stampa, nitidi
 		var m := StandardMaterial3D.new()
 		m.albedo_texture = t
-		m.roughness = 0.85
+		m.shading_mode = BaseMaterial3D.SHADING_MODE_UNSHADED
+		m.texture_filter = BaseMaterial3D.TEXTURE_FILTER_LINEAR_WITH_MIPMAPS_ANISOTROPIC
 		m.transparency = BaseMaterial3D.TRANSPARENCY_ALPHA_SCISSOR
-		m.alpha_scissor_threshold = 0.3
+		m.alpha_scissor_threshold = 0.5
+		m.alpha_antialiasing_mode = BaseMaterial3D.ALPHA_ANTIALIASING_ALPHA_TO_COVERAGE
 		_mat[t] = m
 	return _mat[t]
 
@@ -280,6 +286,7 @@ func _colore(c: Color) -> StandardMaterial3D:
 		var m := StandardMaterial3D.new()
 		m.albedo_color = c
 		m.roughness = 0.8
+		m.shading_mode = BaseMaterial3D.SHADING_MODE_UNSHADED if c.r > 0.85 and c.g > 0.85 else BaseMaterial3D.SHADING_MODE_PER_PIXEL
 		_mat[k] = m
 	return _mat[k]
 
