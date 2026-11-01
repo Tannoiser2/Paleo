@@ -1,0 +1,246 @@
+# Trascrizione delle carte del modulo TTS (tedesco) in formato compatto.
+# idx | modulo | tipo | titolo_it | opzioni separate da " ; "
+# tipi: A azione (blu), P pericolo (rosso), U umano, M missione, I idea, G segreto
+# opzione: "requisiti/costi > bottino"  ~ = azione negativa  H = aiutare  B# = costruire # idee (gialla)
+# requisiti: F# forza, P# percezione, D# destrezza, W# dadi, c# scarta carte, X distruggi la carta
+#   -cibo# -legno# -pietra# -any# (risorse da dare, any = a scelta), -t:attrezzo (dare attrezzo)
+#   ?umani1-2 ?umani3+  (condizioni)
+# bottino: cibo# legno# pietra# t:attrezzo U(umano) S(sogno) I(idea) G#(segreto) V(vittoria) K-(togli teschio) cura#
+#   !d# danno  !k# teschio  ->scoperto (carta sul mazzo coperto)
+# ===== BASE (1) =====
+45|1|A|Cinghiale|F3 c2 X > cibo3 t:pelle ; H
+46|1|A|Ghiaione|D2 c2 > pietra2 ; c2 > pietra1 ; H
+47|1|A|Carcassa di bisonte|c2 X > cibo1 t:pelle ; H
+48|1|A|Alberi|D2 c2 > legno3 ; c2 > legno1 ; H
+49|1|A|Mammut solitario|F4 P2 c2 X > cibo4 t:pelle ; H
+50|1|A|Ghiaione|D2 c2 > pietra2 ; c2 > pietra1 ; H
+51|1|A|Sottobosco|c1 > cibo1 ; c2 > legno1 ; H
+52|1|A|Stambecco|F3 c2 X > cibo2 t:pelle ; H
+53|1|A|Casa|B1 ; D1 > I ; H
+54|1|P|Lupo solitario|P1 -cibo1 c2 X > t:lupo ; ~ -t:torcia ; ~ !d2
+55|1|A|Albero caduto|D1 c2 X > legno3 ; c1 > legno1 ; H
+56|1|A|Resti|c2 > pietra1 ; c2 > t:pelle ; H
+57|1|A|Cinghiale|F3 c2 X > cibo3 t:pelle ; H
+58|1|P|Smarriti|P1 c2 > S ; ~ !d1
+59|1|A|Capriolo|F2 P1 c2 X > cibo2 t:pelle ; H
+60|1|A|Casa*|B1 ; ?umani1-2 > U ; ?umani3+ -cibo1 > U ; H
+61|1|A|Radice curativa|D1 P1 c2 > t:radice ; H
+62|1|A|Bisonte|F4 c3 X > cibo4 t:pelle ; H
+63|1|P|Caverna abbandonata|-t:torcia X > I ; ~ !d1
+64|1|A|Alberi|D2 c2 > legno3 ; c2 > legno1 ; H
+65|1|A|Casa|B2 ; P1 > S ; H
+66|1|A|Casa|B2 ; D1 > I ; H
+67|1|A|Dodo|F1 c2 X > cibo2 ; H
+68|1|P|Lupo solitario|P1 -cibo1 c2 X > t:lupo ; ~ -t:torcia ; ~ !d2
+69|1|A|Casa*|B1 ; ?umani1-2 > U ; ?umani3+ -cibo1 > U ; H
+70|1|A|Sottobosco|c1 > cibo1 ; c2 > legno1 ; H
+71|1|A|Casa*|B1 ; ?umani1-2 > U ; ?umani3+ -cibo1 > U ; H
+72|1|A|Frutti|P2 c2 > cibo3 ; c2 > cibo1 ; H
+73|1|A|Sassolini|P1 c1 > pietra1 ; H
+74|1|A|Cespuglio di bacche|c3 X > legno1 cibo2 ; c1 > cibo1 ; H
+75|1|A|Casa*|B1 ; ?umani1-2 > U ; ?umani3+ -cibo1 > U ; H
+76|1|A|Casa|B1 ; P1 > S ; H
+# ===== UMANI (2) =====  idx|2|U|nome|abilità vita attrezzo
+1|2|U|Artigiano|D 2 -
+2|2|U|Inventrice|D 1 corda
+3|2|U|Raccoglitrice|P 1 torcia
+4|2|U|Cacciatore|F 1 pelle
+5|2|U|Raccoglitrice|P 1 corda
+6|2|U|Artigiano|D 2 -
+7|2|U|Cacciatore|F 1 pelle
+8|2|U|Esploratore|P 2 -
+9|2|U|Cacciatore|F 1 corda
+10|2|U|Esploratore|P 2 -
+11|2|U|Raccoglitrice|P 1 pelle
+12|2|U|Artigiano|D 2 -
+13|2|U|Guerriera|F 2 -
+14|2|U|Guerriera|F 2 -
+15|2|U|Guerriera|F 2 -
+16|2|U|Inventrice|D 1 torcia
+17|2|U|Guardiano|- 4 -
+18|2|U|Cacciatore|F 1 torcia
+19|2|U|Guardiano|- 4 -
+20|2|U|Guerriera|F 2 -
+# ===== SOGNI (3) =====
+21|3|A|Visione*|P1 > @visione ; H
+22|3|A|Antico sapere|P2 c2 X > I2 ; H
+23|3|A|Cervo|F5 c3 X > cibo4 t:pelle t:pelle ; H
+24|3|A|Bisonte|F4 c3 X > cibo4 t:pelle ; H
+25|3|A|Cespuglio di bacche|c3 X > legno1 cibo2 ; c1 > cibo1 ; H
+26|3|A|Avvertimento*|F1 > @avvertimento ; H
+27|3|A|Baratto|P3 -cibo2 X > t:ascia ; P3 -cibo2 X > t:talismano
+28|3|A|Visione*|P1 > @visione ; H
+29|3|A|Avvertimento*|F1 > @avvertimento ; H
+30|3|A|Viandante|P1 X > U ; H
+31|3|A|Nuovo coraggio*|D1 > @coraggio ; H
+32|3|A|Cinghiale|F3 c2 X > cibo3 t:pelle ; H
+33|3|A|Radice curativa|D1 P1 c2 > t:radice ; H
+34|3|A|Luogo sacro|P3 > t:talismano ; c3 > t:talismano ; H
+35|3|A|Nuovo coraggio*|D1 > @coraggio ; H
+36|3|A|Mercante*|> @mercante ; H
+# ===== IDEE (4) =====  idx|4|I|nome|costo > prodotto
+37|4|I|Corda|-legno1 > t:corda
+38|4|I|Ascia|-legno1 -t:amigdala > t:ascia
+39|4|I|Vestiti|-t:pelle > t:vestiti
+40|4|I|Cerchio di pietre|D3 -pietra4 X > V
+41|4|I|Trappola|-cibo1 -legno1 > t:trappola
+42|4|I|Pittura|D3 -cibo1 -legno1 -t:pelle X > V
+43|4|I|Sepoltura|D3 -legno1 -pietra1 X > K-
+44|4|I|Idolo|D4 -t:pelle3 X > V
+# ===== MODULO A — Ricca preda =====
+77|A|P|Serpente|P3 c2 X > S ; ~ !d2
+78|A|A|Mammut maschio|F8 c3 X > cibo5 V t:pelle t:pelle ; H
+79|A|A|Cacciatori stranieri|-cibo1 X > G1 ; H
+80|A|P|Mammut ferito|F6 c2 X > cibo5 V t:pelle t:pelle ; ~ !d1
+81|A|P|Serpente|P3 c2 X > S ; ~ !d2
+82|A|A|Mammut vecchio|F5 c2 X > cibo4 t:pelle V ; H
+83|A|P|Fame|~ -cibo1 ; ~ !d1
+84|A|A|Mammut cucciolo|F4 c2 X > cibo3 t:pelle G2 ; H
+85|A|M|Ricca preda|~ -cibo3 -t:pelle ; ~ !k1
+# ===== MODULO B — Un nuovo mondo =====
+86|B|A|Eremita affamato|-cibo1 X > I ; -cibo1 X > cura2 ; H
+87|B|P|Freddo|-t:torcia X > cura1 ; ~ !d1
+88|B|P|Lupo emaciato|F2 -t:torcia c2 X > t:pelle ; ~ !d1
+89|B|P|Frana|P2 c1 > pietra2 ; ~ !d1
+90|B|P|Rovi|D2 c2 X > legno1 ; ~ !d1
+91|B|A|Tana dell'orso|F4 -t:torcia c2 X > cibo3 V t:pelle t:tenda ; H
+92|B|A|Caverna nascosta|P3 c1 X > V t:tenda ; H
+93|B|A|Caverna crollata|D3 c3 X > V t:tenda ; H
+94|B|A|Cinghiale sepolto|D1 P1 c2 X > cibo3 t:pelle ; H
+95|B|I|Tenda|D2 -legno2 -t:pelle2 > t:tenda
+96|B|M|Un nuovo mondo|~ -t:tenda ; ~ !k1
+# ===== MODULO C — Ululati nella notte =====
+97|C|P|Lupa|F4 W1 c2 X > cibo1 t:pelle V ; ~ !d2
+98|C|P|Fossa-trappola|D2 c1 X > t:trappola ; ~ !d1
+99|C|A|Punto debole|?carta:Darca X > G4 ; P4 X > G4 ; H
+100|C|A|Cacciatrice esperta|F2 D2 P2 X > G3 ; -cibo2 > t:trappola ; H
+101|C|P|Lupo|F3 W1 c2 X > cibo1 t:pelle V ; ~ -t:torcia ; ~ !d2
+102|C|A|Straniero*|-cibo1 > @scartarossa ; -cibo2 > t:trappola ; H
+103|C|A|Lupo spaventato|F1 P1 W2 c2 X > cibo2 t:pelle ; H
+104|C|P|Branco di lupi|~ -t:torcia !d1 ; ~ !d3
+105|C|P|Capobranco|F5 W1 c2 X > cibo2 t:pelle V ; ~ -t:torcia ; ~ !d2
+106|C|M|Ululati nella notte|?lupi5 X > S ; ~ -legno4 ; ~ -t:trappola ; ~ !k1
+# ===== MODULO D — Il passo successivo =====
+107|D|P|Caduta massi|P2 c1 > pietra2 ; ~ !d1
+108|D|P|Ladri|P3 W1 c2 X > legno1 pietra1 t:pelle ; ~ -any3
+109|D|P|Leone delle caverne|D2 W2 c2 X > cibo2 V t:pelle t:pelle ; ~ !d2
+110|D|P|Valanga di detriti*|D3 c1 X > pietra1 ; ~ @valanga
+111|D|A|Fungo velenoso|P2 c2 > cibo2 ; c1 X > cibo2 !d1 S ; H
+112|D|A|Luogo sacro|P3 > t:talismano ; c3 > t:talismano ; H
+113|D|A|Straniero prudente|?carta:Lanciatore|Costume da capo c2 X > U V ; -cibo2 > t:pelle ; H
+114|D|A|Vetta|W2 c2 > G5 ; D1 c2 > pietra1 ; H
+115|D|A|Fabbricante di attrezzi|P2 -cibo3 c1 > G6 ; P2 -cibo3 c1 > G7 ; -cibo1 > I ; H
+116|D|Z|Bricolage|h -pietra1 c1 > t:talismano ; h -legno3 c1 > G6 ; h -t:pelle3 c1 > G7
+117|D|M|Il passo successivo|~ -legno1 -pietra1 -t:pelle ; ~ !k1
+# ===== MODULO E — Eroi dell'era glaciale =====
+118|E|A|Bella vista|P2 > @visione ; D2 c1 > pietra1 ; H
+119|E|P|Vecchio orso|F3 W1 c2 X > cibo2 t:pelle V ; ~ !d2
+120|E|P|Caverna buia|P2 W1 -t:torcia c2 X > t:talismano ; ~ !d1
+121|E|A|Dodo|F1 c2 X > cibo2 ; H
+122|E|P|Fame|~ -cibo1 ; ~ !d1
+123|E|P|Miele|-t:torcia W1 c2 X > cibo1 G11 ; ~ !d1
+124|E|A|Uva spina|D2 c1 > cibo2 ; c1 > cibo1 !d1 ; H
+125|E|Z|Desiderio di Darca|h $deposito X > G3 ; =deposito lancia1 pelle1
+126|E|Z|Desiderio di Jhula|h $deposito X > G8 ; =deposito talismano1
+127|E|Z|Desiderio di Ahab|h ?distrutta:Vecchio orso X > G10
+128|E|Z|Desiderio di Orru|h $deposito X > G9 ; =deposito cibo1@Miele cibo2@Dodo
+129|E|M|Eroi dell'era glaciale|?desideri0 X > V V ; ~ @ciboperdesiderio ; ~ !k1
+# ===== MODULO F — Tempesta di neve =====
+130|F|P|Scorte nascoste|P3 c2 X > t:corda G7 ; ~ -t:torcia ; ~ !d1
+131|F|P|Accampamento abbandonato|D2 W2 c2 X > legno3 t:corda t:corda ; ~ -t:torcia ; ~ !d1
+132|F|A|Impronte|P1 c1 X > G14 ; H
+133|F|P|Lupo emaciato|F2 -t:torcia c2 X > t:pelle ; ~ !d1
+134|F|P|Gelo*|~ @gelo
+135|F|P|Smarrito|P3 c1 > S ; ~ @umanosenzateschio
+136|F|P|Cinghiale affamato|F2 W1 c2 X > cibo1 t:pelle ; ~ -t:torcia ; ~ !d1
+137|F|A|Impronte|P1 c1 X > G15 ; H
+138|F|P|Nevicata*|~ @nevicata ; ~ !d2
+139|F|P|Nevicata*|~ @nevicata ; ~ !d2
+140|F|P|Gelo intenso|?distrutta:Tempesta di neve X > S ; ~ -t:torcia ; ~ !d2
+141|F|P|Valanga|P3 c1 > S ; ~ !d3
+142|F|A|Impronte|P1 c1 X > G13 ; H
+143|F|P|Gelo intenso|?distrutta:Tempesta di neve X > S ; ~ -t:torcia ; ~ !d2
+144|F|P|Nevicata*|~ @nevicata ; ~ !d2
+145|F|I|Falò|D3 -legno3 -pietra1 X > V G12
+146|F|M|Tempesta di neve|~ -legno3 -t:torcia -t:torcia ; ~ !k1
+# ===== MODULO G — Strana febbre =====
+147|G|A|Bacche piccole|c2 > cibo1 ; H
+148|G|A|Bacche curative|P1 c2 > cibo1 cura1 ; H
+149|G|P|Contagio*|-t:radice > S ; ~ @contagio
+150|G|P|Rovi|D2 c2 X > legno1 ; ~ !d1
+151|G|P|Bacche strane|P2 > cibo1 S ; ~ !d1 S
+152|G|P|Bacche del sogno|~ c2
+153|G|A|Vecchio sciamano|-any5 c1 X > V G17 ; H
+154|G|A|Bacche commestibili|c1 > cibo1 ; H
+155|G|P|Nausea|~ -cibo1 ; ~ !d2
+156|G|A|Radice curativa|D1 P1 c2 > t:radice ; H
+157|G|P|Bacche spinose|D2 c2 > cibo2 ; ~ !d1 cibo1
+158|G|A|Arte curativa di Jhula|-cibo2 c2 X > G8 G16 ; P1 W1 c1 X > G8 G16 ; H
+159|G|P|Bacche velenose|P3 X > ; ~ !d1
+160|G|P|Bacche mortali|P4 X > V ; ~ !d2
+161|G|M|Strana febbre|~ @febbre
+# ===== MODULO H — Il grande fiume =====
+162|H|P|Ippopotamo|F5 W1 c3 X > cibo4 t:pelle V ; ~ !d2
+163|H|P|Rapide|c4 X > S ; ~ c1 X > G19
+164|H|P|Fuori bordo*|?aiutozattera -t:zattera > @coraggio2 ; ~ @distruggiumano
+165|H|P|Mostro del fiume|?carta:Ahab F5 W1 c3 X > G20 ; ~ !d2
+166|H|P|Fuori bordo*|?aiutozattera -t:zattera > @coraggio2 ; ~ @distruggiumano
+167|H|A|Pesci|F1 W1 c1 > cibo3 ; F1 c2 > cibo2 ; H
+168|H|A|Vecchio guerriero|-cibo2 c1 X > G10 ; -t:pelle > cibo2 ; H
+169|H|P|Ippopotamo|F5 W1 c3 X > cibo4 t:pelle V ; ~ !d2
+170|H|U|Pescatore*|FP 2 - *
+171|H|A|Pesci|F1 W1 c1 > cibo3 ; F1 c2 > cibo2 ; H
+172|H|P|Coccodrillo|P3 W1 c1 > S ; ~ !d3 X
+173|H|P|Coccodrillo|P3 W1 c1 > S ; ~ !d3 X
+174|H|I|Zattera|D2 -legno2 > t:zattera
+175|H|M|Il grande fiume|?fiumevuoto X > V G18 ; ~ -t:zattera ; ~ !k1
+# ===== MODULO I — L'attacco delle Mani Bianche =====
+176|I|P|Cacciatori di uomini|F5 W1 c2 X > V ; ~ @umanosenzateschio
+177|I|A|Genio pazzo|-cibo2 c1 X > G9 ; D3 c1 X > G9 ; H
+178|I|P|Banda di guerrieri|F5 W2 c2 X > V ; ~ @guerriera2
+179|I|A|Jhula aiuta|P1 W1 -cibo3 > @curaguerriera2 ; H
+180|I|P|Predoni|F6 W2 c2 X > V ; ~ -cibo1 !d2
+181|I|A|Baratto|-t:pelle2 > t:trappola ; -t:pelle2 > t:lancia ; H
+182|I|P|Attacco notturno|-t:trappola > t:lancia ; ~ @guerriera2
+183|I|A|Abilità di Orru|?carta:Orru X > G6 ; D3 P3 X > G6 ; H
+184|I|P|Cacciatori di uomini|F5 W1 c2 X > V ; ~ @umanosenzateschio
+185|I|P|Attacco notturno|-t:trappola > t:lancia ; ~ @guerriera2
+186|I|M|L'attacco delle Mani Bianche|~ @missionemani
+# ===== MODULO J — La belva =====
+187|J|P|Punti deboli|P5 W2 c2 X > @tigre2 ; P3 W1 c1 X > @tigre1 ; ~ @distruggiumano
+188|J|P|Punti deboli|P5 W2 c2 X > @tigre2 ; P3 W1 c1 X > @tigre1 ; ~ @distruggiumano
+189|J|P|Contrattacco|F7 W2 c2 X > @tigre2 ; F4 W1 c2 X > @tigre1 ; ~ @distruggiumano
+190|J|P|Contrattacco|F7 W2 c2 X > @tigre2 ; F4 W1 c2 X > @tigre1 ; ~ @distruggiumano
+191|J|P|Trappola potente|D5 -legno1 -cibo1 c4 X > @tigre2 ; D3 -cibo1 c2 X > @tigre1 ; ~ @distruggiumano
+192|J|P|Trappola potente|D5 -legno1 -cibo1 c4 X > @tigre2 ; D3 -cibo1 c2 X > @tigre1 ; ~ @distruggiumano
+193|J|P|Tracce|P5 > S ; ~ [calma] @umanosenzateschio ; ~ [furiosa] @distruggiumano
+194|J|P|Attacco|-t:torcia -t:torcia > ; ~ [calma] !d1 ; ~ [furiosa] !d3
+195|J|P|Attacco|-t:torcia -t:torcia > ; ~ [calma] !d1 ; ~ [furiosa] !d3
+196|J|P|Paura|-t:torcia > I ; ~ [calma] c2 ; ~ [furiosa] @umanosenzateschio
+197|J|P|Fame senza fine*|~ @fameinfinita ; ~ [calma] !d1 ; ~ [furiosa] !d3
+198|J|A|Carcassa di lupo|c2 X > cibo1 t:pelle ; H
+199|J|P|Attacco|-t:torcia -t:torcia > ; ~ [calma] !d1 ; ~ [furiosa] !d3
+200|J|M|La belva|?vittorie5 X > G21 G22 ; ~ -cibo1 -legno1 ; ~ !k1
+# ===== SEGRETI (5) =====  zona: gruppo / attesa ; notte: azioni notturne (~)
+221|5|G|Cacciatori affamati*|=gruppo ; =passivo cacciatori
+222|5|P|Fuga di mammut|~ -t:torcia -t:torcia X ; ~ !d2 X
+223|5|G|Darca*|=gruppo ; =abilita F ; h c1 > U ; n -cibo1 ; n !k1
+224|5|G|Battuta di caccia*|=attesa ; =passivo battuta
+225|5|G|Visione*|=gruppo ; ?distrutta:Fungo velenoso -t:talismano X > V t:totem
+226|5|G|Lanciatore*|=gruppo ; =passivo lanciatore
+227|5|G|Costume da capo*|=gruppo ; =vita 4
+228|5|G|Jhula*|=gruppo ; =abilita P ; h -cibo1 > cura1 ; n -cibo1 ; n !k1
+229|5|G|Orru*|=gruppo ; =abilita D ; h B1 ; n -cibo1 ; n !k1
+230|5|G|Ahab*|=gruppo ; =abilita P ; h c2 > @ignorapericolo ; n -cibo1 ; n !k1
+231|5|P|Miele delizioso|?distrutta:Vecchio orso X > S ; ~ !d2 X
+232|5|G|Fuoco caldo|=attesa ; =distruggi Tempesta di neve ; n -legno2 ; n !k1
+233|5|A|Straniero sepolto*|-t:corda c1 X > V U ; D4 c3 X > V U ; H
+234|5|G|Straniero ferito|=gruppo ; h -cibo3 X > U ; n -cibo1 ; n !k1
+235|5|P|Straniero disperato|W1 c2 X > t:lancia ; ~ -cibo1 -legno2 X
+236|5|G|Guarigione*|=attesa ; =distruggi Strana febbre ; $deposito X > V V ; =deposito cibo3@Bacche_curative,Bacche_spinose,Bacche_strane ; n @febbre
+237|5|G|Indizio*|=attesa
+238|5|A|Terre lontane*|X > @terrelontane ; X > S S S ; H
+239|5|P|Corsa selvaggia|~ @fiume2 !d2 X
+240|5|A|Offerta di Ahab*|?carta:Ahab @distruggiahab > @fiume3 V ; ?carta:Ahab @distruggiahab > cibo4 t:pelle V ; H
+241|5|G|La belva si risveglia*|=attesa ; =passivo belva ; n -cibo1 -legno1 ; n !k1
+242|5|G|Tigre dai denti a sciabola*|=attesa ; =vita 5

@@ -1,0 +1,11929 @@
+[
+{
+"id": 1,
+"modulo": "2",
+"tipo": "U",
+"nome": "Artigiano",
+"dorso": 1,
+"dorso_tipo": "umano",
+"opzioni": [],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [
+"D"
+],
+"vita": 2,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 2,
+"modulo": "2",
+"tipo": "U",
+"nome": "Inventrice",
+"dorso": 1,
+"dorso_tipo": "umano",
+"opzioni": [],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [
+"D"
+],
+"vita": 1,
+"attrezzo": "corda",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 3,
+"modulo": "2",
+"tipo": "U",
+"nome": "Raccoglitrice",
+"dorso": 1,
+"dorso_tipo": "umano",
+"opzioni": [],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [
+"P"
+],
+"vita": 1,
+"attrezzo": "torcia",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 4,
+"modulo": "2",
+"tipo": "U",
+"nome": "Cacciatore",
+"dorso": 1,
+"dorso_tipo": "umano",
+"opzioni": [],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [
+"F"
+],
+"vita": 1,
+"attrezzo": "pelle",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 5,
+"modulo": "2",
+"tipo": "U",
+"nome": "Raccoglitrice",
+"dorso": 1,
+"dorso_tipo": "umano",
+"opzioni": [],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [
+"P"
+],
+"vita": 1,
+"attrezzo": "corda",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 6,
+"modulo": "2",
+"tipo": "U",
+"nome": "Artigiano",
+"dorso": 1,
+"dorso_tipo": "umano",
+"opzioni": [],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [
+"D"
+],
+"vita": 2,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 7,
+"modulo": "2",
+"tipo": "U",
+"nome": "Cacciatore",
+"dorso": 1,
+"dorso_tipo": "umano",
+"opzioni": [],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [
+"F"
+],
+"vita": 1,
+"attrezzo": "pelle",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 8,
+"modulo": "2",
+"tipo": "U",
+"nome": "Esploratore",
+"dorso": 1,
+"dorso_tipo": "umano",
+"opzioni": [],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [
+"P"
+],
+"vita": 2,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 9,
+"modulo": "2",
+"tipo": "U",
+"nome": "Cacciatore",
+"dorso": 1,
+"dorso_tipo": "umano",
+"opzioni": [],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [
+"F"
+],
+"vita": 1,
+"attrezzo": "corda",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 10,
+"modulo": "2",
+"tipo": "U",
+"nome": "Esploratore",
+"dorso": 1,
+"dorso_tipo": "umano",
+"opzioni": [],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [
+"P"
+],
+"vita": 2,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 11,
+"modulo": "2",
+"tipo": "U",
+"nome": "Raccoglitrice",
+"dorso": 1,
+"dorso_tipo": "umano",
+"opzioni": [],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [
+"P"
+],
+"vita": 1,
+"attrezzo": "pelle",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 12,
+"modulo": "2",
+"tipo": "U",
+"nome": "Artigiano",
+"dorso": 1,
+"dorso_tipo": "umano",
+"opzioni": [],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [
+"D"
+],
+"vita": 2,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 13,
+"modulo": "2",
+"tipo": "U",
+"nome": "Guerriera",
+"dorso": 1,
+"dorso_tipo": "umano",
+"opzioni": [],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [
+"F"
+],
+"vita": 2,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 14,
+"modulo": "2",
+"tipo": "U",
+"nome": "Guerriera",
+"dorso": 1,
+"dorso_tipo": "umano",
+"opzioni": [],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [
+"F"
+],
+"vita": 2,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 15,
+"modulo": "2",
+"tipo": "U",
+"nome": "Guerriera",
+"dorso": 1,
+"dorso_tipo": "umano",
+"opzioni": [],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [
+"F"
+],
+"vita": 2,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 16,
+"modulo": "2",
+"tipo": "U",
+"nome": "Inventrice",
+"dorso": 1,
+"dorso_tipo": "umano",
+"opzioni": [],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [
+"D"
+],
+"vita": 1,
+"attrezzo": "torcia",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 17,
+"modulo": "2",
+"tipo": "U",
+"nome": "Guardiano",
+"dorso": 1,
+"dorso_tipo": "umano",
+"opzioni": [],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 4,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 18,
+"modulo": "2",
+"tipo": "U",
+"nome": "Cacciatore",
+"dorso": 1,
+"dorso_tipo": "umano",
+"opzioni": [],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [
+"F"
+],
+"vita": 1,
+"attrezzo": "torcia",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 19,
+"modulo": "2",
+"tipo": "U",
+"nome": "Guardiano",
+"dorso": 1,
+"dorso_tipo": "umano",
+"opzioni": [],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 4,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 20,
+"modulo": "2",
+"tipo": "U",
+"nome": "Guerriera",
+"dorso": 1,
+"dorso_tipo": "umano",
+"opzioni": [],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [
+"F"
+],
+"vita": 2,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 21,
+"modulo": "3",
+"tipo": "A",
+"nome": "Visione",
+"dorso": 2,
+"dorso_tipo": "sogno",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"P": 1
+},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [
+"visione"
+],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": true
+},
+{
+"id": 22,
+"modulo": "3",
+"tipo": "A",
+"nome": "Antico sapere",
+"dorso": 2,
+"dorso_tipo": "sogno",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"P": 2
+},
+"carte": 2,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"I": 2
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 23,
+"modulo": "3",
+"tipo": "A",
+"nome": "Cervo",
+"dorso": 2,
+"dorso_tipo": "sogno",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"F": 5
+},
+"carte": 3,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"cibo": 4
+},
+"attrezzi": {
+"pelle": 2
+},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 24,
+"modulo": "3",
+"tipo": "A",
+"nome": "Bisonte",
+"dorso": 2,
+"dorso_tipo": "sogno",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"F": 4
+},
+"carte": 3,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"cibo": 4
+},
+"attrezzi": {
+"pelle": 1
+},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 25,
+"modulo": "3",
+"tipo": "A",
+"nome": "Cespuglio di bacche",
+"dorso": 2,
+"dorso_tipo": "sogno",
+"opzioni": [
+{
+"neg": false,
+"req": {},
+"carte": 3,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"legno": 1,
+"cibo": 2
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": false,
+"req": {},
+"carte": 1,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"cibo": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 26,
+"modulo": "3",
+"tipo": "A",
+"nome": "Avvertimento",
+"dorso": 2,
+"dorso_tipo": "sogno",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"F": 1
+},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [
+"avvertimento"
+],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": true
+},
+{
+"id": 27,
+"modulo": "3",
+"tipo": "A",
+"nome": "Baratto",
+"dorso": 2,
+"dorso_tipo": "sogno",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"P": 3
+},
+"carte": 0,
+"distruggi": true,
+"paga": {
+"cibo": 2
+},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {
+"ascia": 1
+},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": false,
+"req": {
+"P": 3
+},
+"carte": 0,
+"distruggi": true,
+"paga": {
+"cibo": 2
+},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {
+"talismano": 1
+},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 28,
+"modulo": "3",
+"tipo": "A",
+"nome": "Visione",
+"dorso": 2,
+"dorso_tipo": "sogno",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"P": 1
+},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [
+"visione"
+],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": true
+},
+{
+"id": 29,
+"modulo": "3",
+"tipo": "A",
+"nome": "Avvertimento",
+"dorso": 2,
+"dorso_tipo": "sogno",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"F": 1
+},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [
+"avvertimento"
+],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": true
+},
+{
+"id": 30,
+"modulo": "3",
+"tipo": "A",
+"nome": "Viandante",
+"dorso": 2,
+"dorso_tipo": "sogno",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"P": 1
+},
+"carte": 0,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"U": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 31,
+"modulo": "3",
+"tipo": "A",
+"nome": "Nuovo coraggio",
+"dorso": 2,
+"dorso_tipo": "sogno",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"D": 1
+},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [
+"coraggio"
+],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": true
+},
+{
+"id": 32,
+"modulo": "3",
+"tipo": "A",
+"nome": "Cinghiale",
+"dorso": 2,
+"dorso_tipo": "sogno",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"F": 3
+},
+"carte": 2,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"cibo": 3
+},
+"attrezzi": {
+"pelle": 1
+},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 33,
+"modulo": "3",
+"tipo": "A",
+"nome": "Radice curativa",
+"dorso": 2,
+"dorso_tipo": "sogno",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"D": 1,
+"P": 1
+},
+"carte": 2,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {
+"radice": 1
+},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 34,
+"modulo": "3",
+"tipo": "A",
+"nome": "Luogo sacro",
+"dorso": 2,
+"dorso_tipo": "sogno",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"P": 3
+},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {
+"talismano": 1
+},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": false,
+"req": {},
+"carte": 3,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {
+"talismano": 1
+},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 35,
+"modulo": "3",
+"tipo": "A",
+"nome": "Nuovo coraggio",
+"dorso": 2,
+"dorso_tipo": "sogno",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"D": 1
+},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [
+"coraggio"
+],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": true
+},
+{
+"id": 36,
+"modulo": "3",
+"tipo": "A",
+"nome": "Mercante",
+"dorso": 2,
+"dorso_tipo": "sogno",
+"opzioni": [
+{
+"neg": false,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [
+"mercante"
+],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": true
+},
+{
+"id": 37,
+"modulo": "4",
+"tipo": "I",
+"nome": "Corda",
+"dorso": 3,
+"dorso_tipo": "idea",
+"opzioni": [
+{
+"neg": false,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {
+"legno": 1
+},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {
+"corda": 1
+},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 38,
+"modulo": "4",
+"tipo": "I",
+"nome": "Ascia",
+"dorso": 3,
+"dorso_tipo": "idea",
+"opzioni": [
+{
+"neg": false,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {
+"legno": 1
+},
+"paga_attrezzi": {
+"amigdala": 1
+},
+"cond": [],
+"guadagna": {},
+"attrezzi": {
+"ascia": 1
+},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 39,
+"modulo": "4",
+"tipo": "I",
+"nome": "Vestiti",
+"dorso": 3,
+"dorso_tipo": "idea",
+"opzioni": [
+{
+"neg": false,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {
+"pelle": 1
+},
+"cond": [],
+"guadagna": {},
+"attrezzi": {
+"vestiti": 1
+},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 40,
+"modulo": "4",
+"tipo": "I",
+"nome": "Cerchio di pietre",
+"dorso": 3,
+"dorso_tipo": "idea",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"D": 3
+},
+"carte": 0,
+"distruggi": true,
+"paga": {
+"pietra": 4
+},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"V": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 41,
+"modulo": "4",
+"tipo": "I",
+"nome": "Trappola",
+"dorso": 3,
+"dorso_tipo": "idea",
+"opzioni": [
+{
+"neg": false,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {
+"cibo": 1,
+"legno": 1
+},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {
+"trappola": 1
+},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 42,
+"modulo": "4",
+"tipo": "I",
+"nome": "Pittura",
+"dorso": 3,
+"dorso_tipo": "idea",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"D": 3
+},
+"carte": 0,
+"distruggi": true,
+"paga": {
+"cibo": 1,
+"legno": 1
+},
+"paga_attrezzi": {
+"pelle": 1
+},
+"cond": [],
+"guadagna": {
+"V": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 43,
+"modulo": "4",
+"tipo": "I",
+"nome": "Sepoltura",
+"dorso": 3,
+"dorso_tipo": "idea",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"D": 3
+},
+"carte": 0,
+"distruggi": true,
+"paga": {
+"legno": 1,
+"pietra": 1
+},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"K": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 44,
+"modulo": "4",
+"tipo": "I",
+"nome": "Idolo",
+"dorso": 3,
+"dorso_tipo": "idea",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"D": 4
+},
+"carte": 0,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {
+"pelle": 3
+},
+"cond": [],
+"guadagna": {
+"V": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 45,
+"modulo": "1",
+"tipo": "A",
+"nome": "Cinghiale",
+"dorso": 4,
+"dorso_tipo": "fiume",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"F": 3
+},
+"carte": 2,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"cibo": 3
+},
+"attrezzi": {
+"pelle": 1
+},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 46,
+"modulo": "1",
+"tipo": "A",
+"nome": "Ghiaione",
+"dorso": 5,
+"dorso_tipo": "montagna",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"D": 2
+},
+"carte": 2,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"pietra": 2
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": false,
+"req": {},
+"carte": 2,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"pietra": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 47,
+"modulo": "1",
+"tipo": "A",
+"nome": "Carcassa di bisonte",
+"dorso": 4,
+"dorso_tipo": "fiume",
+"opzioni": [
+{
+"neg": false,
+"req": {},
+"carte": 2,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"cibo": 1
+},
+"attrezzi": {
+"pelle": 1
+},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 48,
+"modulo": "1",
+"tipo": "A",
+"nome": "Alberi",
+"dorso": 6,
+"dorso_tipo": "bosco",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"D": 2
+},
+"carte": 2,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"legno": 3
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": false,
+"req": {},
+"carte": 2,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"legno": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 49,
+"modulo": "1",
+"tipo": "A",
+"nome": "Mammut solitario",
+"dorso": 4,
+"dorso_tipo": "fiume",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"F": 4,
+"P": 2
+},
+"carte": 2,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"cibo": 4
+},
+"attrezzi": {
+"pelle": 1
+},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 50,
+"modulo": "1",
+"tipo": "A",
+"nome": "Ghiaione",
+"dorso": 5,
+"dorso_tipo": "montagna",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"D": 2
+},
+"carte": 2,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"pietra": 2
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": false,
+"req": {},
+"carte": 2,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"pietra": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 51,
+"modulo": "1",
+"tipo": "A",
+"nome": "Sottobosco",
+"dorso": 6,
+"dorso_tipo": "bosco",
+"opzioni": [
+{
+"neg": false,
+"req": {},
+"carte": 1,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"cibo": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": false,
+"req": {},
+"carte": 2,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"legno": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 52,
+"modulo": "1",
+"tipo": "A",
+"nome": "Stambecco",
+"dorso": 5,
+"dorso_tipo": "montagna",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"F": 3
+},
+"carte": 2,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"cibo": 2
+},
+"attrezzi": {
+"pelle": 1
+},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 53,
+"modulo": "1",
+"tipo": "A",
+"nome": "Casa",
+"dorso": 7,
+"dorso_tipo": "casa",
+"opzioni": [
+{
+"neg": false,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"costruisci": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": false,
+"req": {
+"D": 1
+},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"I": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 54,
+"modulo": "1",
+"tipo": "P",
+"nome": "Lupo solitario",
+"dorso": 8,
+"dorso_tipo": "rosso",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"P": 1
+},
+"carte": 2,
+"distruggi": true,
+"paga": {
+"cibo": 1
+},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {
+"lupo": 1
+},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {
+"torcia": 1
+},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 2,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 55,
+"modulo": "1",
+"tipo": "A",
+"nome": "Albero caduto",
+"dorso": 6,
+"dorso_tipo": "bosco",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"D": 1
+},
+"carte": 2,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"legno": 3
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": false,
+"req": {},
+"carte": 1,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"legno": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 56,
+"modulo": "1",
+"tipo": "A",
+"nome": "Resti",
+"dorso": 5,
+"dorso_tipo": "montagna",
+"opzioni": [
+{
+"neg": false,
+"req": {},
+"carte": 2,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"pietra": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": false,
+"req": {},
+"carte": 2,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {
+"pelle": 1
+},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 57,
+"modulo": "1",
+"tipo": "A",
+"nome": "Cinghiale",
+"dorso": 4,
+"dorso_tipo": "fiume",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"F": 3
+},
+"carte": 2,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"cibo": 3
+},
+"attrezzi": {
+"pelle": 1
+},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 58,
+"modulo": "1",
+"tipo": "P",
+"nome": "Smarriti",
+"dorso": 8,
+"dorso_tipo": "rosso",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"P": 1
+},
+"carte": 2,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"S": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 1,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 59,
+"modulo": "1",
+"tipo": "A",
+"nome": "Capriolo",
+"dorso": 4,
+"dorso_tipo": "fiume",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"F": 2,
+"P": 1
+},
+"carte": 2,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"cibo": 2
+},
+"attrezzi": {
+"pelle": 1
+},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 60,
+"modulo": "1",
+"tipo": "A",
+"nome": "Casa",
+"dorso": 7,
+"dorso_tipo": "casa",
+"opzioni": [
+{
+"neg": false,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"costruisci": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": false,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [
+"umani1-2"
+],
+"guadagna": {
+"U": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": false,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {
+"cibo": 1
+},
+"paga_attrezzi": {},
+"cond": [
+"umani3+"
+],
+"guadagna": {
+"U": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": true
+},
+{
+"id": 61,
+"modulo": "1",
+"tipo": "A",
+"nome": "Radice curativa",
+"dorso": 6,
+"dorso_tipo": "bosco",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"D": 1,
+"P": 1
+},
+"carte": 2,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {
+"radice": 1
+},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 62,
+"modulo": "1",
+"tipo": "A",
+"nome": "Bisonte",
+"dorso": 4,
+"dorso_tipo": "fiume",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"F": 4
+},
+"carte": 3,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"cibo": 4
+},
+"attrezzi": {
+"pelle": 1
+},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 63,
+"modulo": "1",
+"tipo": "P",
+"nome": "Caverna abbandonata",
+"dorso": 5,
+"dorso_tipo": "montagna",
+"opzioni": [
+{
+"neg": false,
+"req": {},
+"carte": 0,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {
+"torcia": 1
+},
+"cond": [],
+"guadagna": {
+"I": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 1,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 64,
+"modulo": "1",
+"tipo": "A",
+"nome": "Alberi",
+"dorso": 6,
+"dorso_tipo": "bosco",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"D": 2
+},
+"carte": 2,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"legno": 3
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": false,
+"req": {},
+"carte": 2,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"legno": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 65,
+"modulo": "1",
+"tipo": "A",
+"nome": "Casa",
+"dorso": 7,
+"dorso_tipo": "casa",
+"opzioni": [
+{
+"neg": false,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"costruisci": 2
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": false,
+"req": {
+"P": 1
+},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"S": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 66,
+"modulo": "1",
+"tipo": "A",
+"nome": "Casa",
+"dorso": 7,
+"dorso_tipo": "casa",
+"opzioni": [
+{
+"neg": false,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"costruisci": 2
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": false,
+"req": {
+"D": 1
+},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"I": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 67,
+"modulo": "1",
+"tipo": "A",
+"nome": "Dodo",
+"dorso": 6,
+"dorso_tipo": "bosco",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"F": 1
+},
+"carte": 2,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"cibo": 2
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 68,
+"modulo": "1",
+"tipo": "P",
+"nome": "Lupo solitario",
+"dorso": 8,
+"dorso_tipo": "rosso",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"P": 1
+},
+"carte": 2,
+"distruggi": true,
+"paga": {
+"cibo": 1
+},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {
+"lupo": 1
+},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {
+"torcia": 1
+},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 2,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 69,
+"modulo": "1",
+"tipo": "A",
+"nome": "Casa",
+"dorso": 7,
+"dorso_tipo": "casa",
+"opzioni": [
+{
+"neg": false,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"costruisci": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": false,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [
+"umani1-2"
+],
+"guadagna": {
+"U": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": false,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {
+"cibo": 1
+},
+"paga_attrezzi": {},
+"cond": [
+"umani3+"
+],
+"guadagna": {
+"U": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": true
+},
+{
+"id": 70,
+"modulo": "1",
+"tipo": "A",
+"nome": "Sottobosco",
+"dorso": 6,
+"dorso_tipo": "bosco",
+"opzioni": [
+{
+"neg": false,
+"req": {},
+"carte": 1,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"cibo": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": false,
+"req": {},
+"carte": 2,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"legno": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 71,
+"modulo": "1",
+"tipo": "A",
+"nome": "Casa",
+"dorso": 7,
+"dorso_tipo": "casa",
+"opzioni": [
+{
+"neg": false,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"costruisci": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": false,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [
+"umani1-2"
+],
+"guadagna": {
+"U": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": false,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {
+"cibo": 1
+},
+"paga_attrezzi": {},
+"cond": [
+"umani3+"
+],
+"guadagna": {
+"U": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": true
+},
+{
+"id": 72,
+"modulo": "1",
+"tipo": "A",
+"nome": "Frutti",
+"dorso": 6,
+"dorso_tipo": "bosco",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"P": 2
+},
+"carte": 2,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"cibo": 3
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": false,
+"req": {},
+"carte": 2,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"cibo": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 73,
+"modulo": "1",
+"tipo": "A",
+"nome": "Sassolini",
+"dorso": 4,
+"dorso_tipo": "fiume",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"P": 1
+},
+"carte": 1,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"pietra": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 74,
+"modulo": "1",
+"tipo": "A",
+"nome": "Cespuglio di bacche",
+"dorso": 6,
+"dorso_tipo": "bosco",
+"opzioni": [
+{
+"neg": false,
+"req": {},
+"carte": 3,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"legno": 1,
+"cibo": 2
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": false,
+"req": {},
+"carte": 1,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"cibo": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 75,
+"modulo": "1",
+"tipo": "A",
+"nome": "Casa",
+"dorso": 7,
+"dorso_tipo": "casa",
+"opzioni": [
+{
+"neg": false,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"costruisci": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": false,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [
+"umani1-2"
+],
+"guadagna": {
+"U": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": false,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {
+"cibo": 1
+},
+"paga_attrezzi": {},
+"cond": [
+"umani3+"
+],
+"guadagna": {
+"U": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": true
+},
+{
+"id": 76,
+"modulo": "1",
+"tipo": "A",
+"nome": "Casa",
+"dorso": 7,
+"dorso_tipo": "casa",
+"opzioni": [
+{
+"neg": false,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"costruisci": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": false,
+"req": {
+"P": 1
+},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"S": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 77,
+"modulo": "A",
+"tipo": "P",
+"nome": "Serpente",
+"dorso": 8,
+"dorso_tipo": "rosso",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"P": 3
+},
+"carte": 2,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"S": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 2,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 78,
+"modulo": "A",
+"tipo": "A",
+"nome": "Mammut maschio",
+"dorso": 9,
+"dorso_tipo": "fiume",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"F": 8
+},
+"carte": 3,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"cibo": 5,
+"V": 1
+},
+"attrezzi": {
+"pelle": 2
+},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 79,
+"modulo": "A",
+"tipo": "A",
+"nome": "Cacciatori stranieri",
+"dorso": 2,
+"dorso_tipo": "sogno",
+"opzioni": [
+{
+"neg": false,
+"req": {},
+"carte": 0,
+"distruggi": true,
+"paga": {
+"cibo": 1
+},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"G": [
+1
+]
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 80,
+"modulo": "A",
+"tipo": "P",
+"nome": "Mammut ferito",
+"dorso": 9,
+"dorso_tipo": "fiume",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"F": 6
+},
+"carte": 2,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"cibo": 5,
+"V": 1
+},
+"attrezzi": {
+"pelle": 2
+},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 1,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 81,
+"modulo": "A",
+"tipo": "P",
+"nome": "Serpente",
+"dorso": 8,
+"dorso_tipo": "rosso",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"P": 3
+},
+"carte": 2,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"S": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 2,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 82,
+"modulo": "A",
+"tipo": "A",
+"nome": "Mammut vecchio",
+"dorso": 9,
+"dorso_tipo": "fiume",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"F": 5
+},
+"carte": 2,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"cibo": 4,
+"V": 1
+},
+"attrezzi": {
+"pelle": 1
+},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 83,
+"modulo": "A",
+"tipo": "P",
+"nome": "Fame",
+"dorso": 8,
+"dorso_tipo": "rosso",
+"opzioni": [
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {
+"cibo": 1
+},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 1,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 84,
+"modulo": "A",
+"tipo": "A",
+"nome": "Mammut cucciolo",
+"dorso": 9,
+"dorso_tipo": "fiume",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"F": 4
+},
+"carte": 2,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"cibo": 3,
+"G": [
+2
+]
+},
+"attrezzi": {
+"pelle": 1
+},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 85,
+"modulo": "A",
+"tipo": "M",
+"nome": "Ricca preda",
+"dorso": 10,
+"dorso_tipo": "missione",
+"opzioni": [
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {
+"cibo": 3
+},
+"paga_attrezzi": {
+"pelle": 1
+},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 1,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 86,
+"modulo": "B",
+"tipo": "A",
+"nome": "Eremita affamato",
+"dorso": 11,
+"dorso_tipo": "orme",
+"opzioni": [
+{
+"neg": false,
+"req": {},
+"carte": 0,
+"distruggi": true,
+"paga": {
+"cibo": 1
+},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"I": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": false,
+"req": {},
+"carte": 0,
+"distruggi": true,
+"paga": {
+"cibo": 1
+},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"cura": 2
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 87,
+"modulo": "B",
+"tipo": "P",
+"nome": "Freddo",
+"dorso": 8,
+"dorso_tipo": "rosso",
+"opzioni": [
+{
+"neg": false,
+"req": {},
+"carte": 0,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {
+"torcia": 1
+},
+"cond": [],
+"guadagna": {
+"cura": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 1,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 88,
+"modulo": "B",
+"tipo": "P",
+"nome": "Lupo emaciato",
+"dorso": 8,
+"dorso_tipo": "rosso",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"F": 2
+},
+"carte": 2,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {
+"torcia": 1
+},
+"cond": [],
+"guadagna": {},
+"attrezzi": {
+"pelle": 1
+},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 1,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 89,
+"modulo": "B",
+"tipo": "P",
+"nome": "Frana",
+"dorso": 5,
+"dorso_tipo": "montagna",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"P": 2
+},
+"carte": 1,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"pietra": 2
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 1,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 90,
+"modulo": "B",
+"tipo": "P",
+"nome": "Rovi",
+"dorso": 6,
+"dorso_tipo": "bosco",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"D": 2
+},
+"carte": 2,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"legno": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 1,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 91,
+"modulo": "B",
+"tipo": "A",
+"nome": "Tana dell'orso",
+"dorso": 12,
+"dorso_tipo": "montagna",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"F": 4
+},
+"carte": 2,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {
+"torcia": 1
+},
+"cond": [],
+"guadagna": {
+"cibo": 3,
+"V": 1
+},
+"attrezzi": {
+"pelle": 1,
+"tenda": 1
+},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 92,
+"modulo": "B",
+"tipo": "A",
+"nome": "Caverna nascosta",
+"dorso": 12,
+"dorso_tipo": "montagna",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"P": 3
+},
+"carte": 1,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"V": 1
+},
+"attrezzi": {
+"tenda": 1
+},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 93,
+"modulo": "B",
+"tipo": "A",
+"nome": "Caverna crollata",
+"dorso": 12,
+"dorso_tipo": "montagna",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"D": 3
+},
+"carte": 3,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"V": 1
+},
+"attrezzi": {
+"tenda": 1
+},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 94,
+"modulo": "B",
+"tipo": "A",
+"nome": "Cinghiale sepolto",
+"dorso": 4,
+"dorso_tipo": "fiume",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"D": 1,
+"P": 1
+},
+"carte": 2,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"cibo": 3
+},
+"attrezzi": {
+"pelle": 1
+},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 95,
+"modulo": "B",
+"tipo": "I",
+"nome": "Tenda",
+"dorso": 13,
+"dorso_tipo": "idea",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"D": 2
+},
+"carte": 0,
+"distruggi": false,
+"paga": {
+"legno": 2
+},
+"paga_attrezzi": {
+"pelle": 2
+},
+"cond": [],
+"guadagna": {},
+"attrezzi": {
+"tenda": 1
+},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 96,
+"modulo": "B",
+"tipo": "M",
+"nome": "Un nuovo mondo",
+"dorso": 10,
+"dorso_tipo": "missione",
+"opzioni": [
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {
+"tenda": 1
+},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 1,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 97,
+"modulo": "C",
+"tipo": "P",
+"nome": "Lupa",
+"dorso": 14,
+"dorso_tipo": "rosso",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"F": 4,
+"W": 1
+},
+"carte": 2,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"cibo": 1,
+"V": 1
+},
+"attrezzi": {
+"pelle": 1
+},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 2,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 98,
+"modulo": "C",
+"tipo": "P",
+"nome": "Fossa-trappola",
+"dorso": 6,
+"dorso_tipo": "bosco",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"D": 2
+},
+"carte": 1,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {
+"trappola": 1
+},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 1,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 99,
+"modulo": "C",
+"tipo": "A",
+"nome": "Punto debole",
+"dorso": 2,
+"dorso_tipo": "sogno",
+"opzioni": [
+{
+"neg": false,
+"req": {},
+"carte": 0,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [
+"carta:Darca"
+],
+"guadagna": {
+"G": [
+4
+]
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": false,
+"req": {
+"P": 4
+},
+"carte": 0,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"G": [
+4
+]
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 100,
+"modulo": "C",
+"tipo": "A",
+"nome": "Cacciatrice esperta",
+"dorso": 11,
+"dorso_tipo": "orme",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"F": 2,
+"D": 2,
+"P": 2
+},
+"carte": 0,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"G": [
+3
+]
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": false,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {
+"cibo": 2
+},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {
+"trappola": 1
+},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 101,
+"modulo": "C",
+"tipo": "P",
+"nome": "Lupo",
+"dorso": 14,
+"dorso_tipo": "rosso",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"F": 3,
+"W": 1
+},
+"carte": 2,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"cibo": 1,
+"V": 1
+},
+"attrezzi": {
+"pelle": 1
+},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {
+"torcia": 1
+},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 2,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 102,
+"modulo": "C",
+"tipo": "A",
+"nome": "Straniero",
+"dorso": 11,
+"dorso_tipo": "orme",
+"opzioni": [
+{
+"neg": false,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {
+"cibo": 1
+},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [
+"scartarossa"
+],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": false,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {
+"cibo": 2
+},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {
+"trappola": 1
+},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": true
+},
+{
+"id": 103,
+"modulo": "C",
+"tipo": "A",
+"nome": "Lupo spaventato",
+"dorso": 6,
+"dorso_tipo": "bosco",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"F": 1,
+"P": 1,
+"W": 2
+},
+"carte": 2,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"cibo": 2
+},
+"attrezzi": {
+"pelle": 1
+},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 104,
+"modulo": "C",
+"tipo": "P",
+"nome": "Branco di lupi",
+"dorso": 14,
+"dorso_tipo": "rosso",
+"opzioni": [
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {
+"torcia": 1
+},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 1,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 3,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 105,
+"modulo": "C",
+"tipo": "P",
+"nome": "Capobranco",
+"dorso": 14,
+"dorso_tipo": "rosso",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"F": 5,
+"W": 1
+},
+"carte": 2,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"cibo": 2,
+"V": 1
+},
+"attrezzi": {
+"pelle": 1
+},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {
+"torcia": 1
+},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 2,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 106,
+"modulo": "C",
+"tipo": "M",
+"nome": "Ululati nella notte",
+"dorso": 10,
+"dorso_tipo": "missione",
+"opzioni": [
+{
+"neg": false,
+"req": {},
+"carte": 0,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [
+"lupi5"
+],
+"guadagna": {
+"S": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {
+"legno": 4
+},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {
+"trappola": 1
+},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 1,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 107,
+"modulo": "D",
+"tipo": "P",
+"nome": "Caduta massi",
+"dorso": 8,
+"dorso_tipo": "rosso",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"P": 2
+},
+"carte": 1,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"pietra": 2
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 1,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 108,
+"modulo": "D",
+"tipo": "P",
+"nome": "Ladri",
+"dorso": 11,
+"dorso_tipo": "orme",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"P": 3,
+"W": 1
+},
+"carte": 2,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"legno": 1,
+"pietra": 1
+},
+"attrezzi": {
+"pelle": 1
+},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {
+"any": 3
+},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 109,
+"modulo": "D",
+"tipo": "P",
+"nome": "Leone delle caverne",
+"dorso": 15,
+"dorso_tipo": "rosso",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"D": 2,
+"W": 2
+},
+"carte": 2,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"cibo": 2,
+"V": 1
+},
+"attrezzi": {
+"pelle": 2
+},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 2,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 110,
+"modulo": "D",
+"tipo": "P",
+"nome": "Valanga di detriti",
+"dorso": 5,
+"dorso_tipo": "montagna",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"D": 3
+},
+"carte": 1,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"pietra": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [
+"valanga"
+],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": true
+},
+{
+"id": 111,
+"modulo": "D",
+"tipo": "A",
+"nome": "Fungo velenoso",
+"dorso": 16,
+"dorso_tipo": "rosso",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"P": 2
+},
+"carte": 2,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"cibo": 2
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": false,
+"req": {},
+"carte": 1,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"cibo": 2,
+"S": 1
+},
+"attrezzi": {},
+"danno": 1,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 112,
+"modulo": "D",
+"tipo": "A",
+"nome": "Luogo sacro",
+"dorso": 5,
+"dorso_tipo": "montagna",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"P": 3
+},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {
+"talismano": 1
+},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": false,
+"req": {},
+"carte": 3,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {
+"talismano": 1
+},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 113,
+"modulo": "D",
+"tipo": "A",
+"nome": "Straniero prudente",
+"dorso": 11,
+"dorso_tipo": "orme",
+"opzioni": [
+{
+"neg": false,
+"req": {},
+"carte": 2,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [
+"carta:Lanciatore|Costume da capo"
+],
+"guadagna": {
+"U": 1,
+"V": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": false,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {
+"cibo": 2
+},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {
+"pelle": 1
+},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 114,
+"modulo": "D",
+"tipo": "A",
+"nome": "Vetta",
+"dorso": 2,
+"dorso_tipo": "sogno",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"W": 2
+},
+"carte": 2,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"G": [
+5
+]
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": false,
+"req": {
+"D": 1
+},
+"carte": 2,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"pietra": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 115,
+"modulo": "D",
+"tipo": "A",
+"nome": "Fabbricante di attrezzi",
+"dorso": 11,
+"dorso_tipo": "orme",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"P": 2
+},
+"carte": 1,
+"distruggi": false,
+"paga": {
+"cibo": 3
+},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"G": [
+6
+]
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": false,
+"req": {
+"P": 2
+},
+"carte": 1,
+"distruggi": false,
+"paga": {
+"cibo": 3
+},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"G": [
+7
+]
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": false,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {
+"cibo": 1
+},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"I": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 116,
+"modulo": "D",
+"tipo": "Z",
+"nome": "Bricolage",
+"dorso": 17,
+"dorso_tipo": "sogno",
+"opzioni": [
+{
+"neg": false,
+"req": {},
+"carte": 1,
+"distruggi": false,
+"paga": {
+"pietra": 1
+},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {
+"talismano": 1
+},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": true,
+"deposito": false
+},
+{
+"neg": false,
+"req": {},
+"carte": 1,
+"distruggi": false,
+"paga": {
+"legno": 3
+},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"G": [
+6
+]
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": true,
+"deposito": false
+},
+{
+"neg": false,
+"req": {},
+"carte": 1,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {
+"pelle": 3
+},
+"cond": [],
+"guadagna": {
+"G": [
+7
+]
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": true,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 117,
+"modulo": "D",
+"tipo": "M",
+"nome": "Il passo successivo",
+"dorso": 10,
+"dorso_tipo": "missione",
+"opzioni": [
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {
+"legno": 1,
+"pietra": 1
+},
+"paga_attrezzi": {
+"pelle": 1
+},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 1,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 118,
+"modulo": "E",
+"tipo": "A",
+"nome": "Bella vista",
+"dorso": 5,
+"dorso_tipo": "montagna",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"P": 2
+},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [
+"visione"
+],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": false,
+"req": {
+"D": 2
+},
+"carte": 1,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"pietra": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 119,
+"modulo": "E",
+"tipo": "P",
+"nome": "Vecchio orso",
+"dorso": 18,
+"dorso_tipo": "rosso",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"F": 3,
+"W": 1
+},
+"carte": 2,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"cibo": 2,
+"V": 1
+},
+"attrezzi": {
+"pelle": 1
+},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 2,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 120,
+"modulo": "E",
+"tipo": "P",
+"nome": "Caverna buia",
+"dorso": 19,
+"dorso_tipo": "montagna",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"P": 2,
+"W": 1
+},
+"carte": 2,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {
+"torcia": 1
+},
+"cond": [],
+"guadagna": {},
+"attrezzi": {
+"talismano": 1
+},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 1,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 121,
+"modulo": "E",
+"tipo": "A",
+"nome": "Dodo",
+"dorso": 6,
+"dorso_tipo": "bosco",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"F": 1
+},
+"carte": 2,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"cibo": 2
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 122,
+"modulo": "E",
+"tipo": "P",
+"nome": "Fame",
+"dorso": 8,
+"dorso_tipo": "rosso",
+"opzioni": [
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {
+"cibo": 1
+},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 1,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 123,
+"modulo": "E",
+"tipo": "P",
+"nome": "Miele",
+"dorso": 20,
+"dorso_tipo": "bosco",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"W": 1
+},
+"carte": 2,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {
+"torcia": 1
+},
+"cond": [],
+"guadagna": {
+"cibo": 1,
+"G": [
+11
+]
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 1,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 124,
+"modulo": "E",
+"tipo": "A",
+"nome": "Uva spina",
+"dorso": 6,
+"dorso_tipo": "bosco",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"D": 2
+},
+"carte": 1,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"cibo": 2
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": false,
+"req": {},
+"carte": 1,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"cibo": 1
+},
+"attrezzi": {},
+"danno": 1,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 125,
+"modulo": "E",
+"tipo": "Z",
+"nome": "Desiderio di Darca",
+"dorso": 21,
+"dorso_tipo": "sogno",
+"opzioni": [
+{
+"neg": false,
+"req": {},
+"carte": 0,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"G": [
+3
+]
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": true,
+"deposito": true
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {
+"lancia": [
+{
+"n": 1,
+"fonti": []
+}
+],
+"pelle": [
+{
+"n": 1,
+"fonti": []
+}
+]
+},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 126,
+"modulo": "E",
+"tipo": "Z",
+"nome": "Desiderio di Jhula",
+"dorso": 22,
+"dorso_tipo": "sogno",
+"opzioni": [
+{
+"neg": false,
+"req": {},
+"carte": 0,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"G": [
+8
+]
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": true,
+"deposito": true
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {
+"talismano": [
+{
+"n": 1,
+"fonti": []
+}
+]
+},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 127,
+"modulo": "E",
+"tipo": "Z",
+"nome": "Desiderio di Ahab",
+"dorso": 23,
+"dorso_tipo": "sogno",
+"opzioni": [
+{
+"neg": false,
+"req": {},
+"carte": 0,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [
+"distrutta:Vecchio orso"
+],
+"guadagna": {
+"G": [
+10
+]
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": true,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 128,
+"modulo": "E",
+"tipo": "Z",
+"nome": "Desiderio di Orru",
+"dorso": 24,
+"dorso_tipo": "sogno",
+"opzioni": [
+{
+"neg": false,
+"req": {},
+"carte": 0,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"G": [
+9
+]
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": true,
+"deposito": true
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {
+"cibo": [
+{
+"n": 1,
+"fonti": [
+"Miele"
+]
+},
+{
+"n": 2,
+"fonti": [
+"Dodo"
+]
+}
+]
+},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 129,
+"modulo": "E",
+"tipo": "M",
+"nome": "Eroi dell'era glaciale",
+"dorso": 10,
+"dorso_tipo": "missione",
+"opzioni": [
+{
+"neg": false,
+"req": {},
+"carte": 0,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [
+"desideri0"
+],
+"guadagna": {
+"V": 2
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [
+"ciboperdesiderio"
+],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 1,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 130,
+"modulo": "F",
+"tipo": "P",
+"nome": "Scorte nascoste",
+"dorso": 25,
+"dorso_tipo": "neve",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"P": 3
+},
+"carte": 2,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"G": [
+7
+]
+},
+"attrezzi": {
+"corda": 1
+},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {
+"torcia": 1
+},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 1,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 131,
+"modulo": "F",
+"tipo": "P",
+"nome": "Accampamento abbandonato",
+"dorso": 25,
+"dorso_tipo": "neve",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"D": 2,
+"W": 2
+},
+"carte": 2,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"legno": 3
+},
+"attrezzi": {
+"corda": 2
+},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {
+"torcia": 1
+},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 1,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 132,
+"modulo": "F",
+"tipo": "A",
+"nome": "Impronte",
+"dorso": 25,
+"dorso_tipo": "neve",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"P": 1
+},
+"carte": 1,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"G": [
+14
+]
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 133,
+"modulo": "F",
+"tipo": "P",
+"nome": "Lupo emaciato",
+"dorso": 25,
+"dorso_tipo": "neve",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"F": 2
+},
+"carte": 2,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {
+"torcia": 1
+},
+"cond": [],
+"guadagna": {},
+"attrezzi": {
+"pelle": 1
+},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 1,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 134,
+"modulo": "F",
+"tipo": "P",
+"nome": "Gelo",
+"dorso": 25,
+"dorso_tipo": "neve",
+"opzioni": [
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [
+"gelo"
+],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": true
+},
+{
+"id": 135,
+"modulo": "F",
+"tipo": "P",
+"nome": "Smarrito",
+"dorso": 25,
+"dorso_tipo": "neve",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"P": 3
+},
+"carte": 1,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"S": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [
+"umanosenzateschio"
+],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 136,
+"modulo": "F",
+"tipo": "P",
+"nome": "Cinghiale affamato",
+"dorso": 25,
+"dorso_tipo": "neve",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"F": 2,
+"W": 1
+},
+"carte": 2,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"cibo": 1
+},
+"attrezzi": {
+"pelle": 1
+},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {
+"torcia": 1
+},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 1,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 137,
+"modulo": "F",
+"tipo": "A",
+"nome": "Impronte",
+"dorso": 25,
+"dorso_tipo": "neve",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"P": 1
+},
+"carte": 1,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"G": [
+15
+]
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 138,
+"modulo": "F",
+"tipo": "P",
+"nome": "Nevicata",
+"dorso": 4,
+"dorso_tipo": "fiume",
+"opzioni": [
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [
+"nevicata"
+],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 2,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": true
+},
+{
+"id": 139,
+"modulo": "F",
+"tipo": "P",
+"nome": "Nevicata",
+"dorso": 5,
+"dorso_tipo": "montagna",
+"opzioni": [
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [
+"nevicata"
+],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 2,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": true
+},
+{
+"id": 140,
+"modulo": "F",
+"tipo": "P",
+"nome": "Gelo intenso",
+"dorso": 25,
+"dorso_tipo": "neve",
+"opzioni": [
+{
+"neg": false,
+"req": {},
+"carte": 0,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [
+"distrutta:Tempesta di neve"
+],
+"guadagna": {
+"S": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {
+"torcia": 1
+},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 2,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 141,
+"modulo": "F",
+"tipo": "P",
+"nome": "Valanga",
+"dorso": 25,
+"dorso_tipo": "neve",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"P": 3
+},
+"carte": 1,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"S": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 3,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 142,
+"modulo": "F",
+"tipo": "A",
+"nome": "Impronte",
+"dorso": 25,
+"dorso_tipo": "neve",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"P": 1
+},
+"carte": 1,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"G": [
+13
+]
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 143,
+"modulo": "F",
+"tipo": "P",
+"nome": "Gelo intenso",
+"dorso": 25,
+"dorso_tipo": "neve",
+"opzioni": [
+{
+"neg": false,
+"req": {},
+"carte": 0,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [
+"distrutta:Tempesta di neve"
+],
+"guadagna": {
+"S": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {
+"torcia": 1
+},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 2,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 144,
+"modulo": "F",
+"tipo": "P",
+"nome": "Nevicata",
+"dorso": 6,
+"dorso_tipo": "bosco",
+"opzioni": [
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [
+"nevicata"
+],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 2,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": true
+},
+{
+"id": 145,
+"modulo": "F",
+"tipo": "I",
+"nome": "Falò",
+"dorso": 26,
+"dorso_tipo": "idea",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"D": 3
+},
+"carte": 0,
+"distruggi": true,
+"paga": {
+"legno": 3,
+"pietra": 1
+},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"V": 1,
+"G": [
+12
+]
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 146,
+"modulo": "F",
+"tipo": "M",
+"nome": "Tempesta di neve",
+"dorso": 10,
+"dorso_tipo": "missione",
+"opzioni": [
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {
+"legno": 3
+},
+"paga_attrezzi": {
+"torcia": 2
+},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 1,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 147,
+"modulo": "G",
+"tipo": "A",
+"nome": "Bacche piccole",
+"dorso": 27,
+"dorso_tipo": "bosco",
+"opzioni": [
+{
+"neg": false,
+"req": {},
+"carte": 2,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"cibo": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 148,
+"modulo": "G",
+"tipo": "A",
+"nome": "Bacche curative",
+"dorso": 28,
+"dorso_tipo": "bosco",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"P": 1
+},
+"carte": 2,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"cibo": 1,
+"cura": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 149,
+"modulo": "G",
+"tipo": "P",
+"nome": "Contagio",
+"dorso": 8,
+"dorso_tipo": "rosso",
+"opzioni": [
+{
+"neg": false,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {
+"radice": 1
+},
+"cond": [],
+"guadagna": {
+"S": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [
+"contagio"
+],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": true
+},
+{
+"id": 150,
+"modulo": "G",
+"tipo": "P",
+"nome": "Rovi",
+"dorso": 6,
+"dorso_tipo": "bosco",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"D": 2
+},
+"carte": 2,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"legno": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 1,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 151,
+"modulo": "G",
+"tipo": "P",
+"nome": "Bacche strane",
+"dorso": 29,
+"dorso_tipo": "bosco",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"P": 2
+},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"cibo": 1,
+"S": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"S": 1
+},
+"attrezzi": {},
+"danno": 1,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 152,
+"modulo": "G",
+"tipo": "P",
+"nome": "Bacche del sogno",
+"dorso": 30,
+"dorso_tipo": "bosco",
+"opzioni": [
+{
+"neg": true,
+"req": {},
+"carte": 2,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 153,
+"modulo": "G",
+"tipo": "A",
+"nome": "Vecchio sciamano",
+"dorso": 11,
+"dorso_tipo": "orme",
+"opzioni": [
+{
+"neg": false,
+"req": {},
+"carte": 1,
+"distruggi": true,
+"paga": {
+"any": 5
+},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"V": 1,
+"G": [
+17
+]
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 154,
+"modulo": "G",
+"tipo": "A",
+"nome": "Bacche commestibili",
+"dorso": 31,
+"dorso_tipo": "bosco",
+"opzioni": [
+{
+"neg": false,
+"req": {},
+"carte": 1,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"cibo": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 155,
+"modulo": "G",
+"tipo": "P",
+"nome": "Nausea",
+"dorso": 8,
+"dorso_tipo": "rosso",
+"opzioni": [
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {
+"cibo": 1
+},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 2,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 156,
+"modulo": "G",
+"tipo": "A",
+"nome": "Radice curativa",
+"dorso": 6,
+"dorso_tipo": "bosco",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"D": 1,
+"P": 1
+},
+"carte": 2,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {
+"radice": 1
+},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 157,
+"modulo": "G",
+"tipo": "P",
+"nome": "Bacche spinose",
+"dorso": 32,
+"dorso_tipo": "bosco",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"D": 2
+},
+"carte": 2,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"cibo": 2
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"cibo": 1
+},
+"attrezzi": {},
+"danno": 1,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 158,
+"modulo": "G",
+"tipo": "A",
+"nome": "Arte curativa di Jhula",
+"dorso": 11,
+"dorso_tipo": "orme",
+"opzioni": [
+{
+"neg": false,
+"req": {},
+"carte": 2,
+"distruggi": true,
+"paga": {
+"cibo": 2
+},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"G": [
+8,
+16
+]
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": false,
+"req": {
+"P": 1,
+"W": 1
+},
+"carte": 1,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"G": [
+8,
+16
+]
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 159,
+"modulo": "G",
+"tipo": "P",
+"nome": "Bacche velenose",
+"dorso": 33,
+"dorso_tipo": "bosco",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"P": 3
+},
+"carte": 0,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 1,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 160,
+"modulo": "G",
+"tipo": "P",
+"nome": "Bacche mortali",
+"dorso": 34,
+"dorso_tipo": "bosco",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"P": 4
+},
+"carte": 0,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"V": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 2,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 161,
+"modulo": "G",
+"tipo": "M",
+"nome": "Strana febbre",
+"dorso": 10,
+"dorso_tipo": "missione",
+"opzioni": [
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [
+"febbre"
+],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 162,
+"modulo": "H",
+"tipo": "P",
+"nome": "Ippopotamo",
+"dorso": 4,
+"dorso_tipo": "fiume",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"F": 5,
+"W": 1
+},
+"carte": 3,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"cibo": 4,
+"V": 1
+},
+"attrezzi": {
+"pelle": 1
+},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 2,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 163,
+"modulo": "H",
+"tipo": "P",
+"nome": "Rapide",
+"dorso": 4,
+"dorso_tipo": "fiume",
+"opzioni": [
+{
+"neg": false,
+"req": {},
+"carte": 4,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"S": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 1,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"G": [
+19
+]
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 164,
+"modulo": "H",
+"tipo": "P",
+"nome": "Fuori bordo",
+"dorso": 4,
+"dorso_tipo": "fiume",
+"opzioni": [
+{
+"neg": false,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {
+"zattera": 1
+},
+"cond": [
+"aiutozattera"
+],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [
+"coraggio2"
+],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [
+"distruggiumano"
+],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": true
+},
+{
+"id": 165,
+"modulo": "H",
+"tipo": "P",
+"nome": "Mostro del fiume",
+"dorso": 4,
+"dorso_tipo": "fiume",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"F": 5,
+"W": 1
+},
+"carte": 3,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [
+"carta:Ahab"
+],
+"guadagna": {
+"G": [
+20
+]
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 2,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 166,
+"modulo": "H",
+"tipo": "P",
+"nome": "Fuori bordo",
+"dorso": 4,
+"dorso_tipo": "fiume",
+"opzioni": [
+{
+"neg": false,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {
+"zattera": 1
+},
+"cond": [
+"aiutozattera"
+],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [
+"coraggio2"
+],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [
+"distruggiumano"
+],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": true
+},
+{
+"id": 167,
+"modulo": "H",
+"tipo": "A",
+"nome": "Pesci",
+"dorso": 4,
+"dorso_tipo": "fiume",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"F": 1,
+"W": 1
+},
+"carte": 1,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"cibo": 3
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": false,
+"req": {
+"F": 1
+},
+"carte": 2,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"cibo": 2
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 168,
+"modulo": "H",
+"tipo": "A",
+"nome": "Vecchio guerriero",
+"dorso": 4,
+"dorso_tipo": "fiume",
+"opzioni": [
+{
+"neg": false,
+"req": {},
+"carte": 1,
+"distruggi": true,
+"paga": {
+"cibo": 2
+},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"G": [
+10
+]
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": false,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {
+"pelle": 1
+},
+"cond": [],
+"guadagna": {
+"cibo": 2
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 169,
+"modulo": "H",
+"tipo": "P",
+"nome": "Ippopotamo",
+"dorso": 4,
+"dorso_tipo": "fiume",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"F": 5,
+"W": 1
+},
+"carte": 3,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"cibo": 4,
+"V": 1
+},
+"attrezzi": {
+"pelle": 1
+},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 2,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 170,
+"modulo": "H",
+"tipo": "U",
+"nome": "Pescatore",
+"dorso": 4,
+"dorso_tipo": "fiume",
+"opzioni": [],
+"aiuto": false,
+"notte": [],
+"zona": "gruppo",
+"passivo": "",
+"abilita": [
+"F",
+"P"
+],
+"vita": 2,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": true
+},
+{
+"id": 171,
+"modulo": "H",
+"tipo": "A",
+"nome": "Pesci",
+"dorso": 4,
+"dorso_tipo": "fiume",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"F": 1,
+"W": 1
+},
+"carte": 1,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"cibo": 3
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": false,
+"req": {
+"F": 1
+},
+"carte": 2,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"cibo": 2
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 172,
+"modulo": "H",
+"tipo": "P",
+"nome": "Coccodrillo",
+"dorso": 4,
+"dorso_tipo": "fiume",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"P": 3,
+"W": 1
+},
+"carte": 1,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"S": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 3,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 173,
+"modulo": "H",
+"tipo": "P",
+"nome": "Coccodrillo",
+"dorso": 4,
+"dorso_tipo": "fiume",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"P": 3,
+"W": 1
+},
+"carte": 1,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"S": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 3,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 174,
+"modulo": "H",
+"tipo": "I",
+"nome": "Zattera",
+"dorso": 35,
+"dorso_tipo": "idea",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"D": 2
+},
+"carte": 0,
+"distruggi": false,
+"paga": {
+"legno": 2
+},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {
+"zattera": 1
+},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 175,
+"modulo": "H",
+"tipo": "M",
+"nome": "Il grande fiume",
+"dorso": 10,
+"dorso_tipo": "missione",
+"opzioni": [
+{
+"neg": false,
+"req": {},
+"carte": 0,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [
+"fiumevuoto"
+],
+"guadagna": {
+"V": 1,
+"G": [
+18
+]
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {
+"zattera": 1
+},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 1,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 176,
+"modulo": "I",
+"tipo": "P",
+"nome": "Cacciatori di uomini",
+"dorso": 11,
+"dorso_tipo": "orme",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"F": 5,
+"W": 1
+},
+"carte": 2,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"V": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [
+"umanosenzateschio"
+],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 177,
+"modulo": "I",
+"tipo": "A",
+"nome": "Genio pazzo",
+"dorso": 11,
+"dorso_tipo": "orme",
+"opzioni": [
+{
+"neg": false,
+"req": {},
+"carte": 1,
+"distruggi": true,
+"paga": {
+"cibo": 2
+},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"G": [
+9
+]
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": false,
+"req": {
+"D": 3
+},
+"carte": 1,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"G": [
+9
+]
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 178,
+"modulo": "I",
+"tipo": "P",
+"nome": "Banda di guerrieri",
+"dorso": 11,
+"dorso_tipo": "orme",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"F": 5,
+"W": 2
+},
+"carte": 2,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"V": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [
+"guerriera2"
+],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 179,
+"modulo": "I",
+"tipo": "A",
+"nome": "Jhula aiuta",
+"dorso": 2,
+"dorso_tipo": "sogno",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"P": 1,
+"W": 1
+},
+"carte": 0,
+"distruggi": false,
+"paga": {
+"cibo": 3
+},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [
+"curaguerriera2"
+],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 180,
+"modulo": "I",
+"tipo": "P",
+"nome": "Predoni",
+"dorso": 11,
+"dorso_tipo": "orme",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"F": 6,
+"W": 2
+},
+"carte": 2,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"V": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {
+"cibo": 1
+},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 2,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 181,
+"modulo": "I",
+"tipo": "A",
+"nome": "Baratto",
+"dorso": 11,
+"dorso_tipo": "orme",
+"opzioni": [
+{
+"neg": false,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {
+"pelle": 2
+},
+"cond": [],
+"guadagna": {},
+"attrezzi": {
+"trappola": 1
+},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": false,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {
+"pelle": 2
+},
+"cond": [],
+"guadagna": {},
+"attrezzi": {
+"lancia": 1
+},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 182,
+"modulo": "I",
+"tipo": "P",
+"nome": "Attacco notturno",
+"dorso": 8,
+"dorso_tipo": "rosso",
+"opzioni": [
+{
+"neg": false,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {
+"trappola": 1
+},
+"cond": [],
+"guadagna": {},
+"attrezzi": {
+"lancia": 1
+},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [
+"guerriera2"
+],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 183,
+"modulo": "I",
+"tipo": "A",
+"nome": "Abilità di Orru",
+"dorso": 2,
+"dorso_tipo": "sogno",
+"opzioni": [
+{
+"neg": false,
+"req": {},
+"carte": 0,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [
+"carta:Orru"
+],
+"guadagna": {
+"G": [
+6
+]
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": false,
+"req": {
+"D": 3,
+"P": 3
+},
+"carte": 0,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"G": [
+6
+]
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 184,
+"modulo": "I",
+"tipo": "P",
+"nome": "Cacciatori di uomini",
+"dorso": 11,
+"dorso_tipo": "orme",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"F": 5,
+"W": 1
+},
+"carte": 2,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"V": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [
+"umanosenzateschio"
+],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 185,
+"modulo": "I",
+"tipo": "P",
+"nome": "Attacco notturno",
+"dorso": 8,
+"dorso_tipo": "rosso",
+"opzioni": [
+{
+"neg": false,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {
+"trappola": 1
+},
+"cond": [],
+"guadagna": {},
+"attrezzi": {
+"lancia": 1
+},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [
+"guerriera2"
+],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 186,
+"modulo": "I",
+"tipo": "M",
+"nome": "L'attacco delle Mani Bianche",
+"dorso": 10,
+"dorso_tipo": "missione",
+"opzioni": [
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [
+"missionemani"
+],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 187,
+"modulo": "J",
+"tipo": "P",
+"nome": "Punti deboli",
+"dorso": 36,
+"dorso_tipo": "rosso",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"P": 5,
+"W": 2
+},
+"carte": 2,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [
+"tigre2"
+],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": false,
+"req": {
+"P": 3,
+"W": 1
+},
+"carte": 1,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [
+"tigre1"
+],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [
+"distruggiumano"
+],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 188,
+"modulo": "J",
+"tipo": "P",
+"nome": "Punti deboli",
+"dorso": 36,
+"dorso_tipo": "rosso",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"P": 5,
+"W": 2
+},
+"carte": 2,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [
+"tigre2"
+],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": false,
+"req": {
+"P": 3,
+"W": 1
+},
+"carte": 1,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [
+"tigre1"
+],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [
+"distruggiumano"
+],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 189,
+"modulo": "J",
+"tipo": "P",
+"nome": "Contrattacco",
+"dorso": 36,
+"dorso_tipo": "rosso",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"F": 7,
+"W": 2
+},
+"carte": 2,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [
+"tigre2"
+],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": false,
+"req": {
+"F": 4,
+"W": 1
+},
+"carte": 2,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [
+"tigre1"
+],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [
+"distruggiumano"
+],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 190,
+"modulo": "J",
+"tipo": "P",
+"nome": "Contrattacco",
+"dorso": 36,
+"dorso_tipo": "rosso",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"F": 7,
+"W": 2
+},
+"carte": 2,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [
+"tigre2"
+],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": false,
+"req": {
+"F": 4,
+"W": 1
+},
+"carte": 2,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [
+"tigre1"
+],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [
+"distruggiumano"
+],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 191,
+"modulo": "J",
+"tipo": "P",
+"nome": "Trappola potente",
+"dorso": 36,
+"dorso_tipo": "rosso",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"D": 5
+},
+"carte": 4,
+"distruggi": true,
+"paga": {
+"legno": 1,
+"cibo": 1
+},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [
+"tigre2"
+],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": false,
+"req": {
+"D": 3
+},
+"carte": 2,
+"distruggi": true,
+"paga": {
+"cibo": 1
+},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [
+"tigre1"
+],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [
+"distruggiumano"
+],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 192,
+"modulo": "J",
+"tipo": "P",
+"nome": "Trappola potente",
+"dorso": 36,
+"dorso_tipo": "rosso",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"D": 5
+},
+"carte": 4,
+"distruggi": true,
+"paga": {
+"legno": 1,
+"cibo": 1
+},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [
+"tigre2"
+],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": false,
+"req": {
+"D": 3
+},
+"carte": 2,
+"distruggi": true,
+"paga": {
+"cibo": 1
+},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [
+"tigre1"
+],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [
+"distruggiumano"
+],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 193,
+"modulo": "J",
+"tipo": "P",
+"nome": "Tracce",
+"dorso": 2,
+"dorso_tipo": "sogno",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"P": 5
+},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"S": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [
+"umanosenzateschio"
+],
+"stato": "calma",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [
+"distruggiumano"
+],
+"stato": "furiosa",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 194,
+"modulo": "J",
+"tipo": "P",
+"nome": "Attacco",
+"dorso": 5,
+"dorso_tipo": "montagna",
+"opzioni": [
+{
+"neg": false,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {
+"torcia": 2
+},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 1,
+"teschi": 0,
+"speciali": [],
+"stato": "calma",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 3,
+"teschi": 0,
+"speciali": [],
+"stato": "furiosa",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 195,
+"modulo": "J",
+"tipo": "P",
+"nome": "Attacco",
+"dorso": 4,
+"dorso_tipo": "fiume",
+"opzioni": [
+{
+"neg": false,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {
+"torcia": 2
+},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 1,
+"teschi": 0,
+"speciali": [],
+"stato": "calma",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 3,
+"teschi": 0,
+"speciali": [],
+"stato": "furiosa",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 196,
+"modulo": "J",
+"tipo": "P",
+"nome": "Paura",
+"dorso": 7,
+"dorso_tipo": "casa",
+"opzioni": [
+{
+"neg": false,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {
+"torcia": 1
+},
+"cond": [],
+"guadagna": {
+"I": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 2,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "calma",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [
+"umanosenzateschio"
+],
+"stato": "furiosa",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 197,
+"modulo": "J",
+"tipo": "P",
+"nome": "Fame senza fine",
+"dorso": 8,
+"dorso_tipo": "rosso",
+"opzioni": [
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [
+"fameinfinita"
+],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 1,
+"teschi": 0,
+"speciali": [],
+"stato": "calma",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 3,
+"teschi": 0,
+"speciali": [],
+"stato": "furiosa",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": true
+},
+{
+"id": 198,
+"modulo": "J",
+"tipo": "A",
+"nome": "Carcassa di lupo",
+"dorso": 4,
+"dorso_tipo": "fiume",
+"opzioni": [
+{
+"neg": false,
+"req": {},
+"carte": 2,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"cibo": 1
+},
+"attrezzi": {
+"pelle": 1
+},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 199,
+"modulo": "J",
+"tipo": "P",
+"nome": "Attacco",
+"dorso": 6,
+"dorso_tipo": "bosco",
+"opzioni": [
+{
+"neg": false,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {
+"torcia": 2
+},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 1,
+"teschi": 0,
+"speciali": [],
+"stato": "calma",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 3,
+"teschi": 0,
+"speciali": [],
+"stato": "furiosa",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 200,
+"modulo": "J",
+"tipo": "M",
+"nome": "La belva",
+"dorso": 10,
+"dorso_tipo": "missione",
+"opzioni": [
+{
+"neg": false,
+"req": {},
+"carte": 0,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [
+"vittorie5"
+],
+"guadagna": {
+"G": [
+21,
+22
+]
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {
+"cibo": 1,
+"legno": 1
+},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 1,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 221,
+"modulo": "5",
+"tipo": "G",
+"nome": "Cacciatori affamati",
+"dorso": 40,
+"dorso_tipo": "segreto",
+"opzioni": [],
+"aiuto": false,
+"notte": [],
+"zona": "gruppo",
+"passivo": "cacciatori",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": true
+},
+{
+"id": 222,
+"modulo": "5",
+"tipo": "P",
+"nome": "Fuga di mammut",
+"dorso": 41,
+"dorso_tipo": "segreto",
+"opzioni": [
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {
+"torcia": 2
+},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 2,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 223,
+"modulo": "5",
+"tipo": "G",
+"nome": "Darca",
+"dorso": 42,
+"dorso_tipo": "segreto",
+"opzioni": [
+{
+"neg": false,
+"req": {},
+"carte": 1,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"U": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": true,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {
+"cibo": 1
+},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 1,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"zona": "gruppo",
+"passivo": "",
+"abilita": [
+"F"
+],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": true
+},
+{
+"id": 224,
+"modulo": "5",
+"tipo": "G",
+"nome": "Battuta di caccia",
+"dorso": 43,
+"dorso_tipo": "segreto",
+"opzioni": [],
+"aiuto": false,
+"notte": [],
+"zona": "attesa",
+"passivo": "battuta",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": true
+},
+{
+"id": 225,
+"modulo": "5",
+"tipo": "G",
+"nome": "Visione",
+"dorso": 44,
+"dorso_tipo": "segreto",
+"opzioni": [
+{
+"neg": false,
+"req": {},
+"carte": 0,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {
+"talismano": 1
+},
+"cond": [
+"distrutta:Fungo velenoso"
+],
+"guadagna": {
+"V": 1
+},
+"attrezzi": {
+"totem": 1
+},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "gruppo",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": true
+},
+{
+"id": 226,
+"modulo": "5",
+"tipo": "G",
+"nome": "Lanciatore",
+"dorso": 45,
+"dorso_tipo": "segreto",
+"opzioni": [],
+"aiuto": false,
+"notte": [],
+"zona": "gruppo",
+"passivo": "lanciatore",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": true
+},
+{
+"id": 227,
+"modulo": "5",
+"tipo": "G",
+"nome": "Costume da capo",
+"dorso": 46,
+"dorso_tipo": "segreto",
+"opzioni": [],
+"aiuto": false,
+"notte": [],
+"zona": "gruppo",
+"passivo": "",
+"abilita": [],
+"vita": 4,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": true
+},
+{
+"id": 228,
+"modulo": "5",
+"tipo": "G",
+"nome": "Jhula",
+"dorso": 47,
+"dorso_tipo": "segreto",
+"opzioni": [
+{
+"neg": false,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {
+"cibo": 1
+},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"cura": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": true,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {
+"cibo": 1
+},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 1,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"zona": "gruppo",
+"passivo": "",
+"abilita": [
+"P"
+],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": true
+},
+{
+"id": 229,
+"modulo": "5",
+"tipo": "G",
+"nome": "Orru",
+"dorso": 48,
+"dorso_tipo": "segreto",
+"opzioni": [
+{
+"neg": false,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"costruisci": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": true,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {
+"cibo": 1
+},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 1,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"zona": "gruppo",
+"passivo": "",
+"abilita": [
+"D"
+],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": true
+},
+{
+"id": 230,
+"modulo": "5",
+"tipo": "G",
+"nome": "Ahab",
+"dorso": 49,
+"dorso_tipo": "segreto",
+"opzioni": [
+{
+"neg": false,
+"req": {},
+"carte": 2,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [
+"ignorapericolo"
+],
+"stato": "",
+"aiuto_carta": true,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {
+"cibo": 1
+},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 1,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"zona": "gruppo",
+"passivo": "",
+"abilita": [
+"P"
+],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": true
+},
+{
+"id": 231,
+"modulo": "5",
+"tipo": "P",
+"nome": "Miele delizioso",
+"dorso": 50,
+"dorso_tipo": "segreto",
+"opzioni": [
+{
+"neg": false,
+"req": {},
+"carte": 0,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [
+"distrutta:Vecchio orso"
+],
+"guadagna": {
+"S": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 2,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 232,
+"modulo": "5",
+"tipo": "G",
+"nome": "Fuoco caldo",
+"dorso": 51,
+"dorso_tipo": "segreto",
+"opzioni": [],
+"aiuto": false,
+"notte": [
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {
+"legno": 2
+},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 1,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"zona": "attesa",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "Tempesta di neve",
+"spiegazione": false
+},
+{
+"id": 233,
+"modulo": "5",
+"tipo": "A",
+"nome": "Straniero sepolto",
+"dorso": 52,
+"dorso_tipo": "segreto",
+"opzioni": [
+{
+"neg": false,
+"req": {},
+"carte": 1,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {
+"corda": 1
+},
+"cond": [],
+"guadagna": {
+"V": 1,
+"U": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": false,
+"req": {
+"D": 4
+},
+"carte": 3,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"V": 1,
+"U": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": true
+},
+{
+"id": 234,
+"modulo": "5",
+"tipo": "G",
+"nome": "Straniero ferito",
+"dorso": 53,
+"dorso_tipo": "segreto",
+"opzioni": [
+{
+"neg": false,
+"req": {},
+"carte": 0,
+"distruggi": true,
+"paga": {
+"cibo": 3
+},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"U": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": true,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {
+"cibo": 1
+},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 1,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"zona": "gruppo",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 235,
+"modulo": "5",
+"tipo": "P",
+"nome": "Straniero disperato",
+"dorso": 54,
+"dorso_tipo": "segreto",
+"opzioni": [
+{
+"neg": false,
+"req": {
+"W": 1
+},
+"carte": 2,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {
+"lancia": 1
+},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": true,
+"paga": {
+"cibo": 1,
+"legno": 2
+},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 236,
+"modulo": "5",
+"tipo": "G",
+"nome": "Guarigione",
+"dorso": 55,
+"dorso_tipo": "segreto",
+"opzioni": [
+{
+"neg": false,
+"req": {},
+"carte": 0,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"V": 2
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": true
+}
+],
+"aiuto": false,
+"notte": [
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [
+"febbre"
+],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"zona": "attesa",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {
+"cibo": [
+{
+"n": 3,
+"fonti": [
+"Bacche curative",
+"Bacche spinose",
+"Bacche strane"
+]
+}
+]
+},
+"distruggi_alla_scoperta": "Strana febbre",
+"spiegazione": true
+},
+{
+"id": 237,
+"modulo": "5",
+"tipo": "G",
+"nome": "Indizio",
+"dorso": 56,
+"dorso_tipo": "segreto",
+"opzioni": [],
+"aiuto": false,
+"notte": [],
+"zona": "attesa",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": true
+},
+{
+"id": 238,
+"modulo": "5",
+"tipo": "A",
+"nome": "Terre lontane",
+"dorso": 57,
+"dorso_tipo": "segreto",
+"opzioni": [
+{
+"neg": false,
+"req": {},
+"carte": 0,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [
+"terrelontane"
+],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": false,
+"req": {},
+"carte": 0,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {
+"S": 3
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": true
+},
+{
+"id": 239,
+"modulo": "5",
+"tipo": "P",
+"nome": "Corsa selvaggia",
+"dorso": 58,
+"dorso_tipo": "segreto",
+"opzioni": [
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": true,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 2,
+"teschi": 0,
+"speciali": [
+"fiume2"
+],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": false,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": false
+},
+{
+"id": 240,
+"modulo": "5",
+"tipo": "A",
+"nome": "Offerta di Ahab",
+"dorso": 59,
+"dorso_tipo": "segreto",
+"opzioni": [
+{
+"neg": false,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [
+"carta:Ahab"
+],
+"guadagna": {
+"V": 1
+},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [
+"distruggiahab",
+"fiume3"
+],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": false,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [
+"carta:Ahab"
+],
+"guadagna": {
+"cibo": 4,
+"V": 1
+},
+"attrezzi": {
+"pelle": 1
+},
+"danno": 0,
+"teschi": 0,
+"speciali": [
+"distruggiahab"
+],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"aiuto": true,
+"notte": [],
+"zona": "",
+"passivo": "",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": true
+},
+{
+"id": 241,
+"modulo": "5",
+"tipo": "G",
+"nome": "La belva si risveglia",
+"dorso": 60,
+"dorso_tipo": "segreto",
+"opzioni": [],
+"aiuto": false,
+"notte": [
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {
+"cibo": 1,
+"legno": 1
+},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 0,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+},
+{
+"neg": true,
+"req": {},
+"carte": 0,
+"distruggi": false,
+"paga": {},
+"paga_attrezzi": {},
+"cond": [],
+"guadagna": {},
+"attrezzi": {},
+"danno": 0,
+"teschi": 1,
+"speciali": [],
+"stato": "",
+"aiuto_carta": false,
+"deposito": false
+}
+],
+"zona": "attesa",
+"passivo": "belva",
+"abilita": [],
+"vita": 0,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": true
+},
+{
+"id": 242,
+"modulo": "5",
+"tipo": "G",
+"nome": "Tigre dai denti a sciabola",
+"dorso": 61,
+"dorso_tipo": "segreto",
+"opzioni": [],
+"aiuto": false,
+"notte": [],
+"zona": "attesa",
+"passivo": "",
+"abilita": [],
+"vita": 5,
+"attrezzo": "",
+"deposito": {},
+"distruggi_alla_scoperta": "",
+"spiegazione": true
+}
+]
