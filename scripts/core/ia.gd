@@ -98,6 +98,28 @@ func _bisogni_missioni(m: Motore) -> Dictionary:
 	return b
 
 
+## Quanti danni (da 1) il gruppo può prendere senza che muoia nessuno.
+func _assorbimento(m: Motore, posto: int) -> int:
+	var g: Dictionary = m.giocatori[posto]
+	var n := _protezioni(m, posto)
+	for id in g["gruppo"]:
+		var c: Dictionary = m.C[id]
+		if c["tipo"] == "U" or int(c["vita"]) > 0:
+			n += max(0, int(c["vita"]) - int(g["danni"].get(id, 0)))
+	return n
+
+
+## Il danno più grande che un solo umano regge senza morire (o che si para).
+func _assorbe_singolo(m: Motore, posto: int) -> int:
+	var g: Dictionary = m.giocatori[posto]
+	var best := _protezioni(m, posto)
+	for id in g["gruppo"]:
+		var c: Dictionary = m.C[id]
+		if int(c["vita"]) > 0:
+			best = max(best, int(c["vita"]) - int(g["danni"].get(id, 0)))
+	return best
+
+
 func _protezioni(m: Motore, posto: int) -> int:
 	return int(m.giocatori[posto]["attrezzi"].get("pelle", 0)) + int(m.giocatori[posto]["attrezzi"].get("vestiti", 0)) * 3
 
@@ -189,9 +211,17 @@ func valore_opzione(m: Motore, posto: int, o: Dictionary) -> float:
 	var nc: int = int(o["carte"])
 	v -= float(nc) * 0.35
 	var mazzo: Array = m.giocatori[posto]["mazzo"]
+	var rosse := 0
 	for k in min(nc, mazzo.size()):
 		if m.e_rosso(mazzo[k]):
-			v -= 2.2 if _protezioni(m, posto) == 0 else 0.9
+			rosse += 1
+	if rosse > 0:
+		var assorbe := _assorbimento(m, posto)
+		v -= 1.6 * min(rosse, assorbe) + 9.0 * max(0, rosse - assorbe)
+	if int(o["danno"]) > 0:
+		var ass2 := _assorbimento(m, posto)
+		if int(o["danno"]) > ass2 and _assorbe_singolo(m, posto) < int(o["danno"]):
+			v -= 7.0
 	for r in o["paga"]:
 		v -= float(o["paga"][r]) * (1.4 if r == "cibo" else 0.9)
 	for t in o["paga_attrezzi"]:

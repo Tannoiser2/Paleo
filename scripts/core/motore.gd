@@ -1019,8 +1019,21 @@ func _togli_attrezzo(p: int, t: String) -> void:
 	a[t] = int(a[t]) - 1
 	if a[t] <= 0:
 		a.erase(t)
-	scorta_attrezzi[t] = scorta_attrezzi.get(t, 0) + 1
+	# il segnalino torna davanti alla sua idea sul banco di lavoro, se c'è; altrimenti nella scorta
+	if _idea_di(t):
+		banco_attrezzi[t] = banco_attrezzi.get(t, 0) + 1
+	else:
+		scorta_attrezzi[t] = scorta_attrezzi.get(t, 0) + 1
 	evento.emit("attrezzo_usato", {"posto": p, "attrezzo": t})
+
+
+func _idea_di(t: String) -> bool:
+	if t in ["torcia", "amigdala", "lancia"]:
+		return true
+	for id in banco:
+		if C[id]["opzioni"][0]["attrezzi"].has(t):
+			return true
+	return false
 
 
 func _paga_risorse(i: int, paga: Dictionary) -> void:
