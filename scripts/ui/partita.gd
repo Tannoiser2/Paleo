@@ -347,12 +347,12 @@ func _aggiorna_colonna_sx() -> void:
 	for idea in Dati.IDEE_BASE:
 		var h := HBoxContainer.new()
 		h.add_theme_constant_override("separation", 6)
-		h.add_child(UI.immagine(UI.attrezzo_tex(idea["attrezzo"]), 38, 38))
-		h.add_child(UI.etichetta("%s ×%d" % [idea["nome"], motore.banco_attrezzi.get(idea["attrezzo"], 0)], 18, UI.PERGAMENA, true))
+		h.add_child(UI.immagine(UI.attrezzo_tex(idea["attrezzo"]), 60, 60))
+		h.add_child(UI.etichetta("%s ×%d" % [idea["nome"], motore.banco_attrezzi.get(idea["attrezzo"], 0)], 22, UI.PERGAMENA, true))
 		var costo := HBoxContainer.new()
 		for r in idea["paga"]:
 			for k in int(idea["paga"][r]):
-				costo.add_child(UI.immagine(UI.icona(r), 24, 24))
+				costo.add_child(UI.immagine(UI.icona(r), 34, 34))
 		h.add_child(costo)
 		h.tooltip_text = "%s: %s (attrezzo: %s)" % [idea["nome"], motore._testo_paga(idea["paga"]), _testo_attrezzo(idea["attrezzo"])]
 		h.mouse_filter = Control.MOUSE_FILTER_PASS
@@ -363,10 +363,10 @@ func _aggiorna_colonna_sx() -> void:
 	b.add_child(fl)
 	for id in motore.banco:
 		var cv := VBoxContainer.new()
-		cv.add_child(_carta(id, 88, 135))
+		cv.add_child(_carta(id, 132, 203))
 		var o: Dictionary = motore.C[id]["opzioni"][0]
 		for t in o["attrezzi"]:
-			cv.add_child(UI.contatore(UI.attrezzo_tex(t), motore.banco_attrezzi.get(t, 0), 16, Dati.nome_attrezzo(t)))
+			cv.add_child(UI.contatore(UI.attrezzo_tex(t), motore.banco_attrezzi.get(t, 0), 26, Dati.nome_attrezzo(t)))
 		fl.add_child(cv)
 	if motore.banco.is_empty():
 		b.add_child(UI.etichetta("Nessuna idea nuova: trovale nelle Case.", 16, UI.CENERE))
@@ -767,7 +767,8 @@ func _al_evento(tipo: String, dati: Dictionary) -> void:
 		return
 	match tipo:
 		"dadi":
-			_mostra_dadi(dati["facce"])
+			if not vista3d:
+				_mostra_dadi(dati["facce"])
 		"notte":
 			_lampo(UI.NOTTE)
 		"danno":

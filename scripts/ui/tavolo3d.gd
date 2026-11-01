@@ -27,12 +27,21 @@ const CENTRO_VISTA := Vector3(3.0, 0.0, 8.0)
 
 # Tabelloni: centro (x, z) da TTS, misure dell'immagine in unità TTS (larghezza, altezza dell'immagine
 # verticale). In TTS sono ruotati di 90 gradi: l'alto dell'immagine va verso +x, la sinistra verso il fondo.
-const CAMPO := Vector3(14.52, 0.0, 2.79)
-const DIM_CAMPO := Vector2(9.19, 10.99)
-const NATURA := Vector3(2.72, 0.0, 3.99)
-const DIM_NATURA := Vector2(6.93, 9.16)
-const NOTTE := Vector3(-9.49, 0.0, 2.66)
-const DIM_NOTTE := Vector2(9.03, 11.45)
+# Centro e misure della scansione ritagliata, allineata all'immagine TTS del tabellone con il
+# riconoscimento dei punti (SIFT): la scansione cade esattamente dove TTS mette il tabellone.
+const CAMPO := Vector3(14.33, 0.0, 2.715)
+const DIM_CAMPO := Vector2(8.77, 10.59)
+const NATURA := Vector3(2.647, 0.0, 4.088)
+const DIM_NATURA := Vector2(6.71, 8.87)
+const NOTTE := Vector3(-10.265, 0.0, 2.596)
+const DIM_NOTTE := Vector2(9.48, 12.96)
+# mazzi del Campo: le posizioni dei mazzi nel modulo TTS
+const MAZZO_UMANI := Vector3(11.93, 0.02, 0.61)
+const MAZZO_SOGNI := Vector3(14.56, 0.02, 0.52)
+const MAZZO_IDEE := Vector3(17.2, 0.02, 0.64)
+# idee nuove: in fila dietro il banco, allineate ai suoi cerchi
+const IDEE_X := [-1.58, 0.81, 3.19, 5.57, -3.96, 7.95]
+const IDEE_Z := -9.0
 # banco di lavoro (la carta «Werkbank» di TTS) e i suoi tre gruppi di segnalini
 const BANCO := Vector3(0.99, 0.0, -5.92)
 const DIM_BANCO := Vector2(3.02, 9.18)
@@ -390,8 +399,92 @@ func _risorsa(r: String, pos: Vector3) -> void:
 	dinamici.add_child(mi)
 
 
-func evento(_tipo: String, _dati: Dictionary) -> void:
-	pass
+## Direzioni delle sei facce del dado (la faccia k ha la normale DIREZIONI[k]).
+const DIREZIONI := [Vector3.UP, Vector3.DOWN, Vector3.RIGHT, Vector3.LEFT, Vector3.FORWARD, Vector3.BACK]
+const DADO_LATO := 1.4
+var _dadi: Array = []
+
+
+func evento(tipo: String, dati: Dictionary) -> void:
+	if tipo == "dadi":
+		_lancia_dadi(dati["facce"])
+
+
+## Un dado di legno con le facce originali del modulo (le immagini delle sei facce).
+func _crea_dado() -> Node3D:
+	var d := Node3D.new()
+	var corpo := MeshInstance3D.new()
+	var bm := BoxMesh.new()
+	bm.size = Vector3.ONE * DADO_LATO * 0.985
+	corpo.mesh = bm
+	corpo.material_override = _colore(Color(0.86, 0.78, 0.66))
+	d.add_child(corpo)
+	for k in 6:
+		var q := MeshInstance3D.new()
+		var qm := QuadMesh.new()
+		qm.size = Vector2.ONE * DADO_LATO * 0.96
+		q.mesh = qm
+		q.material_override = _mat_tex(UI.icona("dado%d" % k))
+		var n: Vector3 = DIREZIONI[k]
+		q.position = n * DADO_LATO * 0.5
+		# il quad guarda verso +z: lo si orienta lungo la normale della faccia
+		var su := Vector3.UP if abs(n.y) < 0.9 else Vector3.BACK
+		q.basis = Basis.looking_at(-n, su)
+		d.add_child(q)
+	return d
+
+
+func _lancia_dadi(facce: Array) -> void:
+	for x in _dadi:
+		if is_instance_valid(x):
+			x.queue_free()
+	_dadi.clear()
+	var centro := perno.position + Vector3(0, 0, 2.5)
+	for i in facce.size():
+		var idx := 0
+		for k in Dati.DADO.size():
+			if Dati.DADO[k] == facce[i]:
+				idx = k
+				break
+		var d := _crea_dado()
+		sv.add_child(d)
+		_dadi.append(d)
+		var arrivo := centro + Vector3((i - (facce.size() - 1) / 2.0) * 2.0, DADO_LATO * 0.5, 0)
+		d.position = arrivo + Vector3(randf_range(-5, -3), 7.0, randf_range(3, 5))
+		d.rotation = Vector3(randf() * TAU, randf() * TAU, randf() * TAU)
+		# orientamento finale: la faccia uscita verso l'alto, con una rotazione casuale sul piano
+		var finale := Basis(Quaternion(DIREZIONI[idx], Vector3.UP)).rotated(Vector3.UP, randf() * TAU)
+		var q0 := Quaternion(d.basis)
+		var q1 := Quaternion(finale)
+		var p0 := d.position
+		var giri := Vector3(randf_range(6, 10), randf_range(4, 8), randf_range(6, 10))
+		var tw := create_tween()
+		tw.tween_method(func(t: float):
+			if not is_instance_valid(d):
+				return
+			# caduta con due rimbalzi
+			var x := p0.lerp(arrivo, t)
+			var hgt := 0.0
+			if t < 0.55:
+				hgt = 7.0 * (1.0 - pow(t / 0.55, 2))
+			elif t < 0.8:
+				var u := (t - 0.55) / 0.25
+				hgt = 1.4 * 4.0 * u * (1.0 - u)
+			else:
+				var u2 := (t - 0.8) / 0.2
+				hgt = 0.35 * 4.0 * u2 * (1.0 - u2)
+			d.position = Vector3(x.x, arrivo.y + hgt, x.z)
+			var spin := Basis.from_euler(giri * (1.0 - t) * (1.0 - t))
+			d.basis = Basis(q0.slerp(q1, clamp(t * 1.15, 0.0, 1.0))) * spin
+			, 0.0, 1.0, 1.3)
+		tw.tween_callback(func():
+			if is_instance_valid(d):
+				d.basis = finale
+				d.position = arrivo)
+		tw.tween_interval(2.5)
+		tw.tween_callback(func():
+			if is_instance_valid(d):
+				d.queue_free())
 
 
 ## Centri delle aree dei giocatori, lungo il lato vicino del tavolo (come le mani di TTS a -z).
@@ -415,9 +508,9 @@ func aggiorna(m: Motore) -> void:
 	for c in dinamici.get_children():
 		c.queue_free()
 	# --- Campo: mazzi di idee, sogni e umani sui loro spazi (come i mazzi di TTS), risorse nel deposito
-	_pila(m.mazzo_idee.size(), 3, _su(CAMPO, DIM_CAMPO, 0.26, 0.233, 0.02))
-	_pila(m.mazzo_sogni.size(), 2, _su(CAMPO, DIM_CAMPO, 0.26, 0.48, 0.02))
-	_pila(m.mazzo_umani.size(), 1, _su(CAMPO, DIM_CAMPO, 0.26, 0.73, 0.02))
+	_pila(m.mazzo_idee.size(), 3, MAZZO_IDEE)
+	_pila(m.mazzo_sogni.size(), 2, MAZZO_SOGNI)
+	_pila(m.mazzo_umani.size(), 1, MAZZO_UMANI)
 	var i := 0
 	for r in ["pietra", "legno", "cibo"]:
 		for k in min(int(m.risorse[r]), 20):
@@ -428,48 +521,52 @@ func aggiorna(m: Motore) -> void:
 		_scritta("Guerriere: %d" % m.guerriere.size(), CAMPO + Vector3(7.2, 0.05, -1.9), 60, UI.PERGAMENA)
 	# --- banco di lavoro: segnalini delle tre idee base sui loro cerchi
 	for t in SEGNALINI_BANCO:
-		_pila_segnalini(t, int(m.banco_attrezzi.get(t, 0)), SEGNALINI_BANCO[t] + Vector3(0, 0.03, 0))
+		_pila_segnalini(t, int(m.banco_attrezzi.get(t, 0)), SEGNALINI_BANCO[t] + Vector3(0, 0.03, 0), 0.72)
 	# idee nuove «infilate» nel banco: in fila dietro, con i loro segnalini davanti
 	for k in m.banco.size():
-		var x := -5.0 + k * 2.4
-		_carta(m.banco[k], Vector3(x, 0.03, -10.2))
+		var x: float = IDEE_X[k % 6]
+		_carta(m.banco[k], Vector3(x, 0.03, IDEE_Z))
 		var o: Dictionary = m.C[m.banco[k]]["opzioni"][0]
 		for t in o["attrezzi"]:
-			_pila_segnalini(t, int(m.banco_attrezzi.get(t, 0)), Vector3(x - 0.3, 0.03, -8.05), 0.36)
+			_pila_segnalini(t, int(m.banco_attrezzi.get(t, 0)), Vector3(x, 0.03, IDEE_Z - 2.35), 0.62)
 	# --- Natura: scarti coperti a sinistra, scoperti a destra
 	if not m.scarti_coperti.is_empty():
-		_pila(m.scarti_coperti.size(), int(m.C[m.scarti_coperti[-1]]["dorso"]), _su(NATURA, DIM_NATURA, 0.44, 0.62, 0.02))
+		_pila(m.scarti_coperti.size(), int(m.C[m.scarti_coperti[-1]]["dorso"]), _su(NATURA, DIM_NATURA, 0.425, 0.62, 0.02))
 	if not m.scarti_scoperti.is_empty():
-		_carta(m.scarti_scoperti[-1], _su(NATURA, DIM_NATURA, 0.44, 0.37, 0.03 + 0.004 * m.scarti_scoperti.size()))
+		_carta(m.scarti_scoperti[-1], _su(NATURA, DIM_NATURA, 0.425, 0.36, 0.03 + 0.004 * m.scarti_scoperti.size()))
 	if not m.fiume.is_empty():
-		_pila(m.fiume.size(), int(m.C[m.fiume[0]]["dorso"]), _su(NATURA, DIM_NATURA, 0.82, 0.87, 0.02))
+		_pila(m.fiume.size(), int(m.C[m.fiume[0]]["dorso"]), _su(NATURA, DIM_NATURA, 0.80, 0.86, 0.02))
 	# carte in attesa: nelle quattro tacche del bordo della Natura
-	var tacche := [0.25, 0.45, 0.65, 0.85]
+	var tacche := [0.14, 0.37, 0.61, 0.83]
 	for k in m.attesa.size():
-		var v: float = tacche[k % 4]
-		var p := _su(NATURA, DIM_NATURA, 1.0, v, 0.04 + 0.02 * (k / 4))
-		_carta(m.attesa[k], p + Vector3(0, 0, 1.05 + 0.7 * (k / 4)))
+		# le prime quattro nelle tacche, le altre proseguono in fila davanti alla Notte
+		var p: Vector3
+		if k < 4:
+			p = _su(NATURA, DIM_NATURA, 1.0, tacche[k], 0.04)
+		else:
+			p = _su(NATURA, DIM_NATURA, 1.0, tacche[3], 0.04) + Vector3(-2.1 * (k - 3), 0, 0)
+		_carta(m.attesa[k], p + Vector3(0, 0, 1.2), true, 0.92)
 	# --- cimitero: l'ultima carta distrutta nel vassoio
 	if not m.cimitero.is_empty():
 		_carta(m.cimitero[-1], CIMITERO + Vector3(0.3, 0.06 + 0.002 * m.cimitero.size(), 0.25), true, 0.95, 0.08)
-		_scritta("Cimitero: %d" % m.cimitero.size(), CIMITERO + Vector3(0, 0.05, 3.2), 80, UI.PERGAMENA, true)
+	_scritta("Cimitero: %d" % m.cimitero.size(), CIMITERO + Vector3(0, 0.05, 3.2), 80, UI.PERGAMENA, true)
 	# --- Notte: pittura sulla sagoma del mammut, teschi nelle nicchie, missioni sulla luna, segreti sulla pergamena
 	for k in m.vittorie:
-		_piano(UI.tex("res://assets/segnalini/pittura%d.webp" % (k + 1)), NOTTE + Vector3(-0.09 + 0.96 * k, 0.04, -2.57), Vector2(0.95, 2.45), 0.0, dinamici)
-	var nicchie := [0.11, 0.21, 0.32, 0.42, 0.53]
+		_piano(UI.tex("res://assets/segnalini/pittura%d.webp" % (k + 1)), _su(NOTTE, DIM_NOTTE, 0.205, 0.5 - 0.0775 * (k + 0.5), 0.04), Vector2(0.98, 2.5), 0.0, dinamici)
+	var nicchie := [0.11, 0.21, 0.31, 0.41, 0.515]
 	for k in m.teschi:
-		_segnalino(UI.attrezzo_tex("teschio"), _su(NOTTE, DIM_NOTTE, 0.508, nicchie[k], 0.03), 0.48)
+		_segnalino(UI.attrezzo_tex("teschio"), _su(NOTTE, DIM_NOTTE, 0.50, nicchie[k], 0.03), 0.5)
 	for k in m.missioni.size():
-		_carta(m.missioni[k], _su(NOTTE, DIM_NOTTE, 0.735, 0.30 + 0.20 * (k % 2), 0.04 + 0.02 * (k / 2)) + Vector3(0, 0, 0.5 * (k / 2)))
+		_carta(m.missioni[k], _su(NOTTE, DIM_NOTTE, 0.70, 0.29 + 0.18 * (k % 2), 0.04 + 0.02 * (k / 2)) + Vector3(0, 0, 0.5 * (k / 2)))
 	if not m.segreti.is_empty():
-		_pila(m.segreti.size(), 39 + int(m.segreti[0]), _su(NOTTE, DIM_NOTTE, 0.505, 0.835, 0.02))
+		_pila(m.segreti.size(), 39 + int(m.segreti[0]), _su(NOTTE, DIM_NOTTE, 0.495, 0.74, 0.02))
 	if m.moduli.has("J"):
 		_scritta("La belva è %s" % ("FURIOSA" if m.belva_furiosa else "calma"), NOTTE + Vector3(0, 0.05, 6.4), 70, UI.RUGGINE if m.belva_furiosa else UI.PERGAMENA, true)
 	# --- i gruppi dei giocatori, lungo il lato vicino
 	var centri := _centri(m.giocatori.size())
 	for p in m.giocatori.size():
 		var g: Dictionary = m.giocatori[p]
-		var L: float = centri[p] - 6.3
+		var L: float = centri[p] - 6.6
 		var z0 := 14.0
 		_scritta(g["nome"] + ("  (dorme)" if g["dorme"] else ""), Vector3(centri[p], 0.05, z0 - 2.6), 130, UI.OCRA, true)
 		# mazzo coperto e, sotto, le prime tre carte aperte a ventaglio (si sceglie dal dorso)
@@ -477,14 +574,14 @@ func aggiorna(m: Motore) -> void:
 			_pila(g["mazzo"].size(), int(m.C[g["mazzo"][0]]["dorso"]), Vector3(L + 1.2, 0.0, z0))
 			var quante: int = min(3, g["mazzo"].size())
 			for k in range(quante - 1, -1, -1):
-				_carta(g["mazzo"][k], Vector3(L + 0.9 + 1.25 * k, 0.03 + 0.01 * (3 - k), z0 + 3.4), false, 0.85)
+				_carta(g["mazzo"][k], Vector3(L + 0.95 + 1.95 * k, 0.03, z0 + 3.7), false, 0.85)
 		# carta scoperta
 		if g["rivelata"] >= 0:
-			_carta(g["rivelata"], Vector3(L + 4.4, 0.04, z0 + 0.6), true, 1.2)
+			_carta(g["rivelata"], Vector3(L + 3.9, 0.04, z0 + 0.1), true, 1.15)
 		# gruppo: tre carte per fila
 		var k2 := 0
 		for id in g["gruppo"]:
-			var gx: float = L + 7.2 + (k2 % 3) * 2.3
+			var gx: float = L + 6.95 + (k2 % 3) * 2.3
 			var gz: float = z0 + (k2 / 3) * 3.3
 			_carta(id, Vector3(gx, 0.03, gz))
 			for d in int(g["danni"].get(id, 0)):
@@ -495,5 +592,5 @@ func aggiorna(m: Motore) -> void:
 		var righe_gruppo := int(ceil(g["gruppo"].size() / 3.0))
 		var zt: float = z0 + max(1, righe_gruppo) * 3.3 + 0.2
 		for t in g["attrezzi"]:
-			_pila_segnalini(t, int(g["attrezzi"][t]), Vector3(L + 4.0 + (k3 % 6) * 1.6, 0.0, max(zt, z0 + 3.3 + 1.6) + (k3 / 6) * 1.2), 0.42)
+			_pila_segnalini(t, int(g["attrezzi"][t]), Vector3(L + 1.0 + (k3 % 7) * 1.8, 0.0, max(zt, z0 + 6.0) + (k3 / 7) * 1.4), 0.55)
 			k3 += 1

@@ -12,7 +12,7 @@ func _init() -> void:
 	main.start_game({"giocatori": gg, "moduli": ["D", "E"], "vista3d": true, "ritardo_ia": 0.0, "seme": 11, "varianti": {"provviste": true}})
 	await create_timer(3.0).timeout
 	var t = main.current.tavolo3d
-	var viste := [["intero", Vector3(3, 0, 8), 36.0 if ng <= 2 else 44.0, Vector2(-0.95, 0.0)], ["tabelloni", Vector3(3, 0, 2), 26.0, Vector2(-1.25, 0.0)], ["banco", Vector3(0, 0, -7), 14.0, Vector2(-0.8, 0.0)], ["gruppi", Vector3(3, 0, 17), 30.0, Vector2(-1.1, 0.0)]]
+	var viste := [["intero", Vector3(3, 0, 8), 36.0 if ng <= 2 else 44.0, Vector2(-0.95, 0.0)], ["tabelloni", Vector3(3, 0, 2), 26.0, Vector2(-1.25, 0.0)], ["banco", Vector3(1, 0, -8), 16.0, Vector2(-1.0, 0.0)], ["gruppi", Vector3(3, 0, 17), 30.0, Vector2(-1.1, 0.0)]]
 	for v in viste:
 		t._dist = v[2]
 		t._rot = v[3]
