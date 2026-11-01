@@ -4262,7 +4262,7 @@
 "paga_attrezzi": {},
 "cond": [],
 "guadagna": {
-"cibo": 3
+"cibo": 2
 },
 "attrezzi": {
 "pelle": 1
@@ -5323,7 +5323,7 @@
 "paga_attrezzi": {},
 "cond": [],
 "guadagna": {
-"cibo": 2
+"cibo": 1
 },
 "attrezzi": {},
 "danno": 0,
@@ -5342,7 +5342,7 @@
 "paga_attrezzi": {},
 "cond": [],
 "guadagna": {
-"cibo": 2,
+"cibo": 1,
 "S": 1
 },
 "attrezzi": {},

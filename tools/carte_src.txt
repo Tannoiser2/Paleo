@@ -106,7 +106,7 @@
 91|B|A|Tana dell'orso|F4 -t:torcia c2 X > cibo3 V t:pelle t:tenda ; H
 92|B|A|Caverna nascosta|P3 c1 X > V t:tenda ; H
 93|B|A|Caverna crollata|D3 c3 X > V t:tenda ; H
-94|B|A|Cinghiale sepolto|D1 P1 c2 X > cibo3 t:pelle ; H
+94|B|A|Cinghiale sepolto|D1 P1 c2 X > cibo2 t:pelle ; H
 95|B|I|Tenda|D2 -legno2 -t:pelle2 > t:tenda
 96|B|M|Un nuovo mondo|~ -t:tenda ; ~ !k1
 # ===== MODULO C — Ululati nella notte =====
@@ -125,7 +125,7 @@
 108|D|P|Ladri|P3 W1 c2 X > legno1 pietra1 t:pelle ; ~ -any3
 109|D|P|Leone delle caverne|D2 W2 c2 X > cibo2 V t:pelle t:pelle ; ~ !d2
 110|D|P|Valanga di detriti*|D3 c1 X > pietra1 ; ~ @valanga
-111|D|A|Fungo velenoso|P2 c2 > cibo2 ; c1 X > cibo2 !d1 S ; H
+111|D|A|Fungo velenoso|P2 c2 > cibo1 ; c1 X > cibo1 !d1 S ; H
 112|D|A|Luogo sacro|P3 > t:talismano ; c3 > t:talismano ; H
 113|D|A|Straniero prudente|?carta:Lanciatore|Costume da capo c2 X > U V ; -cibo2 > t:pelle ; H
 114|D|A|Vetta|W2 c2 > G5 ; D1 c2 > pietra1 ; H

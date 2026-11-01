@@ -451,7 +451,7 @@ func _aggiorna_gruppi() -> void:
 
 func _area_giocatore(i: int) -> Control:
 	var g: Dictionary = motore.giocatori[i]
-	var sc: float = 1.3 if motore.giocatori.size() <= 2 else 1.0
+	var sc: float = 1.25 if motore.giocatori.size() <= 2 else 1.0
 	var attivo: bool = _richiesta.get("posto", -1) == i and _in_attesa
 	var p := UI.pannello(Color(0.22, 0.15, 0.10, 0.92) if not attivo else Color(0.32, 0.20, 0.10, 0.96), UI.OCRA if attivo else UI.OCRA_SCURA)
 	p.size_flags_horizontal = Control.SIZE_EXPAND_FILL
@@ -520,10 +520,13 @@ func _area_giocatore(i: int) -> Control:
 	else:
 		sv.add_child(_vuoto(128 * sc, 197 * sc))
 	_ultime_rivelate[i] = g["rivelata"]
-	# gruppo
+	# gruppo: accanto, se c'è spazio (3-4 gruppi), altrimenti sotto su tutta la larghezza
 	var gv := VBoxContainer.new()
 	gv.size_flags_horizontal = Control.SIZE_EXPAND_FILL
-	corpo.add_child(gv)
+	if motore.giocatori.size() <= 2:
+		v.add_child(gv)
+	else:
+		corpo.add_child(gv)
 	gv.add_child(UI.etichetta("Gruppo", 15, UI.CENERE))
 	var fl := HFlowContainer.new()
 	fl.add_theme_constant_override("h_separation", 4)
@@ -549,13 +552,16 @@ func _carta_gruppo(i: int, id: int, sc := 1.0) -> Control:
 	box.add_child(c)
 	var d: int = int(g["danni"].get(id, 0))
 	if d > 0:
-		var hb := HBoxContainer.new()
-		hb.position = Vector2(2, 100 * sc)
-		hb.add_theme_constant_override("separation", -4)
+		var hb := VBoxContainer.new()
+		hb.position = Vector2(2, 24 * sc)
+		hb.add_theme_constant_override("separation", -6)
 		hb.mouse_filter = Control.MOUSE_FILTER_IGNORE
 		for k in d:
-			hb.add_child(UI.immagine(UI.attrezzo_tex("danno"), 26, 26))
+			var t := UI.immagine(UI.attrezzo_tex("danno"), 32 * sc, 32 * sc)
+			t.modulate = Color(1.15, 1.0, 1.0)
+			hb.add_child(t)
 		box.add_child(hb)
+		box.tooltip_text = "%d dann%s" % [d, "o" if d == 1 else "i"]
 	return box
 
 
