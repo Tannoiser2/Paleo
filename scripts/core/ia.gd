@@ -160,11 +160,21 @@ func _scegli_carta(m: Motore, posto: int, opz: Array) -> int:
 	for c in g["mazzo"]:
 		if m.e_rosso(c):
 			rosse += 1
+	var cache := {}
 	for k in opz.size():
 		var o: Dictionary = opz[k]
 		var v := 0.0
 		match o.get("k", ""):
 			"carta":
+				var dorso: int = int(m.C[o["carta"]]["dorso"])
+				if not cache.has(dorso):
+					cache[dorso] = _media_dorso(m, posto, dorso)
+				v = cache[dorso] - 0.05 * o["i"]
+				if o["i"] >= 0:
+					if best_v < v:
+						best_v = v
+						best = k
+					continue
 				var dt: String = m.C[o["carta"]]["dorso_tipo"]
 				match dt:
 					"rosso":
@@ -205,6 +215,42 @@ func _scegli_carta(m: Motore, posto: int, opz: Array) -> int:
 			best_v = v
 			best = k
 	return best
+
+
+## Che cosa ci si può aspettare dietro un dorso: la media, sulle carte con quel dorso ancora in gioco
+## (non nel cimitero), del valore della scelta migliore per questo gruppo. Il dorso non rivela la carta.
+func _media_dorso(m: Motore, posto: int, dorso: int) -> float:
+	var tot := 0.0
+	var n := 0
+	var g: Dictionary = m.giocatori[posto]
+	for id in m.C:
+		var c: Dictionary = m.C[id]
+		if int(c["dorso"]) != dorso or m.cimitero.has(id) or c["tipo"] in ["M", "I"]:
+			continue
+		if c["modulo"] != "1" and c["modulo"] != "3" and not m.moduli.has(c["modulo"]) and c["modulo"] != "5":
+			continue
+		tot += _valore_carta(m, posto, id)
+		n += 1
+	return tot / n if n > 0 else 0.0
+
+
+func _valore_carta(m: Motore, posto: int, id: int) -> float:
+	var c: Dictionary = m.C[id]
+	if c["tipo"] == "U":
+		return 2.0
+	var best := -99.0
+	var negativa := -99.0
+	for o in c["opzioni"]:
+		if o["aiuto_carta"] or not m._stato_ok(o):
+			continue
+		if o["neg"]:
+			negativa = max(negativa, valore_opzione(m, posto, o))
+			continue
+		if m._serve_aiuto(posto, o, id) != "no":
+			best = max(best, valore_opzione(m, posto, o))
+	if c["tipo"] == "P":
+		return max(best, negativa) if best > -99.0 else negativa
+	return max(best, 0.0)
 
 
 ## Valore approssimato del bottino di un'opzione per la tribù.

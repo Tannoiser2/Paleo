@@ -700,21 +700,16 @@ func _mostra_richiesta(posto: int, req: Dictionary) -> void:
 		for c in req.get("carte", []):
 			hv.add_child(_carta(c, 90, 138))
 		scelta_opzioni.add_child(hv)
+	if req.has("carta"):
+		scelta_opzioni.add_child(_carta(int(req["carta"]), 76, 117))
 	for k in opz.size():
-		var b := UI.bottone(opz[k]["testo"], 19)
+		var b := UI.bottone(("%d. " % (k + 1) if k < 9 else "") + opz[k]["testo"], 19)
+		b.size_flags_vertical = Control.SIZE_SHRINK_CENTER
 		var testo: String = opz[k]["testo"]
 		if testo.begins_with("[negativa]"):
 			b.add_theme_color_override("font_color", Color(1.0, 0.72, 0.62))
 		b.pressed.connect(_premi.bind(k))
 		scelta_opzioni.add_child(b)
-	if req.has("carta"):
-		var id: int = req["carta"]
-		var info := Button.new()
-		info.text = "Vedi la carta"
-		info.add_theme_font_size_override("font_size", 16)
-		info.mouse_entered.connect(_mostra_zoom.bind(id, info))
-		info.mouse_exited.connect(_nascondi_zoom)
-		scelta_opzioni.add_child(info)
 
 
 ## Mentre un compagno IA decide, il pannello lo dice.
@@ -724,6 +719,15 @@ func mostra_pensiero(posto: int, req: Dictionary) -> void:
 	scelta_titolo.text = "%s ci pensa…" % motore.giocatori[posto]["nome"]
 	scelta_testo.text = String(req.get("titolo", ""))
 	_svuota(scelta_opzioni)
+
+
+func _unhandled_key_input(ev: InputEvent) -> void:
+	if not _in_attesa or not (ev is InputEventKey) or not ev.pressed or ev.echo:
+		return
+	var n: int = ev.keycode - KEY_1
+	if n >= 0 and n < 9 and n < _richiesta.get("opzioni", []).size():
+		_premi(n)
+		get_viewport().set_input_as_handled()
 
 
 func _premi(k: int) -> void:
