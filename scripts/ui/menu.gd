@@ -82,6 +82,17 @@ func _costruisci() -> void:
 	b_gioca.custom_minimum_size = Vector2(360, 64)
 	b_gioca.pressed.connect(_inizia)
 	bt.add_child(b_gioca)
+	var sav: Dictionary = preload("res://scripts/ui/partita.gd").salvataggio()
+	if not sav.is_empty() and sav.get("config", {}) is Dictionary:
+		var cf: Dictionary = sav["config"]
+		var mods: Array = cf.get("moduli", [])
+		var b_cont := UI.bottone("Continua la partita (giorno %d, moduli %s)" % [int(sav.get("giorno", 1)), " + ".join(mods)], 22)
+		b_cont.custom_minimum_size = Vector2(360, 52)
+		b_cont.pressed.connect(func():
+			var cfg2: Dictionary = cf.duplicate()
+			cfg2["storia"] = sav.get("storia", [])
+			main.start_game(cfg2))
+		bt.add_child(b_cont)
 	var b_on := UI.bottone("Gioca online", 24)
 	b_on.custom_minimum_size = Vector2(360, 52)
 	b_on.pressed.connect(_pannello_online)

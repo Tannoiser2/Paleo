@@ -10,6 +10,8 @@ signal cambiato
 signal messaggio(testo: String)
 signal evento(tipo: String, dati: Dictionary)
 signal finita(esito: String)
+signal scelta_registrata
+signal ripresa_finita
 
 var C: Dictionary
 var rng := RandomNumberGenerator.new()
@@ -50,7 +52,8 @@ var fase := "preparazione"
 var esito := ""
 var registro: Array = []
 var turno := 0
-var _gelo := false
+var storia: Array = []            # tutte le scelte fatte, in ordine (per salvare e riprendere)
+var da_rigiocare: Array = []
 
 const MAX_IDEE := 6
 
@@ -197,10 +200,19 @@ func chiedi(posto: int, richiesta: Dictionary):
 	richiesta["posto"] = posto
 	if richiesta.has("opzioni") and richiesta["opzioni"].size() == 1 and not richiesta.get("conferma", false):
 		return 0
+	# ripresa di una partita salvata: le scelte già fatte si rigiocano senza chiedere
+	if not da_rigiocare.is_empty():
+		var v: int = int(da_rigiocare.pop_front())
+		storia.append(v)
+		if da_rigiocare.is_empty():
+			ripresa_finita.emit()
+		return v
 	var ctl = controllori[posto] if posto < controllori.size() else null
 	if ctl == null:
 		return 0
 	var r = await ctl.decide(self, posto, richiesta)
+	storia.append(int(r))
+	scelta_registrata.emit()
 	return r
 
 

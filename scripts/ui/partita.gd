@@ -35,6 +35,8 @@ var stato_online: Label
 var overlay_dadi: Control
 
 var _richiesta := {}
+var _ripresa := false
+const SALVATAGGIO := "user://partita_in_corso.json"
 var _in_attesa := false
 var _da_aggiornare := false
 var _ultime_rivelate := {}
@@ -66,6 +68,12 @@ func _ready() -> void:
 		for g in gg:
 			motore.controllori.append(cia if g.get("ia", false) else locale)
 	vista3d = config.get("vista3d", false)
+	if online == null:
+		motore.da_rigiocare = config.get("storia", []).duplicate()
+		motore.scelta_registrata.connect(_salva)
+		if not motore.da_rigiocare.is_empty():
+			_ripresa = true
+			motore.ripresa_finita.connect(func(): _ripresa = false; _segna_aggiornamento())
 	await motore.prepara({"giocatori": gg, "moduli": config.get("moduli", ["A", "B"]),
 		"varianti": config.get("varianti", {}), "seme": int(config.get("seme", 0))})
 	for t in motore.registro:
@@ -229,7 +237,33 @@ func _costruisci() -> void:
 # AGGIORNAMENTO
 # =====================================================================================
 
+## Salva configurazione e scelte: con lo stesso seme la partita si ricostruisce identica.
+func _salva() -> void:
+	var cfg := config.duplicate()
+	cfg.erase("online")
+	cfg.erase("storia")
+	cfg["seme"] = motore.seme
+	var f := FileAccess.open(SALVATAGGIO, FileAccess.WRITE)
+	if f != null:
+		f.store_string(JSON.stringify({"config": cfg, "storia": motore.storia, "giorno": motore.giorno, "teschi": motore.teschi, "vittorie": motore.vittorie}))
+		f.close()
+
+
+static func salvataggio() -> Dictionary:
+	if not FileAccess.file_exists(SALVATAGGIO):
+		return {}
+	var d = JSON.parse_string(FileAccess.get_file_as_string(SALVATAGGIO))
+	return d if d is Dictionary else {}
+
+
+static func cancella_salvataggio() -> void:
+	if FileAccess.file_exists(SALVATAGGIO):
+		DirAccess.remove_absolute(SALVATAGGIO)
+
+
 func _segna_aggiornamento() -> void:
+	if _ripresa:
+		return
 	if not _da_aggiornare:
 		_da_aggiornare = true
 		call_deferred("_aggiorna")
@@ -417,6 +451,7 @@ func _aggiorna_gruppi() -> void:
 
 func _area_giocatore(i: int) -> Control:
 	var g: Dictionary = motore.giocatori[i]
+	var sc: float = 1.3 if motore.giocatori.size() <= 2 else 1.0
 	var attivo: bool = _richiesta.get("posto", -1) == i and _in_attesa
 	var p := UI.pannello(Color(0.22, 0.15, 0.10, 0.92) if not attivo else Color(0.32, 0.20, 0.10, 0.96), UI.OCRA if attivo else UI.OCRA_SCURA)
 	p.size_flags_horizontal = Control.SIZE_EXPAND_FILL
@@ -450,7 +485,7 @@ func _area_giocatore(i: int) -> Control:
 	var sceglibile: bool = attivo and _richiesta.get("tipo", "") == "scegli_carta"
 	for k in min(quante, g["mazzo"].size()):
 		var id: int = g["mazzo"][k]
-		var d := _dorso(int(motore.C[id]["dorso"]), 78, 120)
+		var d := _dorso(int(motore.C[id]["dorso"]), 78 * sc, 120 * sc)
 		if sceglibile:
 			d.mouse_filter = Control.MOUSE_FILTER_STOP
 			d.mouse_default_cursor_shape = Control.CURSOR_POINTING_HAND
@@ -475,15 +510,15 @@ func _area_giocatore(i: int) -> Control:
 	corpo.add_child(sv)
 	sv.add_child(UI.etichetta("Scoperta", 15, UI.CENERE))
 	if g["rivelata"] >= 0:
-		var c := _carta(g["rivelata"], 128, 197)
+		var c := _carta(g["rivelata"], 128 * sc, 197 * sc)
 		sv.add_child(c)
 		if _ultime_rivelate.get(i, -1) != g["rivelata"]:
-			c.pivot_offset = Vector2(64, 98)
+			c.pivot_offset = Vector2(64, 98) * sc
 			c.scale = Vector2(0.05, 1)
 			var tw := create_tween()
 			tw.tween_property(c, "scale", Vector2.ONE, 0.25).set_trans(Tween.TRANS_BACK).set_ease(Tween.EASE_OUT)
 	else:
-		sv.add_child(_vuoto(128, 197))
+		sv.add_child(_vuoto(128 * sc, 197 * sc))
 	_ultime_rivelate[i] = g["rivelata"]
 	# gruppo
 	var gv := VBoxContainer.new()
@@ -495,7 +530,7 @@ func _area_giocatore(i: int) -> Control:
 	fl.add_theme_constant_override("v_separation", 4)
 	gv.add_child(fl)
 	for id in g["gruppo"]:
-		fl.add_child(_carta_gruppo(i, id))
+		fl.add_child(_carta_gruppo(i, id, sc))
 	# attrezzi
 	var at := HFlowContainer.new()
 	at.add_theme_constant_override("h_separation", 6)
@@ -506,16 +541,16 @@ func _area_giocatore(i: int) -> Control:
 	return p
 
 
-func _carta_gruppo(i: int, id: int) -> Control:
+func _carta_gruppo(i: int, id: int, sc := 1.0) -> Control:
 	var g: Dictionary = motore.giocatori[i]
 	var box := Control.new()
-	box.custom_minimum_size = Vector2(84, 129)
-	var c := _carta(id, 84, 129)
+	box.custom_minimum_size = Vector2(84, 129) * sc
+	var c := _carta(id, 84 * sc, 129 * sc)
 	box.add_child(c)
 	var d: int = int(g["danni"].get(id, 0))
 	if d > 0:
 		var hb := HBoxContainer.new()
-		hb.position = Vector2(2, 100)
+		hb.position = Vector2(2, 100 * sc)
 		hb.add_theme_constant_override("separation", -4)
 		hb.mouse_filter = Control.MOUSE_FILTER_IGNORE
 		for k in d:
@@ -708,6 +743,8 @@ func _al_messaggio(t: String) -> void:
 
 
 func _al_evento(tipo: String, dati: Dictionary) -> void:
+	if _ripresa:
+		return
 	match tipo:
 		"dadi":
 			_mostra_dadi(dati["facce"])
@@ -767,6 +804,8 @@ func _mostra_dadi(facce: Array) -> void:
 func _alla_fine(esito: String) -> void:
 	if online != null:
 		online.chiudi()
+	else:
+		cancella_salvataggio()
 	var fondo := ColorRect.new()
 	fondo.color = Color(0, 0, 0, 0.6)
 	fondo.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
