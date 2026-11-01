@@ -271,6 +271,7 @@ func _fase_giorno() -> void:
 				g["cacciatori_usati"] = false
 				g["lanciatore_usato"] = false
 				g["chiamata_usata"] = false
+				g["aspetta"] = false
 				evento.emit("rivela", {"posto": i, "carta": g["rivelata"]})
 				_log("%s scopre «%s»." % [g["nome"], C[g["rivelata"]]["nome"]])
 		cambiato.emit()
@@ -290,14 +291,7 @@ func _fase_giorno() -> void:
 					aperte.append(i)
 			if aperte.is_empty():
 				break
-			var chi: int = aperte[0]
-			if aperte.size() > 1:
-				var opz := []
-				for i in aperte:
-					opz.append({"testo": "%s — «%s»" % [giocatori[i]["nome"], C[giocatori[i]["rivelata"]]["nome"]], "posto": i})
-				var r = await chiedi(capo(), {"tipo": "ordine", "titolo": "Chi agisce adesso?",
-					"testo": "Decidete insieme in che ordine risolvere le carte scoperte.", "opzioni": opz})
-				chi = opz[int(r)]["posto"]
+			var chi: int = _prossimo(aperte)
 			await _risolvi_carta(chi)
 			_controlla_fine()
 		for i in svegli:
@@ -306,6 +300,23 @@ func _fase_giorno() -> void:
 					_log("%s non ha più carte e va a dormire." % giocatori[i]["nome"])
 				giocatori[i]["dorme"] = true
 		cambiato.emit()
+
+
+## Chi agisce: prima le persone (possono chiedere aiuto ai compagni ancora liberi o scegliere di
+## aspettare), poi i compagni IA, cominciando da chi non ha l'opzione «aiutare».
+func _prossimo(aperte: Array) -> int:
+	var pronti := aperte.filter(func(i): return not giocatori[i].get("aspetta", false))
+	if pronti.is_empty():
+		for i in aperte:
+			giocatori[i]["aspetta"] = false
+		pronti = aperte.duplicate()
+	for i in pronti:
+		if not giocatori[i]["ia"]:
+			return i
+	for i in pronti:
+		if not C[giocatori[i]["rivelata"]]["aiuto"]:
+			return i
+	return pronti[0]
 
 
 func _scegli_carta(i: int) -> void:
@@ -451,7 +462,7 @@ func _voci_carta(i: int, id: int, vietate: Dictionary) -> Array:
 	# attendere che gli altri agiscano (per poter usare risorse o aiuti ottenuti dopo)
 	var altri := 0
 	for j in giocatori.size():
-		if j != i and not giocatori[j]["risolta"] and giocatori[j]["rivelata"] >= 0:
+		if j != i and not giocatori[j]["risolta"] and giocatori[j]["rivelata"] >= 0 and not giocatori[j].get("aspetta", false):
 			altri += 1
 	if altri > 0:
 		voci.append({"k": "attendi", "chiave": "att", "testo": "Aspetta: lascia agire prima gli altri"})
@@ -789,6 +800,7 @@ func _esegui_voce(i: int, id: int, v: Dictionary) -> String:
 	match v["k"]:
 		"attendi":
 			_log("%s aspetta." % g["nome"])
+			g["aspetta"] = true
 			return "attendi"
 		"ignora":
 			_scarta_rivelata(i, false)

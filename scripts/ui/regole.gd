@@ -52,7 +52,7 @@ Lancia: +1 Forza. Amigdala: +1 Destrezza. Ascia: +1 Forza e +1 Destrezza. Lupo a
 Con un solo gruppo si comincia senza cibo e con tutte le carte. Una volta per carta scoperta puoi [b]chiedere aiuto[/b]: scarta 2 carte per tirare 1 dado, o 4 carte per 2 dadi, e somma le abilità uscite alle tue.
 
 [font_size=30][color=#d98c38]In questa versione[/color][/font_size]
-Passa il mouse su una carta per vederla grande con il testo in italiano. Le scelte compaiono nel pannello in basso; nella fase di scelta puoi anche cliccare direttamente sui dorsi del tuo mazzo. Gli attrezzi monouso necessari ai requisiti vengono usati in automatico, nel modo più economico.
+Passa il mouse su una carta per vederla grande con il testo in italiano. Le scelte compaiono nel pannello in basso; nella fase di scelta puoi anche cliccare direttamente sui dorsi del tuo mazzo. Gli attrezzi monouso necessari ai requisiti vengono usati in automatico, nel modo più economico. Nella fase delle azioni agiscono prima le persone, poi i compagni IA: se vuoi vedere prima che cosa fanno gli altri (o usare le risorse che trovano), scegli «Aspetta». Quando un compagno chiede il tuo aiuto ti viene chiesto se sei d'accordo. La partita si salva da sola: dal menu puoi continuarla.
 """
 
 

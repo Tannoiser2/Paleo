@@ -648,6 +648,8 @@ func _tipo_carta(c: Dictionary) -> String:
 	var tipo: String = {"A": "Azione", "P": "Pericolo (non si può ignorare)", "U": "Umano", "M": "Missione notturna", "I": "Idea", "G": "Segreto", "Z": "Carta in attesa"}.get(c["tipo"], "")
 	var mod: String = c["modulo"]
 	var dove := ""
+	if mod == "5":
+		return "Segreto n. %d" % (int(c["id"]) - 220) + ("" if c["tipo"] == "G" else " — " + tipo)
 	if Dati.MODULI.has(mod):
 		dove = "modulo %s, %s" % [mod, Dati.MODULI[mod]["nome"]]
 	else:
