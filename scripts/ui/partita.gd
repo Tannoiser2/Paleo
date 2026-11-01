@@ -60,8 +60,11 @@ func _ready() -> void:
 		for i in gg.size():
 			motore.controllori.append(online)
 	else:
+		var cia := ControlloIA.new()
+		cia.vista = self
+		cia.ia = ia
 		for g in gg:
-			motore.controllori.append(ia if g.get("ia", false) else locale)
+			motore.controllori.append(cia if g.get("ia", false) else locale)
 	vista3d = config.get("vista3d", false)
 	await motore.prepara({"giocatori": gg, "moduli": config.get("moduli", ["A", "B"]),
 		"varianti": config.get("varianti", {}), "seme": int(config.get("seme", 0))})
@@ -669,6 +672,15 @@ func _mostra_richiesta(posto: int, req: Dictionary) -> void:
 		info.mouse_entered.connect(_mostra_zoom.bind(id, info))
 		info.mouse_exited.connect(_nascondi_zoom)
 		scelta_opzioni.add_child(info)
+
+
+## Mentre un compagno IA decide, il pannello lo dice.
+func mostra_pensiero(posto: int, req: Dictionary) -> void:
+	if _in_attesa:
+		return
+	scelta_titolo.text = "%s ci pensa…" % motore.giocatori[posto]["nome"]
+	scelta_testo.text = String(req.get("titolo", ""))
+	_svuota(scelta_opzioni)
 
 
 func _premi(k: int) -> void:

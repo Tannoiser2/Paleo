@@ -124,6 +124,27 @@ func _protezioni(m: Motore, posto: int) -> int:
 	return int(m.giocatori[posto]["attrezzi"].get("pelle", 0)) + int(m.giocatori[posto]["attrezzi"].get("vestiti", 0)) * 3
 
 
+## Risorse e attrezzi da tenere da parte per costruire ciò che manca alle missioni.
+func _riserva(m: Motore) -> Dictionary:
+	var r := {}
+	var bis := _bisogni_missioni(m)
+	for k in bis:
+		if String(k).begins_with("t:"):
+			var t: String = String(k).substr(2)
+			if _manca_attrezzo(m, t) <= 0:
+				continue
+			for id in m.banco:
+				var o: Dictionary = m.C[id]["opzioni"][0]
+				if o["attrezzi"].has(t):
+					for x in o["paga"]:
+						r[x] = r.get(x, 0) + int(o["paga"][x])
+					for x in o["paga_attrezzi"]:
+						r["t:" + x] = r.get("t:" + x, 0) + int(o["paga_attrezzi"][x])
+		else:
+			r[k] = r.get(k, 0) + int(bis[k])
+	return r
+
+
 func _manca_attrezzo(m: Motore, t: String) -> int:
 	var serve: int = _bisogni_missioni(m).get("t:" + t, 0)
 	var ha: int = m._attrezzi_totali(range(m.giocatori.size())).get(t, 0)
@@ -170,9 +191,16 @@ func _scegli_carta(m: Motore, posto: int, opz: Array) -> int:
 			"fiume":
 				v = 0.8
 			"dormi":
+				# andare a dormire prima scarta tutto senza danni: conviene quando restano solo pericoli
 				v = -99.0
-				if g["mazzo"].size() <= 4 and rosse * 2 >= g["mazzo"].size() and fame == 0:
-					v = -1.0
+				var tutte_rosse := true
+				for o2 in opz:
+					if o2.get("k", "") == "carta" and not m.e_rosso(o2["carta"]):
+						tutte_rosse = false
+				if tutte_rosse:
+					v = 1.0 if _assorbimento(m, posto) <= 2 else -2.5
+				if g["mazzo"].size() <= 6 and rosse * 10 >= g["mazzo"].size() * 6:
+					v = max(v, 0.5)
 		if v > best_v:
 			best_v = v
 			best = k
@@ -185,8 +213,13 @@ func valore_opzione(m: Motore, posto: int, o: Dictionary) -> float:
 	var v := 0.0
 	var gu: Dictionary = o["guadagna"]
 	v += float(min(int(gu.get("cibo", 0)), fame + 2)) * (1.0 + 0.6 * min(fame, 6)) + float(max(0, int(gu.get("cibo", 0)) - fame - 2)) * 0.6
-	v += float(gu.get("legno", 0)) * 0.9
-	v += float(gu.get("pietra", 0)) * 1.0
+	var ris := _riserva(m)
+	var tutti_att: Dictionary = m._attrezzi_totali(range(m.giocatori.size()))
+	v += float(gu.get("legno", 0)) * (0.9 + (1.3 if m.risorse["legno"] < int(ris.get("legno", 0)) else 0.0))
+	v += float(gu.get("pietra", 0)) * (1.0 + (1.3 if m.risorse["pietra"] < int(ris.get("pietra", 0)) else 0.0))
+	for t in o["attrezzi"]:
+		if int(tutti_att.get(t, 0)) < int(ris.get("t:" + t, 0)):
+			v += 2.0 * float(o["attrezzi"][t])
 	for t in o["attrezzi"]:
 		v += 3.0 * min(float(o["attrezzi"][t]), float(_manca_attrezzo(m, t)))
 		v += float(o["attrezzi"][t]) * {"pelle": 1.2, "lancia": 1.6, "talismano": 2.0, "tenda": 2.5, "radice": 1.5,
@@ -356,8 +389,16 @@ func _scegli_costruzione(m: Motore, opz: Array) -> int:
 				return k
 	var tutti: Dictionary = m._attrezzi_totali(range(m.giocatori.size()))
 	var ab: Dictionary = m.abilita_permanenti(range(m.giocatori.size()))
+	var ris := _riserva(m)
 	for k in opz.size():
 		var x: Dictionary = opz[k]["x"]
+		var paga: Dictionary = x["base"]["paga"] if x.has("base") else (m.C[x["carta"]]["opzioni"][0]["paga"] if x.has("carta") else {})
+		var intacca := false
+		for r in paga:
+			if r != "any" and m.risorse[r] - int(paga[r]) < int(ris.get(r, 0)):
+				intacca = true
+		if intacca:
+			continue
 		if x.has("carta"):
 			var o: Dictionary = m.C[x["carta"]]["opzioni"][0]
 			var dup := false

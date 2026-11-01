@@ -993,6 +993,14 @@ func _scegli_aiutanti(i: int, posti: Array, candidati: Array, o: Dictionary, id:
 		var p: int = opz[int(r)]["posto"]
 		if p < 0:
 			break
+		# chi aiuta usa la propria carta: se è una persona, deve essere d'accordo
+		if not giocatori[p]["ia"] and p != i:
+			var ok = await chiedi(p, {"tipo": "consenso", "titolo": "%s chiede il tuo aiuto" % giocatori[i]["nome"],
+				"testo": "Per «%s» (%s). Aiutando usi l'opzione «aiutare» della tua carta «%s»." % [C[id]["nome"], descrivi_opzione(o, id), C[giocatori[p]["rivelata"]]["nome"]],
+				"opzioni": [{"testo": "Sì, aiuto"}, {"testo": "No"}], "conferma": true})
+			if int(ok) != 0:
+				candidati.erase(p)
+				continue
 		scelti.append(p)
 	return scelti
 
