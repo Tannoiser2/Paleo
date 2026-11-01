@@ -10,7 +10,7 @@ var dinamici: Node3D
 var fuoco: OmniLight3D
 var _mat := {}
 var _rot := Vector2(-0.95, 0.0)     # inclinazione, rotazione
-var _dist := 15.5
+var _dist := 18.0
 var _trascina := false
 var _ultimo_id := -1
 var _due_file := false
@@ -285,7 +285,7 @@ func aggiorna(m: Motore) -> void:
 		return
 	if _due_file != (m.giocatori.size() > 2):
 		_due_file = m.giocatori.size() > 2
-		_dist = 19.0 if _due_file else 15.5
+		_dist = 20.5 if _due_file else 18.0
 		_aggiorna_camera()
 	for c in dinamici.get_children():
 		c.queue_free()
@@ -340,8 +340,8 @@ func aggiorna(m: Motore) -> void:
 		var fila := p / 2
 		var nella_fila: int = min(2, ng - fila * 2)
 		var col := p % 2
-		var cx: float = -1.0 + (col - (nella_fila - 1) / 2.0) * 10.4
-		var L := cx - 4.9
+		var cx: float = -1.0 + (col - (nella_fila - 1) / 2.0) * 9.8
+		var L := cx - 4.75
 		var z0 := 2.9 + fila * 5.0
 		# mazzo coperto e, accanto, le prime tre carte (si scelgono dal dorso)
 		if not g["mazzo"].is_empty():
