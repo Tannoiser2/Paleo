@@ -32,6 +32,8 @@ var zoom_titolo: Label
 var tavolo3d = null
 var vista3d := false
 var stato_online: Label
+var colonna_sx: ScrollContainer
+var b_pannello: Button
 var overlay_dadi: Control
 
 var _richiesta := {}
@@ -131,6 +133,10 @@ func _costruisci() -> void:
 	b3d.toggled.connect(_imposta_3d)
 	b3d.name = "B3D"
 	hb.add_child(b3d)
+	b_pannello = UI.bottone("Nascondi pannello", 18)
+	b_pannello.tooltip_text = "Mostra o nasconde il pannello di sinistra (Campo, Banco di lavoro, Natura)"
+	b_pannello.pressed.connect(func(): _mostra_pannello(not colonna_sx.visible))
+	hb.add_child(b_pannello)
 	var breg := UI.bottone("Regole", 18)
 	breg.pressed.connect(_mostra_regole)
 	hb.add_child(breg)
@@ -145,7 +151,9 @@ func _costruisci() -> void:
 	var ssx := ScrollContainer.new()
 	ssx.custom_minimum_size.x = 320
 	ssx.horizontal_scroll_mode = ScrollContainer.SCROLL_MODE_DISABLED
+	ssx.name = "ColonnaSx"
 	corpo.add_child(ssx)
+	colonna_sx = ssx
 	col_sx = VBoxContainer.new()
 	col_sx.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	col_sx.add_theme_constant_override("separation", 8)
@@ -898,8 +906,15 @@ func _conquiste() -> Array:
 # VISTA 3D, MENU, REGOLE, ONLINE
 # =====================================================================================
 
+func _mostra_pannello(on: bool) -> void:
+	colonna_sx.visible = on
+	b_pannello.text = "Nascondi pannello" if on else "Mostra pannello"
+
+
 func _imposta_3d(on: bool) -> void:
 	vista3d = on
+	# nel 3D il tavolo mostra già Campo, banco e Natura: il pannello di sinistra si chiude (si riapre col pulsante)
+	_mostra_pannello(not on)
 	var b: Button = find_child("B3D", true, false)
 	if b != null and b.button_pressed != on:
 		b.set_pressed_no_signal(on)
