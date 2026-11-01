@@ -34,7 +34,7 @@ const IDEE_BASE := [
 const DADO := [{"F": 1}, {"F": 2}, {"P": 2}, {"F": 1}, {"P": 1}, {"D": 1}]
 
 const MODULI := {
-	"A": {"nome": "Ricca preda", "difficolta": "Facile", "missione": 85, "segreti": [1, 2], "dadi": false,
+	"A": {"nome": "Caccia grossa", "difficolta": "Facile", "missione": 85, "segreti": [1, 2], "dadi": false,
 		"storia": "Per superare l'inverno dobbiamo fare scorte. Per fortuna le nostre vedette hanno avvistato un branco di mammut vicino al fiume."},
 	"B": {"nome": "Un nuovo mondo", "difficolta": "Facile", "missione": 96, "segreti": [], "idee": [95], "dadi": false,
 		"storia": "Dobbiamo spostarci e seguire le prede, se non vogliamo morire di fame."},
@@ -42,15 +42,15 @@ const MODULI := {
 		"storia": "In questa regione non siamo noi in cima alla catena alimentare... almeno per ora."},
 	"D": {"nome": "Il passo successivo", "difficolta": "Facile", "missione": 117, "segreti": [5, 6, 7], "attesa": [116], "dadi": true,
 		"storia": "Senza le materie prime non possiamo inventare nuovi attrezzi."},
-	"E": {"nome": "Eroi dell'era glaciale", "difficolta": "Media", "missione": 129, "segreti": [3, 8, 9, 10, 11], "attesa": [125, 126, 127, 128], "dadi": true,
+	"E": {"nome": "L'eroe dell'era glaciale", "difficolta": "Media", "missione": 129, "segreti": [3, 8, 9, 10, 11], "attesa": [125, 126, 127, 128], "dadi": true,
 		"storia": "Quattro potenti viandanti sono comparsi nel nostro accampamento. Finora di potente hanno soltanto l'appetito."},
 	"F": {"nome": "Tempesta di neve", "difficolta": "Media", "missione": 146, "segreti": [7, 12, 13, 14, 15], "idee": [145], "dadi": true,
 		"storia": "È arrivato il momento: l'inverno stende il suo freddo mantello sulla tundra."},
-	"G": {"nome": "Strana febbre", "difficolta": "Difficile", "missione": 161, "segreti": [8, 16, 17], "dadi": true,
+	"G": {"nome": "Febbre delirante", "difficolta": "Difficile", "missione": 161, "segreti": [8, 16, 17], "dadi": true,
 		"storia": "Una malattia sta decimando la tribù. Forse la sciamana sa quali bacche possono aiutare."},
-	"H": {"nome": "Il grande fiume", "difficolta": "Difficile", "missione": 175, "segreti": [10, 18, 19, 20], "idee": [174], "dadi": true, "fiume": true,
+	"H": {"nome": "Corrente impetuosa", "difficolta": "Difficile", "missione": 175, "segreti": [10, 18, 19, 20], "idee": [174], "dadi": true, "fiume": true,
 		"storia": "Chissà cosa troveremo sull'altra riva di questo fiume?"},
-	"I": {"nome": "L'attacco delle Mani Bianche", "difficolta": "Difficile", "missione": 186, "segreti": [6, 9], "dadi": true, "guerriere": [13, 14, 15, 20],
+	"I": {"nome": "Attacco delle Mani Bianche", "difficolta": "Difficile", "missione": 186, "segreti": [6, 9], "dadi": true, "guerriere": [13, 14, 15, 20],
 		"storia": "Solo le nostre guerriere più forti riescono a proteggere il villaggio."},
 	"J": {"nome": "La belva", "difficolta": "Mortale", "missione": 200, "segreti": [21, 22], "dadi": true, "artigli": [187, 188, 189, 190, 191, 192],
 		"storia": "La creatura crudele si aggira intorno al nostro accampamento: non siamo al sicuro da nessuna parte!"},

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://i0uyxg6i26m6"
-path="res://.godot/imported/banco.webp-f4184badc1dffae5ba31dd3b0d3c240e.ctex"
+uid="uid://dkc52h0o4qn5t"
+path="res://.godot/imported/banco_scaffale2.webp-86a31322772d962e9584387913d3830c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/plance/banco.webp"
-dest_files=["res://.godot/imported/banco.webp-f4184badc1dffae5ba31dd3b0d3c240e.ctex"]
+source_file="res://assets/plance/banco_scaffale2.webp"
+dest_files=["res://.godot/imported/banco_scaffale2.webp-86a31322772d962e9584387913d3830c.ctex"]
 
 [params]
 

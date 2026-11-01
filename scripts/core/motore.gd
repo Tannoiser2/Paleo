@@ -281,7 +281,7 @@ func _fase_giorno() -> void:
 		# Gelo: va risolto prima di tutte le altre
 		for i in rivelate:
 			var g: Dictionary = giocatori[i]
-			if not g["risolta"] and g["rivelata"] >= 0 and C[g["rivelata"]]["nome"] == "Gelo":
+			if not g["risolta"] and g["rivelata"] >= 0 and g["rivelata"] == 134:
 				await _risolvi_carta(i)
 		# 3. risoluzione: si sceglie a turno chi agisce
 		while esito == "":
@@ -477,7 +477,7 @@ func _voci_carta(i: int, id: int, vietate: Dictionary) -> Array:
 ## Opzioni della carta, con quelle aggiunte da altre carte (Battuta di caccia sul Branco di lupi).
 func _opzioni_effettive(id: int) -> Array:
 	var o: Array = C[id]["opzioni"].duplicate()
-	if C[id]["nome"] == "Branco di lupi" and attesa.has(Dati.segreto_id(4)):
+	if id == 104 and attesa.has(Dati.segreto_id(4)):
 		o.append({"neg": false, "req": {"F": 7, "W": 1}, "carte": 3, "distruggi": true, "paga": {}, "paga_attrezzi": {},
 			"cond": [], "guadagna": {"cibo": 4, "V": 1}, "attrezzi": {}, "danno": 0, "teschi": 0, "speciali": [],
 			"stato": "", "aiuto_carta": false, "deposito": false})
@@ -657,7 +657,7 @@ func risolvi_requisiti(posti: Array, req: Dictionary, riserva: Dictionary = {}) 
 	var lanciatore := false
 	if manca["F"] > 0:
 		for p in posti:
-			if manca["F"] > 0 and _ha_carta_titolo([p], "Cacciatori affamati") and not giocatori[p]["cacciatori_usati"]:
+			if manca["F"] > 0 and giocatori[p]["gruppo"].has(221) and not giocatori[p]["cacciatori_usati"]:
 				cacciatori = true
 				manca["F"] -= 2
 				break
@@ -665,7 +665,7 @@ func risolvi_requisiti(posti: Array, req: Dictionary, riserva: Dictionary = {}) 
 		manca["F"] -= 2
 	if manca["F"] > 0:
 		for p in posti:
-			if _ha_carta_titolo([p], "Lanciatore") and not giocatori[p]["lanciatore_usato"] and int(giocatori[p]["attrezzi"].get("lancia", 0)) > 0:
+			if giocatori[p]["gruppo"].has(226) and not giocatori[p]["lanciatore_usato"] and int(giocatori[p]["attrezzi"].get("lancia", 0)) > 0:
 				# si scarta una lancia (che smette di dare +1) per +3
 				usa.append([p, "lancia"])
 				lanciatore = true
@@ -942,12 +942,12 @@ func _esegui_opzione(i: int, id: int, o: Dictionary, per_aiuto: bool) -> bool:
 		_togli_attrezzo(u[0], u[1])
 	if rs["cacciatori"]:
 		for p in posti:
-			if _ha_carta_titolo([p], "Cacciatori affamati"):
+			if giocatori[p]["gruppo"].has(221):
 				giocatori[p]["cacciatori_usati"] = true
 				break
 	if rs["lanciatore"]:
 		for p in posti:
-			if _ha_carta_titolo([p], "Lanciatore"):
+			if giocatori[p]["gruppo"].has(226):
 				giocatori[p]["lanciatore_usato"] = true
 				break
 	# risorse

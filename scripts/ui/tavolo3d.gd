@@ -17,6 +17,22 @@ var _due_file := false
 var _t := 0.0
 
 const CARTA := Vector2(1.04, 1.6)
+# tabelloni (centro e misure; le immagini sono le scansioni nel verso giusto)
+const CAMPO := Vector3(-6.2, 0.01, -3.2)
+const DIM_CAMPO := Vector2(4.28, 5.12)
+const NATURA := Vector3(-1.6, 0.01, -3.2)
+const DIM_NATURA := Vector2(3.88, 5.12)
+const NOTTE := Vector3(3.0, 0.01, -3.2)
+const DIM_NOTTE := Vector2(4.04, 5.12)
+# banco di lavoro (struttura di cartone montata) e cimitero
+const BANCO := Vector3(-6.2, 0.0, -7.9)
+const BANCO_L := 3.9
+const CIMITERO := Vector3(7.4, 0.0, -2.6)
+
+
+## Punto su un tabellone: u, v da 0 a 1 partendo dall'angolo in alto a sinistra dell'immagine.
+func _su(centro: Vector3, dim: Vector2, u: float, v: float, y := 0.02) -> Vector3:
+	return centro + Vector3((u - 0.5) * dim.x, y, (v - 0.5) * dim.y)
 
 
 func _ready() -> void:
@@ -73,12 +89,52 @@ func _ready() -> void:
 	# focolare (pietre + brace) accanto al campo
 	_focolare(Vector3(-9.5, 0, -2.0))
 	# tabelloni fissi
-	_piano(UI.tex("res://assets/plance/campo.webp"), Vector3(-5.6, 0.01, -3.2), Vector2(4.24, 5.12), 0.0)
-	_piano(UI.tex("res://assets/plance/natura.webp"), Vector3(-1.2, 0.01, -3.2), Vector2(3.84, 5.12), 0.0)
-	_piano(UI.tex("res://assets/plance/notte.webp"), Vector3(3.2, 0.01, -3.2), Vector2(4.24, 5.2), 0.0)
-	_piano(UI.tex("res://assets/plance/banco.webp"), Vector3(-8.6, 0.02, -3.0), Vector2(1.3, 4.0), 0.0)
+	_piano(UI.tex("res://assets/plance/campo.webp"), CAMPO, DIM_CAMPO, 0.0)
+	_piano(UI.tex("res://assets/plance/natura.webp"), NATURA, DIM_NATURA, 0.0)
+	_piano(UI.tex("res://assets/plance/notte.webp"), NOTTE, DIM_NOTTE, 0.0)
+	_costruisci_banco()
+	_costruisci_cimitero()
 	dinamici = Node3D.new()
 	sv.add_child(dinamici)
+
+
+## Un pezzo di cartone in piedi (rivolto verso +z, ruotato di rot_y), visibile da entrambi i lati.
+func _verticale(t: Texture2D, pos: Vector3, dim: Vector2, rot_y := 0.0, genitore: Node = null, incl := 0.0) -> MeshInstance3D:
+	var mi := MeshInstance3D.new()
+	var qm := QuadMesh.new()
+	qm.size = dim
+	mi.mesh = qm
+	var k := "v" + str(t.get_instance_id()) if t != null else "v0"
+	if not _mat.has(k):
+		var m := _mat_tex(t).duplicate()
+		m.cull_mode = BaseMaterial3D.CULL_DISABLED
+		_mat[k] = m
+	mi.material_override = _mat[k]
+	mi.position = pos
+	mi.rotation = Vector3(-incl, rot_y, 0)
+	(genitore if genitore != null else sv).add_child(mi)
+	return mi
+
+
+## Il banco di lavoro montato: due fianchi a triangolo, due scaffali con le finestre per le idee
+## (dietro, più alto, e davanti) e il frontale con i fori per torce, amigdale e lance.
+func _costruisci_banco() -> void:
+	var b := BANCO
+	var L := BANCO_L
+	var lato_h := 2.5
+	var lato_w := lato_h * 733.0 / 1400.0
+	_verticale(UI.tex("res://assets/plance/banco_lato1.webp"), b + Vector3(-L / 2.0, lato_h / 2.0, -0.2), Vector2(lato_w, lato_h), PI / 2)
+	_verticale(UI.tex("res://assets/plance/banco_lato2.webp"), b + Vector3(L / 2.0, lato_h / 2.0, -0.2), Vector2(lato_w, lato_h), -PI / 2)
+	_verticale(UI.tex("res://assets/plance/banco_scaffale2.webp"), b + Vector3(0, 1.0 + 0.6, -0.75), Vector2(L, L * 422.0 / 1400.0))
+	_verticale(UI.tex("res://assets/plance/banco_scaffale1.webp"), b + Vector3(0, 0.73, -0.05), Vector2(L, L * 523.0 / 1400.0))
+	_verticale(UI.tex("res://assets/plance/banco_fronte.webp"), b + Vector3(0, 0.62, 0.75), Vector2(L, L * 459.0 / 1400.0), 0.0, null, 0.18)
+
+
+## Il cimitero: il vassoio in cui finiscono le carte distrutte e il teschio di mammut in piedi dietro.
+func _costruisci_cimitero() -> void:
+	var c := CIMITERO
+	_piano(UI.tex("res://assets/plance/cimitero_base.webp"), c + Vector3(0, 0.012, 0), Vector2(2.6, 2.6 * 1309.0 / 1400.0), 0.0)
+	_verticale(UI.tex("res://assets/plance/cimitero_teschio.webp"), c + Vector3(0.1, 1.05, -1.15), Vector2(1.62, 1.62 * 1040.0 / 806.0))
 
 
 func _focolare(p: Vector3) -> void:
@@ -158,13 +214,16 @@ func _puntamento(pos: Vector2) -> void:
 	for n in dinamici.get_children():
 		if not n.has_meta("carta"):
 			continue
-		var piano := Plane(Vector3.UP, n.global_position.y + 0.01)
+		var vert: bool = n.get_meta("verticale", false)
+		var normale: Vector3 = (n.global_transform.basis.z if vert else n.global_transform.basis.y).normalized()
+		var piano := Plane(normale, n.global_position)
 		var hit = piano.intersects_ray(from, dir)
 		if hit == null:
 			continue
 		var loc: Vector3 = n.global_transform.affine_inverse() * hit
-		var half: Vector2 = n.get_meta("mezza")
-		if abs(loc.x) <= half.x and abs(loc.z) <= half.y:
+		var half: Vector2 = n.get_meta("mezza", CARTA * 0.475)
+		var lv: float = loc.y if vert else loc.z
+		if abs(loc.x) <= half.x and abs(lv) <= half.y:
 			var d: float = from.distance_to(hit)
 			if d < best_d:
 				best_d = d
@@ -256,20 +315,20 @@ func _risorsa(r: String, pos: Vector3) -> void:
 	match r:
 		"cibo":
 			var cm := CapsuleMesh.new()
-			cm.radius = 0.11
-			cm.height = 0.42
+			cm.radius = 0.09
+			cm.height = 0.24
 			mi.mesh = cm
 			mi.rotation = Vector3(0, 0, PI / 2)
 			mi.material_override = _colore(Color(0.78, 0.16, 0.12))
 		"legno":
 			var bm := BoxMesh.new()
-			bm.size = Vector3(0.46, 0.14, 0.16)
+			bm.size = Vector3(0.24, 0.1, 0.1)
 			mi.mesh = bm
 			mi.material_override = _colore(Color(0.55, 0.32, 0.16))
 		"pietra":
 			var sm := SphereMesh.new()
-			sm.radius = 0.15
-			sm.height = 0.2
+			sm.radius = 0.1
+			sm.height = 0.14
 			mi.mesh = sm
 			mi.material_override = _colore(Color(0.55, 0.56, 0.58))
 	mi.position = pos + Vector3(0, 0.1, 0)
@@ -289,50 +348,81 @@ func aggiorna(m: Motore) -> void:
 		_aggiorna_camera()
 	for c in dinamici.get_children():
 		c.queue_free()
-	# --- Campo: risorse in alto a sinistra, mazzi a destra
-	var base := Vector3(-5.6, 0.02, -3.2)
+	# --- Campo: mazzi sugli spazi di idee, sogni e umani; risorse nell'angolo in basso a destra
 	var i := 0
 	for r in ["cibo", "legno", "pietra"]:
 		for k in min(int(m.risorse[r]), 20):
-			_risorsa(r, base + Vector3(-1.75 + (k % 5) * 0.32, 0, -2.2 + i * 0.75 + (k / 5) * 0.16))
+			_risorsa(r, _su(CAMPO, DIM_CAMPO, 0.70 + (k % 5) * 0.06, 0.66 + i * 0.1 + (k / 5) * 0.025, 0.02))
 		i += 1
-	_pila(m.mazzo_umani.size(), 1, base + Vector3(0.95, 0, -1.4), 0.95)
-	_pila(m.mazzo_sogni.size(), 2, base + Vector3(0.95, 0, 0.1), 0.95)
-	_pila(m.mazzo_idee.size(), 3, base + Vector3(0.95, 0, 1.6), 0.95)
-	# --- banco di lavoro: attrezzi davanti alle idee
-	var b := Vector3(-8.6, 0.03, -3.0)
-	var ti := 0
-	for t in ["torcia", "amigdala", "lancia"]:
-		for k in min(int(m.banco_attrezzi.get(t, 0)), 5):
-			_segnalino(UI.attrezzo_tex(t), b + Vector3(-0.95, 0.0 + k * 0.09, -1.3 + ti * 1.35), 0.24)
-		ti += 1
+	_pila(m.mazzo_idee.size(), 3, _su(CAMPO, DIM_CAMPO, 0.25, 0.24, 0.02), 0.95)
+	_pila(m.mazzo_sogni.size(), 2, _su(CAMPO, DIM_CAMPO, 0.25, 0.48, 0.02), 0.95)
+	_pila(m.mazzo_umani.size(), 1, _su(CAMPO, DIM_CAMPO, 0.25, 0.72, 0.02), 0.95)
+	# --- banco di lavoro: idee infilate nelle finestre degli scaffali, attrezzi davanti
+	var fin := [-0.27, 0.0, 0.27]
 	for k in m.banco.size():
-		_carta(m.banco[k], Vector3(-11.0 + (k % 2) * 1.15, 0.03, -5.0 + (k / 2) * 1.75), true, 0.95)
-	# --- Natura: scarti coperti (in alto) e scoperti (in basso)
-	var n := Vector3(-1.2, 0.02, -3.2)
+		var fila := 0 if k < 3 else 1
+		var x: float = fin[k % 3] * BANCO_L
+		var z := -0.12 if fila == 0 else -0.82
+		var y := 0.95 if fila == 0 else 1.85
+		var carta := _verticale(UI.carta_tex(m.banco[k]), BANCO + Vector3(x, y, z), CARTA * 0.95, 0.0, dinamici)
+		carta.set_meta("carta", m.banco[k])
+		carta.set_meta("verticale", true)
+		var o: Dictionary = m.C[m.banco[k]]["opzioni"][0]
+		var q := 0
+		for t in o["attrezzi"]:
+			for n in min(int(m.banco_attrezzi.get(t, 0)), 5):
+				_segnalino(UI.attrezzo_tex(t), BANCO + Vector3(x - 0.3 + q * 0.2, 0.0 + n * 0.09, 0.25 if fila == 0 else 0.42), 0.17)
+			q += 1
+	# attrezzi delle idee base, nei fori del frontale (lancia, amigdala, torcia)
+	var fori := {"lancia": -0.26, "amigdala": 0.0, "torcia": 0.27}
+	for t in fori:
+		var n: int = int(m.banco_attrezzi.get(t, 0))
+		if n > 0:
+			var disco := _verticale(UI.attrezzo_tex(t), BANCO + Vector3(float(fori[t]) * BANCO_L, 0.6, 0.79), Vector2(0.5, 0.5), 0.0, dinamici, 0.18)
+			disco.position.y += 0.0
+			var lab := Label3D.new()
+			lab.text = "×%d" % n
+			lab.font = UI.font_grassetto
+			lab.font_size = 64
+			lab.pixel_size = 0.005
+			lab.modulate = UI.PERGAMENA
+			lab.outline_size = 10
+			lab.outline_modulate = Color(0, 0, 0, 0.9)
+			lab.position = BANCO + Vector3(float(fori[t]) * BANCO_L + 0.38, 0.35, 0.86)
+			dinamici.add_child(lab)
+	# --- Natura: scarti coperti (spazio in alto) e scoperti (spazio in basso)
 	if not m.scarti_coperti.is_empty():
-		_pila(m.scarti_coperti.size(), int(m.C[m.scarti_coperti[-1]]["dorso"]), n + Vector3(0.35, 0, -0.95))
+		_pila(m.scarti_coperti.size(), int(m.C[m.scarti_coperti[-1]]["dorso"]), _su(NATURA, DIM_NATURA, 0.43, 0.37, 0.02))
 	if not m.scarti_scoperti.is_empty():
-		_carta(m.scarti_scoperti[-1], n + Vector3(0.35, 0.02 + 0.004 * m.scarti_scoperti.size(), 1.0))
-	# attesa: lungo il lato sinistro della Natura
-	for k in m.attesa.size():
-		_carta(m.attesa[k], Vector3(-2.6 + k * 1.15, 0.03, -6.75), true, 0.95)
+		_carta(m.scarti_scoperti[-1], _su(NATURA, DIM_NATURA, 0.43, 0.62, 0.02 + 0.004 * m.scarti_scoperti.size()))
 	if not m.fiume.is_empty():
-		_pila(m.fiume.size(), int(m.C[m.fiume[0]]["dorso"]), Vector3(-3.0, 0.02, -0.15), 0.9)
-	# cimitero
+		_pila(m.fiume.size(), int(m.C[m.fiume[0]]["dorso"]), _su(NATURA, DIM_NATURA, 0.84, 0.86, 0.02), 0.8)
+	# carte in attesa: in fila dietro la Natura e la Notte
+	for k in m.attesa.size():
+		_carta(m.attesa[k], Vector3(-3.1 + k * 1.15, 0.03, -6.75), true, 0.95)
+	# --- cimitero: l'ultima carta distrutta nel vassoio
 	if not m.cimitero.is_empty():
-		_carta(m.cimitero[-1], Vector3(6.4, 0.02, -0.9), true, 0.9, 0.12)
-	# --- Notte: missioni, segreti, teschi, pittura
-	var nt := Vector3(3.2, 0.02, -3.2)
-	for k in m.missioni.size():
-		_carta(m.missioni[k], nt + Vector3(-1.55 + k * 0.45, 0.02 + k * 0.01, -0.2 + k * 0.45), true, 0.8)
-	if not m.segreti.is_empty():
-		_pila(m.segreti.size(), 39 + int(m.segreti[0]), nt + Vector3(0.6, 0, -1.95), 0.85)
-	for k in m.teschi:
-		_segnalino(UI.attrezzo_tex("teschio"), nt + Vector3(0.3, 0, -0.45 + k * 0.55), 0.24)
+		_carta(m.cimitero[-1], CIMITERO + Vector3(0.25, 0.05 + 0.002 * m.cimitero.size(), 0.15), true, 0.85, 0.1)
+		var lc := Label3D.new()
+		lc.text = "Cimitero: %d" % m.cimitero.size()
+		lc.font = UI.font_titolo
+		lc.font_size = 80
+		lc.pixel_size = 0.006
+		lc.modulate = UI.PERGAMENA
+		lc.outline_size = 12
+		lc.outline_modulate = Color(0, 0, 0, 0.85)
+		lc.rotation = Vector3(-PI / 2, 0, 0)
+		lc.position = CIMITERO + Vector3(0, 0.05, 1.55)
+		dinamici.add_child(lc)
+	# --- Notte: pittura nella grotta, teschi nelle nicchie, missioni sulla luna, segreti sulla pergamena
 	for k in m.vittorie:
-		var pz := _piano(UI.tex("res://assets/segnalini/pittura%d.webp" % (k + 1)), nt + Vector3(1.0 + k * 0.17, 0.03, 0.75), Vector2(0.18, 0.55), 0.0, dinamici)
-		pz.position.y += 0.01
+		_piano(UI.tex("res://assets/segnalini/pittura%d.webp" % (k + 1)), _su(NOTTE, DIM_NOTTE, 0.14 + k * 0.055, 0.32, 0.03), Vector2(0.22, 0.66), 0.0, dinamici)
+	for k in m.teschi:
+		_segnalino(UI.attrezzo_tex("teschio"), _su(NOTTE, DIM_NOTTE, 0.52, 0.11 + k * 0.11, 0.02), 0.24)
+	for k in m.missioni.size():
+		_carta(m.missioni[k], _su(NOTTE, DIM_NOTTE, 0.74 + k * 0.08, 0.40 + k * 0.08, 0.03 + k * 0.01), true, 0.8)
+	if not m.segreti.is_empty():
+		_pila(m.segreti.size(), 39 + int(m.segreti[0]), _su(NOTTE, DIM_NOTTE, 0.47, 0.84, 0.02), 0.85)
 	# --- i gruppi dei giocatori: due per fila davanti ai tabelloni
 	var ng := m.giocatori.size()
 	for p in ng:

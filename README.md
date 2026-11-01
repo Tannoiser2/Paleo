@@ -20,9 +20,12 @@ Si gioca nel browser: https://tannoiser2.github.io/Paleo/
   amici (Firebase, radice `paleo/rooms`).
 - **Tavolo 3D** con i tabelloni Campo, Natura e Notte, le carte, le risorse di legno e i segnalini,
   alla luce del fuoco; si ruota trascinando e si avvicina con la rotellina.
-- Le carte del modulo TTS sono **in tedesco**: passando il mouse su una carta compare grande con il
-  **testo tradotto in italiano** (e i chiarimenti del foglio aggiuntivo per le carte con l'asterisco).
-  Tutte le scelte sono scritte in italiano.
+- **Carte e dorsi dalle scansioni dell'edizione italiana**, con i nomi italiani ufficiali; passando il
+  mouse su una carta compare grande con il testo e i chiarimenti per le carte con l'asterisco.
+  Quattro carte del modulo G (bacche) non erano nelle scansioni e restano per ora in tedesco.
+- **Tabelloni dalle scansioni** e, nel tavolo 3D, il **banco di lavoro montato** (fianchi, due scaffali
+  con le idee infilate nelle finestre, frontale con torce, amigdale e lance) e il **cimitero** con il
+  teschio di mammut.
 
 ## Struttura
 
@@ -51,5 +54,5 @@ su `main` il cui messaggio contiene `[pubblica]`. Pubblica su GitHub Pages e, se
 
 ## Materiale
 
-Immagini dal modulo Tabletop Simulator «Paleo German» (edizione tedesca). Font: Amatic SC, Alegreya
+Immagini dalle scansioni dell'edizione italiana (e, per quattro carte, dal modulo Tabletop Simulator «Paleo German»). Font: Amatic SC, Alegreya
 Sans e Rubik Dirt (SIL Open Font License). Uso personale e non commerciale.

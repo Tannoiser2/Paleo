@@ -339,7 +339,7 @@
 "id": 17,
 "modulo": "2",
 "tipo": "U",
-"nome": "Guardiano",
+"nome": "Custode",
 "dorso": 1,
 "dorso_tipo": "umano",
 "opzioni": [],
@@ -379,7 +379,7 @@
 "id": 19,
 "modulo": "2",
 "tipo": "U",
-"nome": "Guardiano",
+"nome": "Custode",
 "dorso": 1,
 "dorso_tipo": "umano",
 "opzioni": [],
@@ -460,7 +460,7 @@
 "id": 22,
 "modulo": "3",
 "tipo": "A",
-"nome": "Antico sapere",
+"nome": "Antica saggezza",
 "dorso": 2,
 "dorso_tipo": "sogno",
 "opzioni": [
@@ -687,7 +687,7 @@
 "id": 27,
 "modulo": "3",
 "tipo": "A",
-"nome": "Baratto",
+"nome": "Commercio",
 "dorso": 2,
 "dorso_tipo": "sogno",
 "opzioni": [
@@ -835,7 +835,7 @@
 "id": 30,
 "modulo": "3",
 "tipo": "A",
-"nome": "Viandante",
+"nome": "Viaggiatore",
 "dorso": 2,
 "dorso_tipo": "sogno",
 "opzioni": [
@@ -876,7 +876,7 @@
 "id": 31,
 "modulo": "3",
 "tipo": "A",
-"nome": "Nuovo coraggio",
+"nome": "Fiducia ritrovata",
 "dorso": 2,
 "dorso_tipo": "sogno",
 "opzioni": [
@@ -1062,7 +1062,7 @@
 "id": 35,
 "modulo": "3",
 "tipo": "A",
-"nome": "Nuovo coraggio",
+"nome": "Fiducia ritrovata",
 "dorso": 2,
 "dorso_tipo": "sogno",
 "opzioni": [
@@ -1103,7 +1103,7 @@
 "id": 36,
 "modulo": "3",
 "tipo": "A",
-"nome": "Mercante",
+"nome": "Commerciante",
 "dorso": 2,
 "dorso_tipo": "sogno",
 "opzioni": [
@@ -1183,7 +1183,7 @@
 "id": 38,
 "modulo": "4",
 "tipo": "I",
-"nome": "Ascia",
+"nome": "Scure",
 "dorso": 3,
 "dorso_tipo": "idea",
 "opzioni": [
@@ -1226,7 +1226,7 @@
 "id": 39,
 "modulo": "4",
 "tipo": "I",
-"nome": "Vestiti",
+"nome": "Veste",
 "dorso": 3,
 "dorso_tipo": "idea",
 "opzioni": [
@@ -1352,7 +1352,7 @@
 "id": 42,
 "modulo": "4",
 "tipo": "I",
-"nome": "Pittura",
+"nome": "Pitture",
 "dorso": 3,
 "dorso_tipo": "idea",
 "opzioni": [
@@ -1528,7 +1528,7 @@
 "id": 46,
 "modulo": "1",
 "tipo": "A",
-"nome": "Ghiaione",
+"nome": "Zona detritica",
 "dorso": 5,
 "dorso_tipo": "montagna",
 "opzioni": [
@@ -1733,7 +1733,7 @@
 "id": 50,
 "modulo": "1",
 "tipo": "A",
-"nome": "Ghiaione",
+"nome": "Zona detritica",
 "dorso": 5,
 "dorso_tipo": "montagna",
 "opzioni": [
@@ -2033,7 +2033,7 @@
 "id": 55,
 "modulo": "1",
 "tipo": "A",
-"nome": "Albero caduto",
+"nome": "Tronco abbattuto",
 "dorso": 6,
 "dorso_tipo": "bosco",
 "opzioni": [
@@ -2194,7 +2194,7 @@
 "id": 58,
 "modulo": "1",
 "tipo": "P",
-"nome": "Smarriti",
+"nome": "Smarrirsi",
 "dorso": 8,
 "dorso_tipo": "rosso",
 "opzioni": [
@@ -2252,7 +2252,7 @@
 "id": 59,
 "modulo": "1",
 "tipo": "A",
-"nome": "Capriolo",
+"nome": "Cerbiatto",
 "dorso": 4,
 "dorso_tipo": "fiume",
 "opzioni": [
@@ -3106,7 +3106,7 @@
 "id": 73,
 "modulo": "1",
 "tipo": "A",
-"nome": "Sassolini",
+"nome": "Rocce",
 "dorso": 4,
 "dorso_tipo": "fiume",
 "opzioni": [
@@ -3407,7 +3407,7 @@
 "id": 78,
 "modulo": "A",
 "tipo": "A",
-"nome": "Mammut maschio",
+"nome": "Mammut adulto",
 "dorso": 9,
 "dorso_tipo": "fiume",
 "opzioni": [
@@ -3613,7 +3613,7 @@
 "id": 82,
 "modulo": "A",
 "tipo": "A",
-"nome": "Mammut vecchio",
+"nome": "Mammut anziano",
 "dorso": 9,
 "dorso_tipo": "fiume",
 "opzioni": [
@@ -3713,7 +3713,7 @@
 "id": 84,
 "modulo": "A",
 "tipo": "A",
-"nome": "Mammut cucciolo",
+"nome": "Cucciolo di mammut",
 "dorso": 9,
 "dorso_tipo": "fiume",
 "opzioni": [
@@ -3759,7 +3759,7 @@
 "id": 85,
 "modulo": "A",
 "tipo": "M",
-"nome": "Ricca preda",
+"nome": "Caccia grossa",
 "dorso": 10,
 "dorso_tipo": "missione",
 "opzioni": [
@@ -3937,7 +3937,7 @@
 "id": 88,
 "modulo": "B",
 "tipo": "P",
-"nome": "Lupo emaciato",
+"nome": "Lupo affamato",
 "dorso": 8,
 "dorso_tipo": "rosso",
 "opzioni": [
@@ -4203,7 +4203,7 @@
 "id": 93,
 "modulo": "B",
 "tipo": "A",
-"nome": "Caverna crollata",
+"nome": "Caverna franata",
 "dorso": 12,
 "dorso_tipo": "montagna",
 "opzioni": [
@@ -4391,7 +4391,7 @@
 "id": 97,
 "modulo": "C",
 "tipo": "P",
-"nome": "Lupa",
+"nome": "Madre dei lupi",
 "dorso": 14,
 "dorso_tipo": "rosso",
 "opzioni": [
@@ -4453,7 +4453,7 @@
 "id": 98,
 "modulo": "C",
 "tipo": "P",
-"nome": "Fossa-trappola",
+"nome": "Trappola",
 "dorso": 6,
 "dorso_tipo": "bosco",
 "opzioni": [
@@ -4724,7 +4724,7 @@
 "id": 102,
 "modulo": "C",
 "tipo": "A",
-"nome": "Straniero",
+"nome": "Stranieri",
 "dorso": 11,
 "dorso_tipo": "orme",
 "opzioni": [
@@ -4786,7 +4786,7 @@
 "id": 103,
 "modulo": "C",
 "tipo": "A",
-"nome": "Lupo spaventato",
+"nome": "Lupo impaurito",
 "dorso": 6,
 "dorso_tipo": "bosco",
 "opzioni": [
@@ -4831,7 +4831,7 @@
 "id": 104,
 "modulo": "C",
 "tipo": "P",
-"nome": "Branco di lupi",
+"nome": "Branco",
 "dorso": 14,
 "dorso_tipo": "rosso",
 "opzioni": [
@@ -5064,7 +5064,7 @@
 "id": 107,
 "modulo": "D",
 "tipo": "P",
-"nome": "Caduta massi",
+"nome": "Frana",
 "dorso": 8,
 "dorso_tipo": "rosso",
 "opzioni": [
@@ -5186,7 +5186,7 @@
 "id": 109,
 "modulo": "D",
 "tipo": "P",
-"nome": "Leone delle caverne",
+"nome": "Leone di caverna",
 "dorso": 15,
 "dorso_tipo": "rosso",
 "opzioni": [
@@ -5248,7 +5248,7 @@
 "id": 110,
 "modulo": "D",
 "tipo": "P",
-"nome": "Valanga di detriti",
+"nome": "Valanga",
 "dorso": 5,
 "dorso_tipo": "montagna",
 "opzioni": [
@@ -5441,7 +5441,7 @@
 "paga": {},
 "paga_attrezzi": {},
 "cond": [
-"carta:Lanciatore|Costume da capo"
+"carta:Ascia da lancio|Veste del capotribù"
 ],
 "guadagna": {
 "U": 1,
@@ -5556,7 +5556,7 @@
 "id": 115,
 "modulo": "D",
 "tipo": "A",
-"nome": "Fabbricante di attrezzi",
+"nome": "Creatore di manufatti",
 "dorso": 11,
 "dorso_tipo": "orme",
 "opzioni": [
@@ -5647,7 +5647,7 @@
 "id": 116,
 "modulo": "D",
 "tipo": "Z",
-"nome": "Bricolage",
+"nome": "Fai da te",
 "dorso": 17,
 "dorso_tipo": "sogno",
 "opzioni": [
@@ -5793,7 +5793,7 @@
 "id": 118,
 "modulo": "E",
 "tipo": "A",
-"nome": "Bella vista",
+"nome": "Panorama",
 "dorso": 5,
 "dorso_tipo": "montagna",
 "opzioni": [
@@ -5855,7 +5855,7 @@
 "id": 119,
 "modulo": "E",
 "tipo": "P",
-"nome": "Vecchio orso",
+"nome": "Orso anziano",
 "dorso": 18,
 "dorso_tipo": "rosso",
 "opzioni": [
@@ -5917,7 +5917,7 @@
 "id": 120,
 "modulo": "E",
 "tipo": "P",
-"nome": "Caverna buia",
+"nome": "Caverna oscura",
 "dorso": 19,
 "dorso_tipo": "montagna",
 "opzioni": [
@@ -6198,7 +6198,7 @@
 "id": 125,
 "modulo": "E",
 "tipo": "Z",
-"nome": "Desiderio di Darca",
+"nome": "Il desiderio di Darca",
 "dorso": 21,
 "dorso_tipo": "sogno",
 "opzioni": [
@@ -6252,7 +6252,7 @@
 "id": 126,
 "modulo": "E",
 "tipo": "Z",
-"nome": "Desiderio di Jhula",
+"nome": "Il desiderio di Jhula",
 "dorso": 22,
 "dorso_tipo": "sogno",
 "opzioni": [
@@ -6300,7 +6300,7 @@
 "id": 127,
 "modulo": "E",
 "tipo": "Z",
-"nome": "Desiderio di Ahab",
+"nome": "Il desiderio di Ahab",
 "dorso": 23,
 "dorso_tipo": "sogno",
 "opzioni": [
@@ -6312,7 +6312,7 @@
 "paga": {},
 "paga_attrezzi": {},
 "cond": [
-"distrutta:Vecchio orso"
+"distrutta:Orso anziano"
 ],
 "guadagna": {
 "G": [
@@ -6343,7 +6343,7 @@
 "id": 128,
 "modulo": "E",
 "tipo": "Z",
-"nome": "Desiderio di Orru",
+"nome": "Il desiderio di Orru",
 "dorso": 24,
 "dorso_tipo": "sogno",
 "opzioni": [
@@ -6399,7 +6399,7 @@
 "id": 129,
 "modulo": "E",
 "tipo": "M",
-"nome": "Eroi dell'era glaciale",
+"nome": "L'eroe dell'era glaciale",
 "dorso": 10,
 "dorso_tipo": "missione",
 "opzioni": [
@@ -6476,7 +6476,7 @@
 "id": 130,
 "modulo": "F",
 "tipo": "P",
-"nome": "Scorte nascoste",
+"nome": "Provviste nascoste",
 "dorso": 25,
 "dorso_tipo": "neve",
 "opzioni": [
@@ -6637,7 +6637,7 @@
 "id": 132,
 "modulo": "F",
 "tipo": "A",
-"nome": "Impronte",
+"nome": "Tracce di umani",
 "dorso": 25,
 "dorso_tipo": "neve",
 "opzioni": [
@@ -6680,7 +6680,7 @@
 "id": 133,
 "modulo": "F",
 "tipo": "P",
-"nome": "Lupo emaciato",
+"nome": "Lupo affamato",
 "dorso": 25,
 "dorso_tipo": "neve",
 "opzioni": [
@@ -6740,7 +6740,7 @@
 "id": 134,
 "modulo": "F",
 "tipo": "P",
-"nome": "Gelo",
+"nome": "Suolo ghiacciato",
 "dorso": 25,
 "dorso_tipo": "neve",
 "opzioni": [
@@ -6919,7 +6919,7 @@
 "id": 137,
 "modulo": "F",
 "tipo": "A",
-"nome": "Impronte",
+"nome": "Tracce di umani",
 "dorso": 25,
 "dorso_tipo": "neve",
 "opzioni": [
@@ -7074,7 +7074,7 @@
 "id": 140,
 "modulo": "F",
 "tipo": "P",
-"nome": "Gelo intenso",
+"nome": "Freddo glaciale",
 "dorso": 25,
 "dorso_tipo": "neve",
 "opzioni": [
@@ -7151,7 +7151,7 @@
 "id": 141,
 "modulo": "F",
 "tipo": "P",
-"nome": "Valanga",
+"nome": "Slavina",
 "dorso": 25,
 "dorso_tipo": "neve",
 "opzioni": [
@@ -7209,7 +7209,7 @@
 "id": 142,
 "modulo": "F",
 "tipo": "A",
-"nome": "Impronte",
+"nome": "Tracce di umani",
 "dorso": 25,
 "dorso_tipo": "neve",
 "opzioni": [
@@ -7252,7 +7252,7 @@
 "id": 143,
 "modulo": "F",
 "tipo": "P",
-"nome": "Gelo intenso",
+"nome": "Freddo glaciale",
 "dorso": 25,
 "dorso_tipo": "neve",
 "opzioni": [
@@ -7385,7 +7385,7 @@
 "id": 145,
 "modulo": "F",
 "tipo": "I",
-"nome": "Falò",
+"nome": "Fuoco da campo",
 "dorso": 26,
 "dorso_tipo": "idea",
 "opzioni": [
@@ -7787,7 +7787,7 @@
 "id": 153,
 "modulo": "G",
 "tipo": "A",
-"nome": "Vecchio sciamano",
+"nome": "Anziano sciamano",
 "dorso": 11,
 "dorso_tipo": "orme",
 "opzioni": [
@@ -8028,7 +8028,7 @@
 "id": 158,
 "modulo": "G",
 "tipo": "A",
-"nome": "Arte curativa di Jhula",
+"nome": "Rito di Jhula",
 "dorso": 11,
 "dorso_tipo": "orme",
 "opzioni": [
@@ -8211,7 +8211,7 @@
 "id": 161,
 "modulo": "G",
 "tipo": "M",
-"nome": "Strana febbre",
+"nome": "Febbre delirante",
 "dorso": 10,
 "dorso_tipo": "missione",
 "opzioni": [
@@ -8372,7 +8372,7 @@
 "id": 164,
 "modulo": "H",
 "tipo": "P",
-"nome": "Fuori bordo",
+"nome": "Uomo in mare",
 "dorso": 4,
 "dorso_tipo": "fiume",
 "opzioni": [
@@ -8434,7 +8434,7 @@
 "id": 165,
 "modulo": "H",
 "tipo": "P",
-"nome": "Mostro del fiume",
+"nome": "Terrore fluviale",
 "dorso": 4,
 "dorso_tipo": "fiume",
 "opzioni": [
@@ -8497,7 +8497,7 @@
 "id": 166,
 "modulo": "H",
 "tipo": "P",
-"nome": "Fuori bordo",
+"nome": "Uomo in mare",
 "dorso": 4,
 "dorso_tipo": "fiume",
 "opzioni": [
@@ -8622,7 +8622,7 @@
 "id": 168,
 "modulo": "H",
 "tipo": "A",
-"nome": "Vecchio guerriero",
+"nome": "Guerriero anziano",
 "dorso": 4,
 "dorso_tipo": "fiume",
 "opzioni": [
@@ -8994,7 +8994,7 @@
 "id": 175,
 "modulo": "H",
 "tipo": "M",
-"nome": "Il grande fiume",
+"nome": "Corrente impetuosa",
 "dorso": 10,
 "dorso_tipo": "missione",
 "opzioni": [
@@ -9135,7 +9135,7 @@
 "id": 177,
 "modulo": "I",
 "tipo": "A",
-"nome": "Genio pazzo",
+"nome": "Genio folle",
 "dorso": 11,
 "dorso_tipo": "orme",
 "opzioni": [
@@ -9201,7 +9201,7 @@
 "id": 178,
 "modulo": "I",
 "tipo": "P",
-"nome": "Banda di guerrieri",
+"nome": "Gruppo di guerrieri",
 "dorso": 11,
 "dorso_tipo": "orme",
 "opzioni": [
@@ -9262,7 +9262,7 @@
 "id": 179,
 "modulo": "I",
 "tipo": "A",
-"nome": "Jhula aiuta",
+"nome": "L'aiuto di Jhula",
 "dorso": 2,
 "dorso_tipo": "sogno",
 "opzioni": [
@@ -9306,7 +9306,7 @@
 "id": 180,
 "modulo": "I",
 "tipo": "P",
-"nome": "Predoni",
+"nome": "Razziatori",
 "dorso": 11,
 "dorso_tipo": "orme",
 "opzioni": [
@@ -9489,7 +9489,7 @@
 "id": 183,
 "modulo": "I",
 "tipo": "A",
-"nome": "Abilità di Orru",
+"nome": "Il destino di Orru",
 "dorso": 2,
 "dorso_tipo": "sogno",
 "opzioni": [
@@ -9677,7 +9677,7 @@
 "id": 186,
 "modulo": "I",
 "tipo": "M",
-"nome": "L'attacco delle Mani Bianche",
+"nome": "Attacco delle Mani Bianche",
 "dorso": 10,
 "dorso_tipo": "missione",
 "opzioni": [
@@ -9716,7 +9716,7 @@
 "id": 187,
 "modulo": "J",
 "tipo": "P",
-"nome": "Punti deboli",
+"nome": "Punto debole",
 "dorso": 36,
 "dorso_tipo": "rosso",
 "opzioni": [
@@ -9799,7 +9799,7 @@
 "id": 188,
 "modulo": "J",
 "tipo": "P",
-"nome": "Punti deboli",
+"nome": "Punto debole",
 "dorso": 36,
 "dorso_tipo": "rosso",
 "opzioni": [
@@ -9882,7 +9882,7 @@
 "id": 189,
 "modulo": "J",
 "tipo": "P",
-"nome": "Contrattacco",
+"nome": "Contromossa",
 "dorso": 36,
 "dorso_tipo": "rosso",
 "opzioni": [
@@ -9965,7 +9965,7 @@
 "id": 190,
 "modulo": "J",
 "tipo": "P",
-"nome": "Contrattacco",
+"nome": "Contromossa",
 "dorso": 36,
 "dorso_tipo": "rosso",
 "opzioni": [
@@ -10048,7 +10048,7 @@
 "id": 191,
 "modulo": "J",
 "tipo": "P",
-"nome": "Trappola potente",
+"nome": "Agguato",
 "dorso": 36,
 "dorso_tipo": "rosso",
 "opzioni": [
@@ -10134,7 +10134,7 @@
 "id": 192,
 "modulo": "J",
 "tipo": "P",
-"nome": "Trappola potente",
+"nome": "Agguato",
 "dorso": 36,
 "dorso_tipo": "rosso",
 "opzioni": [
@@ -10299,7 +10299,7 @@
 "id": 194,
 "modulo": "J",
 "tipo": "P",
-"nome": "Attacco",
+"nome": "Offensiva",
 "dorso": 5,
 "dorso_tipo": "montagna",
 "opzioni": [
@@ -10372,7 +10372,7 @@
 "id": 195,
 "modulo": "J",
 "tipo": "P",
-"nome": "Attacco",
+"nome": "Offensiva",
 "dorso": 4,
 "dorso_tipo": "fiume",
 "opzioni": [
@@ -10522,7 +10522,7 @@
 "id": 197,
 "modulo": "J",
 "tipo": "P",
-"nome": "Fame senza fine",
+"nome": "Fame illimitata",
 "dorso": 8,
 "dorso_tipo": "rosso",
 "opzioni": [
@@ -10636,7 +10636,7 @@
 "id": 199,
 "modulo": "J",
 "tipo": "P",
-"nome": "Attacco",
+"nome": "Offensiva",
 "dorso": 6,
 "dorso_tipo": "bosco",
 "opzioni": [
@@ -10809,7 +10809,7 @@
 "id": 222,
 "modulo": "5",
 "tipo": "P",
-"nome": "Fuga di mammut",
+"nome": "Mandria in fuga",
 "dorso": 41,
 "dorso_tipo": "segreto",
 "opzioni": [
@@ -11007,7 +11007,7 @@
 "id": 226,
 "modulo": "5",
 "tipo": "G",
-"nome": "Lanciatore",
+"nome": "Ascia da lancio",
 "dorso": 45,
 "dorso_tipo": "segreto",
 "opzioni": [],
@@ -11026,7 +11026,7 @@
 "id": 227,
 "modulo": "5",
 "tipo": "G",
-"nome": "Costume da capo",
+"nome": "Veste del capotribù",
 "dorso": 46,
 "dorso_tipo": "segreto",
 "opzioni": [],
@@ -11281,7 +11281,7 @@
 "id": 231,
 "modulo": "5",
 "tipo": "P",
-"nome": "Miele delizioso",
+"nome": "Miele prelibato",
 "dorso": 50,
 "dorso_tipo": "segreto",
 "opzioni": [
@@ -11293,7 +11293,7 @@
 "paga": {},
 "paga_attrezzi": {},
 "cond": [
-"distrutta:Vecchio orso"
+"distrutta:Orso anziano"
 ],
 "guadagna": {
 "S": 1
@@ -11339,7 +11339,7 @@
 "id": 232,
 "modulo": "5",
 "tipo": "G",
-"nome": "Fuoco caldo",
+"nome": "Focolare",
 "dorso": 51,
 "dorso_tipo": "segreto",
 "opzioni": [],
@@ -11395,7 +11395,7 @@
 "id": 233,
 "modulo": "5",
 "tipo": "A",
-"nome": "Straniero sepolto",
+"nome": "Straniero intrappolato",
 "dorso": 52,
 "dorso_tipo": "segreto",
 "opzioni": [
@@ -11661,14 +11661,14 @@
 }
 ]
 },
-"distruggi_alla_scoperta": "Strana febbre",
+"distruggi_alla_scoperta": "Febbre delirante",
 "spiegazione": true
 },
 {
 "id": 237,
 "modulo": "5",
 "tipo": "G",
-"nome": "Indizio",
+"nome": "Avvertimento",
 "dorso": 56,
 "dorso_tipo": "segreto",
 "opzioni": [],
@@ -11745,7 +11745,7 @@
 "id": 239,
 "modulo": "5",
 "tipo": "P",
-"nome": "Corsa selvaggia",
+"nome": "Viaggio agitato",
 "dorso": 58,
 "dorso_tipo": "segreto",
 "opzioni": [
@@ -11784,7 +11784,7 @@
 "id": 240,
 "modulo": "5",
 "tipo": "A",
-"nome": "Offerta di Ahab",
+"nome": "La proposta di Ahab",
 "dorso": 59,
 "dorso_tipo": "segreto",
 "opzioni": [
@@ -11854,7 +11854,7 @@
 "id": 241,
 "modulo": "5",
 "tipo": "G",
-"nome": "La belva si risveglia",
+"nome": "Dolce risveglio",
 "dorso": 60,
 "dorso_tipo": "segreto",
 "opzioni": [],

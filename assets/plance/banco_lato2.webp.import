@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b6s222bjq27i1"
-path="res://.godot/imported/cimitero.webp-4646e734ff167b5492c24358ab182c6e.ctex"
+uid="uid://c3612312rvmk0"
+path="res://.godot/imported/banco_lato2.webp-b604cf02d47fe5d08a9fd4162a9dc64e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/plance/cimitero.webp"
-dest_files=["res://.godot/imported/cimitero.webp-4646e734ff167b5492c24358ab182c6e.ctex"]
+source_file="res://assets/plance/banco_lato2.webp"
+dest_files=["res://.godot/imported/banco_lato2.webp-b604cf02d47fe5d08a9fd4162a9dc64e.ctex"]
 
 [params]
 

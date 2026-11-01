@@ -15,7 +15,7 @@ const TESTI := {
 	28: "Guardi le prime 3 carte del mazzo senza fare azioni e puoi spostarle in fondo, per esempio quelle rosse.",
 	118: "Guardi le prime 3 carte del mazzo senza fare azioni e puoi spostarle in fondo, per esempio quelle rosse.",
 	225: "La Visione resta nel tuo gruppo. Quando il «Fungo velenoso» è nel cimitero puoi dare un talismano: la Visione è distrutta e ricevete un pezzo di pittura e il copricapo dello sciamano (totem).",
-	224: "Resta nell'attesa. Quando qualcuno scopre il «Branco di lupi», invece delle sue azioni può usare quella della Battuta: 7 Forza, 1 dado, scarta 3 carte e distruggi il Branco: ottieni 4 cibo e un pezzo di pittura.",
+	224: "Resta nell'attesa. Quando qualcuno scopre il «Branco», invece delle sue azioni può usare quella della Battuta: 7 Forza, 1 dado, scarta 3 carte e distruggi il Branco: ottieni 4 cibo e un pezzo di pittura.",
 	221: "Una volta per carta scoperta danno +2 Forza per un requisito, anche se l'azione non dà cibo; se lo dà, ne ricevi 2 in meno. Non sono umani: di notte non mangiano.",
 	223: "Aiutando Darca (anche insieme a un compagno) e scartando 1 carta, chi aiuta riceve un nuovo umano.",
 	233: "Se non scegli un'azione che lo distrugge, va negli scarti come una carta normale e tornerà nei mazzi del giorno dopo.",
