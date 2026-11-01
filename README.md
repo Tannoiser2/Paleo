@@ -23,9 +23,10 @@ Si gioca nel browser: https://tannoiser2.github.io/Paleo/
 - **Carte e dorsi dalle scansioni dell'edizione italiana**, con i nomi italiani ufficiali; passando il
   mouse su una carta compare grande con il testo e i chiarimenti per le carte con l'asterisco.
   Quattro carte del modulo G (bacche) non erano nelle scansioni e restano per ora in tedesco.
-- **Tabelloni dalle scansioni** e, nel tavolo 3D, il **banco di lavoro montato** (fianchi, due scaffali
-  con le idee infilate nelle finestre, frontale con torce, amigdale e lance) e il **cimitero** con il
-  teschio di mammut.
+- **Tavolo 3D disposto come nel modulo TTS**: tabelloni (dalle scansioni) con le posizioni, le misure
+  e la rotazione di TTS, banco di lavoro come in TTS con i segnalini sui cerchi, mazzi e carte sugli
+  spazi stampati, cimitero con il teschio di mammut. Si ruota con il tasto sinistro, si sposta con il
+  destro (o Maiusc + sinistro, o le frecce), si avvicina con la rotellina.
 
 ## Struttura
 
